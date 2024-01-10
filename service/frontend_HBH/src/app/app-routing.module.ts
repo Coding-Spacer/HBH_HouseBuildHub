@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BreadcrumbService } from 'xng-breadcrumb';
+
 
 
 import { PageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/page-main-global.component';
@@ -11,6 +11,8 @@ import { PageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/p
 import { PageCatalogBuildersComponent } from './views/pages/pages_Builders/page-catalog-builders/page-catalog-builders.component';
 import { PageProductHouseplansComponent } from './views/pages/pages_Houseplans/page-product-houseplans/page-product-houseplans.component';
 import { PageSavedGlobalComponent } from './views/pages/pages_Global/page-saved-global/page-saved-global.component';
+import { PageInvestorcenterGlobalComponent } from './views/pages/pages_Global/page-investorcenter-global/page-investorcenter-global.component';
+
 
 const routes: Routes = [
   {
@@ -20,37 +22,40 @@ const routes: Routes = [
     data: {
       breadcrumb: {
         label: 'HOME',
-        info: { myData: { icon: 'home', iconType: 'material' } }
-      }
-    }
+        info: { myData: { icon: 'home', iconType: 'material' } },
+      },
+    },
   },
 
   { path: 'contact', component: PageContactGlobalComponent },
+
+  { path: 'investorcenter', component: PageInvestorcenterGlobalComponent },
+
   { path: 'partnership', component: PagePartnershipGlobalComponent },
-  { path: 'houseplans', component: PageCatalogHouseplansComponent, data: { breadcrumb: 'Houseplans' } },
-  { path: 'builders', component: PageCatalogBuildersComponent, data: { breadcrumb: 'Builders' } },
-  { path: 'saved', component: PageSavedGlobalComponent, data: { breadcrumb: 'Saved' } },
-  { path: 'houseplans/product', component: PageProductHouseplansComponent, data: { breadcrumb: 'Product' } },
-
-
-
- {
-    path: 'houseplans/product',
+  {
+    path: 'houseplans',
     component: PageCatalogHouseplansComponent,
-    children: [
-      {
-        path: ':id',
-        component: PageProductHouseplansComponent
-      }
-    ]
+    data: { breadcrumb: 'Houseplans' },
+  },
+  {
+    path: 'builders',
+    component: PageCatalogBuildersComponent,
+    data: { breadcrumb: 'Builders' },
+  },
+  {
+    path: 'saved',
+    component: PageSavedGlobalComponent,
+    data: { breadcrumb: 'Saved' },
+  },
+  {
+    path: 'houseplans/product',
+    component: PageProductHouseplansComponent,
+    data: { breadcrumb: 'Product' },
   },
 
 
+
   { path: '**', component: PageNotfoundGlobalComponent, pathMatch: 'full' },
-
-
-
-
 ];
 
 @NgModule({

@@ -1,5 +1,16 @@
 #pagecatalog__houseplans {}
 
+#banner-pagecatalog__houseplans {
+}
+
+#breadcrumbs-pagecatalog__houseplans {
+  color: #666;
+  margin: 10px 220px;
+  height: 16px;
+  font-size: 13px;
+  font-style: italic;
+}
+
 #container-pagecatalog__houseplans {
   display: flex;
   justify-content: space-between;
@@ -20,15 +31,6 @@
   margin-left: 0px;
 }
 
-
-#breadcrumbs-pagecatalog__houseplans {
-  color: #666;
-  margin: 10px 16px;
-  height: 16px;
-  font-size: 13px;
-  font-style: italic;
-}
-
 #selectionsortingviews-pagecatalog__houseplans {
   display: flex;
   border: 1px solid #dae2ed;
@@ -36,7 +38,6 @@
   margin-top: 0px;
   height: 40px;
   align-items: center;
-
 }
 
 #filteredselection-pagecatalog__houseplans {
@@ -77,13 +78,6 @@
   flex-grow: 2;
 }
 
-#breadcrumbs-pagecatalog__houseplans {
-  color: #666;
-  margin: 10px 16px;
-  height: 16px;
-  font-size: 13px;
-  font-style: italic;
-}
 
 #selectionsortingviews-pagecatalog__houseplans {
   display: flex;
@@ -92,7 +86,6 @@
   margin-top: 0px;
   height: 40px;
   align-items: center;
-
 }
 
 #filteredselection-pagecatalog__houseplans {

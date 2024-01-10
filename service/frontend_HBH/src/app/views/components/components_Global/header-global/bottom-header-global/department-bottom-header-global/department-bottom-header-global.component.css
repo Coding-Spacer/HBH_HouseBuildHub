@@ -19,25 +19,20 @@
   margin-right: 20px;
 }
 
-.link-fill-bottom-header {
+.link-fill-bottom-header a{
   text-decoration: none;
-  color: inherit;
-}
-
-.link-fill-bottom-header:hover {
-  color: #E35300;
+  color: #E35300 ;
   text-decoration: underline;
 }
 
 
+.temporarily {
+  color: #d8d8d8;
+}
 
-
-
-
-
-
-
-
+.temporarily p {
+  cursor: default;
+}
 
 .dropdown-content {
   display: none;
@@ -65,7 +60,6 @@
 .list-fill-bottom-header li:hover .dropdown-content {
   display: block;
 }
-
 
 
 .dropdown-content {

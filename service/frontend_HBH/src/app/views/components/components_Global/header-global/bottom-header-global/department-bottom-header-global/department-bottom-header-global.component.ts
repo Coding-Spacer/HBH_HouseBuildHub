@@ -17,11 +17,6 @@ export class DepartmentBottomHeaderGlobalComponent {
 
   menuItems = [
     { name: 'Houseplans', specialValue: 'houseplans' },
-    { name: 'Builders', specialValue: 'builders' },
-    { name: 'Architects & Designers', specialValue: 'architects' },
-    { name: 'Sellers', specialValue: 'sellers' },
-    { name: 'Materials', specialValue: 'materials' },
-    { name: 'Shops', specialValue: 'shops' },
   ];
 
   showComponent(componentName: string) {

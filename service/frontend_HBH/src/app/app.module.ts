@@ -12,6 +12,20 @@ import { NgxPaginationModule } from 'ngx-pagination';
 /* M*/
 import { MatIconModule } from '@angular/material/icon';
 
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+
+
+import { CdkMenuItemCheckbox } from '@angular/cdk/menu';
+import { CdkMenuGroup } from '@angular/cdk/menu';
+import { CdkMenu } from '@angular/cdk/menu';
+import { CdkMenuTrigger } from '@angular/cdk/menu';
+import { CdkMenuItem } from '@angular/cdk/menu';
+import { CdkMenuBar } from '@angular/cdk/menu';
+
+
+
+
 
 
 
@@ -20,6 +34,7 @@ import { MatIconModule } from '@angular/material/icon';
 /* import Components  */
 /* B */
 import { BannerAboveheaderGlobalComponent } from './views/components/components_Global/banner-global/banner-aboveheader-global/banner-aboveheader-global.component';
+import { BannerPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/banner-page-catalog-houseplans/banner-page-catalog-houseplans.component';
 import { BasketCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/basket-center-header-global/basket-center-header-global.component';
 import { BottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/bottom-header-global.component';
 import { BottomPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/bottom-page-main-global/bottom-page-main-global.component';
@@ -36,6 +51,7 @@ import { ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComp
 import { CenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/center-header-global.component';
 import { CategoryselectionCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/categoryselection-center-header-global/categoryselection-center-header-global.component';
 import { CustomerserviceBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/customerservice-bottom-header-global/customerservice-bottom-header-global.component';
+import { CategoryBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/category-bottom-header-global/category-bottom-header-global.component';
 
 /* D */
 import { DisplayviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/displayviews-page-catalog-houseplans/displayviews-page-catalog-houseplans.component';
@@ -49,7 +65,11 @@ import { EstimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
 
 /* F */
 import { FooterGlobalComponent } from './views/components/components_Global/footer-global/footer-global.component';
+import { FormsModule } from '@angular/forms';
 import { FilterselectionPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/filterselection-page-catalog-houseplans/filterselection-page-catalog-houseplans.component';
+
+/* G */
+import { GeolocationBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/geolocation-bottom-header-global/geolocation-bottom-header-global.component';
 
 /* H */
 import { HeaderGlobalComponent } from './views/components/components_Global/header-global/header-global.component';
@@ -147,7 +167,12 @@ import { TopHeaderGlobalComponent } from './views/components/components_Global/h
 import { VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/viewpoint-verticalproductcardview-productcardviews-page-catalog-houseplans/viewpoint-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/verified-verticalproductcardview-productcardviews-page-catalog-houseplans/verified-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
-import { GeolocationBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/geolocation-bottom-header-global/geolocation-bottom-header-global.component';
+import { PageInvestorcenterGlobalComponent } from './views/pages/pages_Global/page-investorcenter-global/page-investorcenter-global.component';
+import { MenuBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/menu-bottom-header-global/menu-bottom-header-global.component';
+
+
+
+
 
 
 
@@ -165,6 +190,7 @@ import { GeolocationBottomHeaderGlobalComponent } from './views/components/compo
 
     /* B */
     BannerAboveheaderGlobalComponent,
+    BannerPageCatalogHouseplansComponent,
     BasketCenterHeaderGlobalComponent,
     BreadcrumbGlobalComponent,
     BottomHeaderGlobalComponent,
@@ -172,8 +198,8 @@ import { GeolocationBottomHeaderGlobalComponent } from './views/components/compo
 
     /* C */
     CategorymenuAllSelectHeaderGlobalComponent,
+    CategoryBottomHeaderGlobalComponent,
     CategoryselectionCenterHeaderGlobalComponent,
-
     CategorymenuHouseplansSelectHeaderGlobalComponent,
     CategorymenuBuildersSelectHeaderGlobalComponent,
     CenterHeaderGlobalComponent,
@@ -195,6 +221,9 @@ import { GeolocationBottomHeaderGlobalComponent } from './views/components/compo
     /* F */
     FilterselectionPageCatalogHouseplansComponent,
     FooterGlobalComponent,
+
+    /* G */
+    GeolocationBottomHeaderGlobalComponent,
 
     /* H */
     HeaderGlobalComponent,
@@ -220,7 +249,6 @@ import { GeolocationBottomHeaderGlobalComponent } from './views/components/compo
     NameVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
 
     /* P */
-
     PageNotfoundGlobalComponent,
     PageMainGlobalComponent,
     PageContactGlobalComponent,
@@ -292,10 +320,10 @@ import { GeolocationBottomHeaderGlobalComponent } from './views/components/compo
     /* V */
 
     VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-
     ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    GeolocationBottomHeaderGlobalComponent,
+    PageInvestorcenterGlobalComponent,
+    MenuBottomHeaderGlobalComponent,
   ],
 
   imports: [
@@ -305,6 +333,16 @@ import { GeolocationBottomHeaderGlobalComponent } from './views/components/compo
     BreadcrumbModule,
     MatIconModule,
     NgxPaginationModule,
+    FormsModule,
+    MatMenuModule,
+    MatButtonModule,
+
+    CdkMenuItemCheckbox,
+    CdkMenuGroup,
+    CdkMenu,
+    CdkMenuTrigger,
+    CdkMenuItem,
+    CdkMenuBar,
   ],
 
   providers: [],

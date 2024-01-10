@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-#categoryselection-center-header__global {
+#logo-center-header__global {
   display: flex;
   position: static;
   float: none;
@@ -24,13 +24,14 @@
   height: 36px;
   border-radius: 0;
   background-color: #fff;
-  margin-left: 80px;
+  margin-left: 130px;
   margin-right: 0px;
   display: flex;
   width: auto;
   justify-content: flex-start;
   border: 2px solid;
   border-color: #FF6A00;
+  border-radius: 5px;
 }
 
 #languageselection-center-header__global {}
