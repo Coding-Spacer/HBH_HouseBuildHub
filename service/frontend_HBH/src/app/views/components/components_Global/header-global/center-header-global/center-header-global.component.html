@@ -1,0 +1,52 @@
+<div class="wrap-center-header__global">
+
+  <div id="logo-center-header__global">
+    <a href="#">
+      <span class="icontext-left-main-header">LOGO</span>
+    </a>
+  </div>
+
+  <div id="searchbar-center-header__global">
+    <div id="input_searchbar_main_header">
+      <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-controls="matches"
+        placeholder="Search for anything..." aria-expanded="false" aria-live="polite">
+      <button id="voice_search_button" class="icon-voice-search-button" title="Пошук голосом">
+        <i class="material-icons">mic</i>
+      </button>
+      <button id="foto_search_button" class="icon-foto-search-button" title="Пошук за зображенням">
+        <i class="material-icons">photo_camera</i>
+      </button>
+
+    </div>
+    <!--  <dom-if style="display: none;">
+                <template is="dom-if"></template>
+              </dom-if>
+                    This code snippet is a template for conditionally displaying content.
+                    In this case, it has the style "display: none;",
+                    which means that its contents are initially hidden  -->
+    <!--  <realbox-dropdown id="matches" role="listbox" hidden=""></realbox-dropdown>
+                    The _realbox-dropdown_ element is a dropdown list with search results.
+                    It has an identifier of "matches", a role of "listbox" (pointing to a list of elements),
+                    and an attribute of "hidden", which means that it is initially hidden  -->
+    <div id="lens_searchbar_main_header">
+      <button class="lens_search_button">
+        <i class="material-icons   icon-lens-search-button">search</i>
+      </button>
+      <input type="submit" class="icon-text-search-button" value="Search">
+    </div>
+  </div>
+
+  <div id="languageselection-center-header__global">
+    <app-languageselection-center-header-global></app-languageselection-center-header-global>
+  </div>
+
+  <div id="registration-center-header__global">
+    <app-registration-center-header-global></app-registration-center-header-global>
+  </div>
+
+  <div id="basket-center-header__global">
+    <app-basket-center-header-global></app-basket-center-header-global>
+  </div>
+
+
+</div>
