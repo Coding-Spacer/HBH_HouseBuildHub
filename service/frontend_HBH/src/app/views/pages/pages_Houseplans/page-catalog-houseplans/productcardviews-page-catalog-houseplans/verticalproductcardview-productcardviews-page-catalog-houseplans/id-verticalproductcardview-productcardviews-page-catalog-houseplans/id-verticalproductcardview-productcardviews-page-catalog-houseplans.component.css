@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container-idplans {}
+
+.wrap-idplans {}
+
+.idplans {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: baseline;
+  font-style: italic;
+  font-size: 14px;
+  height: 20px;
+}
+
+.text-idplans {
+  color: #848884;
+}
+
+.type-idplans {
+  color: #087431;
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.number-idplans {
+  color: #087431;
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.icons-idplans {
+  margin-left: auto;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: 20px;
+  color: #848884;
+}
+
+.material-icons:hover {
+  color: rgb(255, 110, 12);
+}
+
+.icons-idplans:last-child {
+  margin-left: -15px;
+  /* Убираем отступ слева у второго блока */
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.wrap-depatment-bottom-header__global {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+}
+
+.info-fill-bottom-header {
+  text-align: center;
+}
+
+.list-fill-bottom-header {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.list-fill-bottom-header li {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.link-fill-bottom-header a{
+  text-decoration: none;
+  color: #E35300 ;
+  text-decoration: underline;
+}
+
+
+.temporarily {
+  color: #d8d8d8;
+}
+
+.temporarily p {
+  cursor: default;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content.show {
+  display: block;
+  position: absolute;
+}
+
+.list-fill-bottom-header {
+  position: relative;
+}
+
+.list-fill-bottom-header li {
+  position: relative;
+  display: inline-block;
+}
+
+.list-fill-bottom-header li:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e6afaf;
+  width: 100vw;
+  /* Используйте ширину всего экрана */
+  left: 0;
+  /* Выравнивание по левой границе экрана */
+  top: 100%;
+  /* Позиционирование под пунктом меню */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
