@@ -1,0 +1,127 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-searchbar-center-header__global {}
+
+#searchbar-center-header__global {
+  height: 36px;
+  border-radius: 0;
+  background-color: $background-color;
+  margin-left: 100px;
+  margin-right: 0px;
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  border: 2px solid;
+  border-color: #FF6A00;
+  border-radius: 5px;
+}
+
+
+#input_searchbar_main_header {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#input_searchbar_main_header input[type="search"] {
+  border: none;
+  background: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px !important;
+}
+
+.icon-voice-search-button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-voice-search-button:hover {
+  color: $accent-color;
+}
+
+.icon-voice-search-button i {
+  font-size: 20px !important;
+  color: $light-color;
+}
+
+.icon-voice-search-button i:hover {
+  color: $accent-color;
+}
+
+
+.icon-foto-search-button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon-foto-search-button i {
+  font-size: 20px !important;
+  color: $light-color;
+}
+
+.icon-foto-search-button i:hover {
+  color: $accent-color;
+}
+
+#lens_searchbar_main_header {
+  background: #FF6601;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+#lens_searchbar_main_header:hover {
+  background: $accent-color;
+}
+
+.lens_search_button {
+  border: none;
+  background: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-lens-search-button {
+  color: white;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.icon-text-search-button {
+  color: white;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  cursor: pointer;
+}
+
+.right-main-header {
+  width: auto;
+  position: static;
+  float: none;
+  padding-left: 20px;
+}

@@ -1,0 +1,57 @@
+/* Define global mixins to be reused across components */
+// Mixin for responsive design
+/* src/styles/mixins.scss */
+
+/* Define global mixins to be reused across components */
+// Mixin for responsive design
+
+
+@import 'breakpoints';
+
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $min-width: map-get($breakpoints, $breakpoint);
+
+    @media (min-width: $min-width) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "No value found for breakpoint: #{$breakpoint}.";
+  }
+}
+
+@mixin adaptive-container($widths) {
+  @each $breakpoint, $width in $widths {
+    @include respond-to($breakpoint) {
+      width: $width;
+    }
+  }
+}
+
+
+/* @mixin container-width {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include respond-to(small) {
+    max-width: 100%;
+  }
+
+  @include respond-to(medium) {
+    max-width: 720px;
+  }
+
+  @include respond-to(large) {
+    max-width: 960px;
+  }
+
+  @include respond-to(x-large) {
+    max-width: 1140px;
+  }
+}Define global mixins to be reused across components */
+// Mixin for container width

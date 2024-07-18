@@ -1,0 +1,112 @@
+.example-menu-bar-item {
+  cursor: pointer;
+  user-select: none;
+  min-width: 34px;
+  line-height: 12px;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-top: -5px;
+  background-color: #fcfcfc;
+  }
+
+.example-menu-bar-item:hover {
+  color: #E35300;
+  border: 1px solid #E35300;
+}
+
+.example-menu-bar-item i {}
+
+.example-menu-bar-item span {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: 3px;
+  font-weight: 600;
+  position: relative;
+}
+
+.p-menu-item {
+  margin-left: 15px;
+  color: black !important;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.p-menu-item-dop {
+  margin-left: 15px;
+  color: black !important;
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+.example-menu {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 360px;
+  background-color: #fcfcfc;
+  padding: 10px 0;
+}
+
+.example-menu hr {
+  width: 100%;
+  color: rgba(37, 37, 37, 0.12);
+}
+
+.example-menu .example-menu-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example-menu .example-menu-item {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  min-width: 64px;
+  line-height: 30px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+}
+
+.example-menu-item>span {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.example-menu .example-menu-item:hover {
+  background-color: rgb(240, 240, 240);
+  color: #E35300
+}
+
+.example-menu .example-menu-item[role='menuitemradio'][aria-checked='true'] {
+  background-color: rgb(225, 225, 225);
+
+}
+
+.example-menu .example-menu-item[role='menuitemcheckbox'][aria-checked='true'] {
+  background-color: rgb(225, 225, 225);
+
+}
+
+.example-menu .example-menu-item:active {
+  background-color: rgb(170, 170, 170);
+
+}
+
+.example-menu-bar-item[aria-expanded='true'],
+.example-menu-item[aria-expanded='true'] {
+  background-color: #fcfcfc!important;
+}

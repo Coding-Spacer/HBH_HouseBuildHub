@@ -1,0 +1,44 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-saved-bottom-header__global {
+  width: auto;
+  position: static;
+  float: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.wrap-saved-bottom-header__global:hover .name-icon-saved {
+  color: $accent-color;
+  text-decoration: underline;
+}
+
+.wrap-saved-bottom-header__global:hover .reviews-saved {
+  color: $accent-color;
+}
+
+.icon-saved {
+  color: #706f6f;
+  margin-top: 2px;
+  font-size: 14px;
+
+}
+
+.name-icon-saved a {
+  margin-left: 2px;
+  font-size: 13px;
+  color: $light-color
+}
+
+.reviews-saved {
+  font-size: 11px;
+  color: #a09d9d;
+  position: relative;
+  bottom: 5px;
+  margin-left: -1px;
+}

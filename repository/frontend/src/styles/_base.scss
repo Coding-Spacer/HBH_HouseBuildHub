@@ -1,0 +1,48 @@
+/* Set base styles for HTML elements, such as headings, paragraphs, lists, etc */
+@import 'colors';
+@import 'typography';
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+    height: $height;
+    font-size: $font-size;
+    line-height: $line-height;
+    height: $height;
+  }
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    color: $accent-color;
+  }
+}
+
+p {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+

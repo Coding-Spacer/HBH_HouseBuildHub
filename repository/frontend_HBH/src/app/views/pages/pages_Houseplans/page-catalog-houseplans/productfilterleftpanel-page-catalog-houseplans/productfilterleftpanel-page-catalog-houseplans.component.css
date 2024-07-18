@@ -1,0 +1,51 @@
+.wrap-filterleftpanel__houseplans{
+
+
+}.subwrap-filterleftpanel__houseplans {
+
+  margin-left: 20px;
+  border-right: 1px solid #dae2ed;
+}
+
+.attribute-abox-filterleftpanel__houseplans {
+  font-size: 14px;
+  line-height: 32px;
+  color: #53647a;
+  width: 184px;
+  cursor: pointer;
+  margin: 0 8px 0 4px;
+}
+
+.abox-wrap {
+
+}
+
+.abox-title-wrap {
+  height: 34px;
+}
+
+.abox-title {
+  font-size: 13px;
+  background-color: #f5f7fa;
+  line-height: 32px;
+  border: 1px solid #e9eef5;
+  color: #53647a;
+  width: 190px;
+  cursor: pointer;
+}
+
+.abox-title-icon {
+  margin: 0 0px 0 4px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.1px;
+  vertical-align: text-bottom;
+}
+
+.abox-title-text {
+  margin-left: 5px ;
+}

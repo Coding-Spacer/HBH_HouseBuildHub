@@ -1,0 +1,10 @@
+
+  <ul class="meal-list">
+    <li class="meal-list" *ngFor="let meal of meals | paginate: { itemsPerPage: 24, currentPage: page }">
+      {{ meal }}
+    </li>
+  </ul>
+  <div class="has-text-centered">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+  </div>
+

@@ -1,0 +1,28 @@
+#container-image{}
+
+.wrap-image{}
+
+.image {
+  position: relative;
+  table-layout: fixed
+}
+
+.product-image {
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height:225px;
+  position: relative;
+  margin: 0 auto
+}
+
+.s-image {
+  width: 100%;
+  height: auto;
+  position: relative
+}
+
+.s-image:hover {
+  /*transform: scale(1.05);  збільшення на 5% */
+
+}

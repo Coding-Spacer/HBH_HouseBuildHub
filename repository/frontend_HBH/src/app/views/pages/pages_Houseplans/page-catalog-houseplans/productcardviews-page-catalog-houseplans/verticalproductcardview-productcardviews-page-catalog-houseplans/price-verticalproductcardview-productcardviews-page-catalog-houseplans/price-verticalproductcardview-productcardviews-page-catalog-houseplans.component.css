@@ -1,0 +1,44 @@
+#container-price {}
+
+.wrap-price {}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: -3px;
+  margin-left: 15px
+}
+
+
+.text-price {
+  color: #848884;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.currency-price {
+  color: #e71d1d;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+
+}
+
+.actual-price {
+  font-size: 20px;
+  color: #e71d1d;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.initial-price {
+  margin-left: 5px;
+  text-decoration: line-through;
+  color: #848884;
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+  font-style: italic;
+  }
+

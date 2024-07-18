@@ -1,0 +1,42 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-basket-center-header__global {}
+
+#basket-center-header__global {
+  width: auto;
+  position: static;
+  float: none;
+  margin-left: 40px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.wrap-basket-center-header__global:hover .icon-basket { 
+}
+
+.icon-basket {
+  margin-top: 0px;
+  font-size: 34px !important; // Use !important to ensure it overrides other styles
+  color: #E35300;
+  margin-right: 1px;
+}
+.name-icon-basket a {}
+
+.reviews-basket {
+  font-size: 14px;
+  color: red;
+  position: relative;
+  bottom: 10px;
+  margin-left: -3px;  
+}
+
+
+
+
+
+
+

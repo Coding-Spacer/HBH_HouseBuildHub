@@ -1,0 +1,29 @@
+.rrr{
+    margin-left: 100px;
+    margin-top: 20px;
+
+
+}
+
+.common {
+
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+.common p {
+  font-size: 22px;
+
+  /* Приклад збільшення розміру тексту */
+}
+
+app-breadcrumb-global {
+  margin-left: auto;
+  /* Відступ від правого краю вирівнює зліва */
+  margin-right: 100px;
+  /* Зміщення вправо на 100px */
+  color:brown;
+  font-size: 20px;
+}

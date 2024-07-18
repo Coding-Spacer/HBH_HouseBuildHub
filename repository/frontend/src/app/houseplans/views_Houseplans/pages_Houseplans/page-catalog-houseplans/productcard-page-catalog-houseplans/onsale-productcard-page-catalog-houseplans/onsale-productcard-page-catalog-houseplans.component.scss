@@ -1,0 +1,22 @@
+
+@import '../../../../../../../styles/styles';
+
+
+.salebanner-productcard__houseplans {
+  position: relative;
+}
+
+.overlay-salebanner {
+  box-sizing: border-box;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  padding: 0px 8px;
+  border-radius: 1px;
+  display: flex;
+}
+
+.salebanner span {
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}

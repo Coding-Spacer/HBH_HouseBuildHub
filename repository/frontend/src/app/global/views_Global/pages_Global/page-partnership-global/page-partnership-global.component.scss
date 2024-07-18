@@ -1,0 +1,33 @@
+@import '../../../../../styles/styles';
+
+/* ..................... */
+
+.wrapper-page-partnership-global {
+
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-align: center;
+
+  #page-container {}
+
+  #header-container {}
+
+  #breadcrumbs-container {
+    color: $breadcrumb-color;
+    margin: 10px 220px;
+    height: 16px;
+    font-size: 13px;
+    font-style: $font-style-italic;
+  }
+
+  #main-container {}
+
+  .a-bottomline-footer {}
+
+  #sidebarright-container {}
+
+  #footer-container {}
+
+}

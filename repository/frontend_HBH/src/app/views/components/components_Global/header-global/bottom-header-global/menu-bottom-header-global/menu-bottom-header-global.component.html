@@ -1,0 +1,138 @@
+<div cdkMenuBar>
+  <button class="example-menu-bar-item" cdkMenuItem [cdkMenuTriggerFor]="file">
+    <i class="material-icons">menu</i>
+    <span>All</span>
+  </button>
+
+  <ng-template #file>
+    <div class="example-menu" cdkMenu>
+      <p class="p-menu-item">Your Account</p>
+      <p >Активуйте преміум для розширених можливостей</p>
+      <button class="example-menu-item" cdkMenuItem>Sign In | Create Account</button>
+      <button class="example-menu-item" cdkMenuItem>Dashboard</button>
+
+      <hr />
+      <p class="p-menu-item">Savings Programs</p>
+        
+      <button class="example-menu-item" cdkMenuItem routerLink="/investorcenter">Premium Account Benefits</button>
+        <button class="example-menu-item" cdkMenuItem routerLink="/discountprograms">Discount Programs</button>
+
+
+      <hr />
+      <p class="p-menu-item">Earn with Us</p>
+      <button class="example-menu-item" cdkMenuItem [cdkMenuTriggerFor]="partner_doc">
+        Become a Partner <span>&#10148;</span>
+      </button>
+      <button class="example-menu-item" cdkMenuItem routerLink="/investorcenter">Investor Center</button>
+      
+
+    
+      <hr />
+      <p class="p-menu-item">Department</p>
+      <button class="example-menu-item" cdkMenuItem [cdkMenuTriggerFor]="houseplans_doc">
+        Houseplans <span>&#10148;</span>
+      </button>
+      <button class="example-menu-item" cdkMenuItem>Builders</button>
+      <button class="example-menu-item" cdkMenuItem>Architects & Designers</button>
+      <button class="example-menu-item" cdkMenuItem>See All</button>
+
+      <hr />
+      <p class="p-menu-item">Help & Settings</p>
+      <button class="example-menu-item" cdkMenuItem>English
+      </button>
+      <button class="example-menu-item" cdkMenuItem>Boston, United States
+      </button>
+      <button class="example-menu-item" cdkMenuItem>Customer Servise</button>
+
+      <hr />
+      <p class="p-menu-item">Download Our Apps</p>
+      <button class="example-menu-item" cdkMenuItem>Google Play | AppStore
+      </button>
+
+      <hr />
+      <p class="p-menu-item">Social Media</p>
+      <button class="example-menu-item" cdkMenuItem>YouTube_icon | Twitter_icon | ...
+      </button>
+    </div>
+
+
+
+    <ng-template #houseplans_doc>
+      <div class="example-menu" cdkMenu>
+        <p class="p-menu-item-dop">Houseplans</p>
+        <hr />
+        <button class="example-menu-item" cdkMenuItem>Zero Energy House</button>
+        <button class="example-menu-item" cdkMenuItem>Energy Saving House</button>
+        <button class="example-menu-item" cdkMenuItem>Typical House</button>
+      </div>
+    </ng-template>
+
+      <ng-template #partner_doc>
+        <div class="example-menu" cdkMenu>
+          <p class="p-menu-item-dop">Partnerships</p>
+          <hr />
+          <button class="example-menu-item" cdkMenuItem>Architects | Sell your plans</button>
+          <button class="example-menu-item" cdkMenuItem>Builders | Provide services</button>
+          <button class="example-menu-item" cdkMenuItem>Suppliers | Sell materials</button>
+          <button class="example-menu-item" cdkMenuItem>Shops | Increase your sales</button>
+
+          <button class="example-menu-item" cdkMenuItem>Craftsman | Expertise Sharing</button>
+
+          <button class="example-menu-item" cdkMenuItem>Bloggers | Share Useful Tips</button>
+
+        </div>
+      </ng-template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ng-template>
+
+  <ng-template #edit>
+    <div class="example-menu" cdkMenu>
+      <button class="example-menu-item" cdkMenuItem>Undo</button>
+      <button class="example-menu-item" cdkMenuItem>Redo</button>
+      <hr />
+      <button class="example-menu-item" cdkMenuItem>Cut</button>
+      <button class="example-menu-item" cdkMenuItem>Copy</button>
+      <button class="example-menu-item" cdkMenuItem>Paste</button>
+    </div>
+  </ng-template>
+
+  <ng-template #format>
+    <div class="example-menu" cdkMenu>
+      <div class="example-menu-group" cdkMenuGroup>
+        <button cdkMenuItemCheckbox class="example-menu-item" cdkMenuItemChecked>Bold</button>
+        <button cdkMenuItemCheckbox class="example-menu-item">Italic</button>
+      </div>
+      <hr />
+      <div class="example-menu-group" cdkMenuGroup>
+        <button cdkMenuItemRadio class="example-menu-item">Small</button>
+        <button cdkMenuItemRadio class="example-menu-item" cdkMenuItemChecked>Normal</button>
+        <button cdkMenuItemRadio class="example-menu-item">Big</button>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #download>
+    <div class="example-menu" cdkMenu>
+      <button class="example-menu-item" cdkMenuItem>Microsoft Word</button>
+      <button class="example-menu-item" cdkMenuItem>PDF</button>
+      <button class="example-menu-item" cdkMenuItem>Plain text</button>
+    </div>
+  </ng-template>

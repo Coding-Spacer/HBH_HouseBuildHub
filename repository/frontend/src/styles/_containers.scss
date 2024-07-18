@@ -1,0 +1,34 @@
+/* Include container, specific styles */
+
+@import 'spacing';
+@import 'mixins';
+@import 'colors';
+
+
+
+#page-container {
+  /*
+  @include adaptive-container($widths);
+    margin: $space-0px;
+    padding: $space-0px;
+     */
+  color: $accent-color;
+}
+
+#ad-container {
+  /* Include container, specific styles */
+}
+
+#header-container {}
+
+#breadcrumbs-container {}
+
+#main-container {}
+
+.additional-container {}
+
+#sidebarright-container {}
+
+#sidebar-container {}
+
+#footer-container {}

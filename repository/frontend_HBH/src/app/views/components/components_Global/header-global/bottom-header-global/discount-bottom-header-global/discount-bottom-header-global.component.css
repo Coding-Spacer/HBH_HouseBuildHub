@@ -1,0 +1,17 @@
+.wrap-discount-bottom-header__global{
+  width: auto;
+    position: static;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.wrap-discount-bottom-header__global:hover  {
+  color: #E35300;
+  text-decoration: underline;
+}
+

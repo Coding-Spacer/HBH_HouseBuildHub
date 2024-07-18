@@ -1,0 +1,111 @@
+
+#container-viewpoint{}
+
+.wrap-viewpoint{}
+
+.viewpoint {
+  display: flex;
+  padding: 3px
+}
+
+.item-viewpoint {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #221f1f;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  justify-content: center;
+  transform: scale(0.9)
+}
+
+.item-viewpoint:hover {
+  color: #E35300;
+}
+
+.item-1 {
+  color: ;
+  border: 1px solid rgb(255, 110, 12);
+  position: relative
+}
+
+.item-1::before,
+.item-1::after {
+  content: "Exterior";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s;
+  white-space: nowrap
+}
+
+.item-1::after {
+  content: "Enlarge";
+  opacity: 0;
+}
+
+.item-1:hover::before {
+  opacity: 0;
+}
+
+.item-1:hover::after {
+  opacity: 1;
+}
+
+.item-2::before,
+.item-2::after {
+  content: "Floor plans";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s;
+  white-space: nowrap
+}
+
+.item-2::after {
+  content: "Review";
+  opacity: 0;
+}
+
+.item-2:hover::before {
+  opacity: 0;
+}
+
+.item-2:hover::after {
+  opacity: 1;
+}
+
+.item-3::before,
+.item-3::after {
+  content: "3D Model";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s;
+  white-space: nowrap
+}
+
+.item-3::after {
+  content: "Display";
+  opacity: 0;
+}
+
+.item-3:hover::before {
+  opacity: 0;
+}
+
+.item-3:hover::after {
+  opacity: 1;
+}

@@ -1,0 +1,49 @@
+@import '../../../../../../../styles/styles';
+
+viewfloorplans-productcard-houseplans {}
+
+
+
+#viewfloorplans-houseplan {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid $border-light-color;
+  border-radius: 2px;
+  color: $text-color;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#viewfloorplans-houseplan:hover {
+  color: $accent-color;
+  border: solid 1px $accent-color;
+}
+
+#viewfloorplans-houseplan::before {
+  content: "Floor Plans";
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s;
+
+}
+
+#viewfloorplans-houseplan::after {
+  content: "View Plans";
+  position: relative;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#viewfloorplans-houseplan:hover::before {
+  opacity: 0;
+}
+
+#viewfloorplans-houseplan:hover::after {
+  opacity: 1;
+}

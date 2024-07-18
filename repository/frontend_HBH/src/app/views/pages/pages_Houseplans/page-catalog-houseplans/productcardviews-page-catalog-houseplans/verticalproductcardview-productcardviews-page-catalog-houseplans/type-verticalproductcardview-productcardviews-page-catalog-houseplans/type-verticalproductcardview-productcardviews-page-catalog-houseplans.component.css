@@ -1,0 +1,30 @@
+#container-type {}
+
+.wrap-type {}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: baseline
+
+}
+
+.type:hover {
+  color: #087431;
+}
+
+.type p {
+  margin: 0;
+  font-size: 12px;
+  margin-top: px;
+  margin-bottom: px;
+  font-weight: 400;
+  font-style: italic
+}
+
+.text-type {
+  font-weight: 500;
+  color: #087431;
+
+}

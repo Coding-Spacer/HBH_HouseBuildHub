@@ -1,0 +1,52 @@
+@import '../../../../../../../styles/styles';
+
+/* Container for buttons over the image */
+.overlay-sharebuttonbutton {
+  
+  top: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Wrapper for icons with white borders */
+.icon-wrapper-sharebutton {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black background */
+  border: 1px solid white;
+  /* White border */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, border-color 0.3s;
+  /* Smooth transition on hover */
+}
+
+/* Style for buttons */
+
+.share-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: $background-color;
+  cursor: pointer;
+}
+
+/* Styles for icons */
+.material-icons {
+  font-size: 16px;
+}
+
+/* Style for buttons on hover */
+.icon-wrapper-sharebutton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  /* White background on hover */
+  border-color: $accent-color;
+  /* Accent color border on hover */
+}

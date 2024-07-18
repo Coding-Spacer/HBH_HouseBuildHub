@@ -1,0 +1,57 @@
+@import '../../../../../styles/styles';
+
+/* ..................... */
+.page-container {}
+
+.ad-container {}
+
+#header-container {}
+
+#breadcrumbs-container {
+  color: $breadcrumb-color;
+  margin: 10px 220px;
+  height: 16px;
+  font-size: 13px;
+  font-style: $font-style-italic;
+}
+
+#main-container {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  /* 280px для фільтра, решта для контенту */
+  gap: 20px;
+  /* Відстань між зонами */ 
+}
+
+#filterpanel-pagecatalog__houseplans {
+  grid-column: 1 / 2;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#content-pagecatalog__houseplans {
+  grid-column: 2 / 3;
+}
+
+#lays-sorting-toggle__houseplans {
+  display: flex;
+  /* Располагаем элементы в строку */
+  justify-content: space-between;
+  /* Равномерно распределяем элементы по контейнеру */
+  align-items: center;
+  /* Выравниваем элементы по центру вертикально */
+  background-color: #d7e444;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#product-card__houseplans {
+  background-color: $background-color;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#additional-container {}
+
+#footer-container {}

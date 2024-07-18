@@ -1,0 +1,28 @@
+@import '../../../../../../../styles/styles';
+
+
+.price-productcard__houseplans {
+  position: relative;
+}
+
+.overlay-price {
+  background-color: rgb(232, 232, 232);
+  color: $text-color;
+  font-weight: 400;
+  padding: 0px 8px;
+  display: flex;
+  height: 26px;
+  align-items: center;
+  font-size: 14px;
+  justify-content: flex-end;
+  font-style: italic;
+}
+
+.price span {
+  font-size: 15px;
+  color: red;
+  font-weight: 600;
+  font-style: normal;
+  padding-left: 2px;
+  letter-spacing: 0.5px;
+}

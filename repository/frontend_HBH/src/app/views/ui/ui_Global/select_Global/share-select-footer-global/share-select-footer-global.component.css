@@ -1,0 +1,52 @@
+.share-sociality-footer-content-global {
+  width: 33.33%;
+  width: auto !important;
+  display: inline-block;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.facebook {
+  background: url(/assets/assets_Global/icon_Global/facebook_32x32.png) no-repeat;
+  color: transparent;
+  text-decoration: none;
+  height: 32px;
+}
+
+.instagram {
+  background: url(/assets/assets_Global/icon_Global/instagram_32x32.png) no-repeat;
+  color: transparent;
+  text-decoration: none;
+  height: 32px;
+}
+
+.pinterest {
+  background: url(/assets/assets_Global/icon_Global/pinterest_32x32.png) no-repeat;
+  color: transparent;
+  text-decoration: none;
+  height: 32px;
+}
+
+.linkedin {
+  background: url(/assets/assets_Global/icon_Global/linkedin_32x32.png) no-repeat;
+  color: transparent;
+  text-decoration: none;
+  height: 32px;
+}
+
+.twitter {
+  background: url(/assets/assets_Global/icon_Global/twitter_32x32.png) no-repeat;
+  color: transparent;
+  text-decoration: none;
+  height: 32px;
+}
+
+.youtube {
+  background: url(/assets/assets_Global/icon_Global/youtube_32x32.png) no-repeat;
+  color: transparent;
+  text-decoration: none;
+  height: 32px;
+}

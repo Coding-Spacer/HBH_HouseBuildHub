@@ -1,0 +1,222 @@
+.wrap-rightpanel__houseplans {}
+
+.body-rightpanel__houseplans {
+  margin: 6px 0 16px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.body-rightpanel__houseplans .h4-text {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  padding: 6px 10px 0;
+  color: black
+}
+
+.content-rightpanel__houseplans {
+  /*border: 1px solid #dae2ed;*/
+  border: 1px solid #f3f3f3;
+}
+
+
+.content-rightpanel__houseplans,
+.items5-rightpanel__houseplans,
+.ul,
+.li {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item-rightpanel__houseplans {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.product-location__serviselink {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.point-location__serviselink {
+  color: #da4848;
+  vertical-align: text-bottom;
+  font-size: 20px;
+}
+
+.product-region__serviselink {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.category-name__serviselink {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  color: black;
+}
+
+
+.img-wrapper-rightpanel__houseplans {
+  display: block;
+  margin: 12px auto 0;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.body-rightpanel__houseplans .li .img-inner-wrapper-rightpanel__houseplans {
+  text-align: center;
+  display: table;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.img-inner-wrapper-rightpanel__houseplans img{
+  transform: scale(1.1);
+}
+
+
+.img-inner-wrapper-rightpanel__houseplans {
+  text-align: center;
+  display: table;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.img-inner-wrapper-rightpanel__houseplans:hover {
+  transform: scale(1.05);
+}
+
+.img-inner-wrapper-rightpanel__houseplans img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* для сохранения пропорций изображения и обрезки избыточных частей */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-name__serviselink {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.product-check__serviselink {
+  color: green;
+  display: flex;
+  justify-content: flex;
+  align-items: baseline;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.icon-product-check__serviselink  {
+  vertical-align: text-bottom;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-product-check__serviselink  {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 3px;
+
+}
+
+
+.product-certificate__serviselink {
+  color: green;
+  margin-left: 5px;
+
+}
+
+.icon-product-certificate__serviselink {
+    vertical-align: text-bottom;
+      font-size: 18px;
+      font-weight: 500;
+}
+
+.text-product-certificate__serviselink {
+  font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 2px;
+    margin-bottom: 10px;
+
+
+}
+
+.rating {
+  margin-left: 5px
+}
+
+
+
+
+.stars-size {
+  font-size: 15px;
+  color: #FFA41C;
+  margin-left: -1p
+}
+
+
+
+
+
+
+.product-rating__serviselink {}
+
+
+.product-title__serviselink a {
+  font-size: 16px;
+  text-decoration: none;
+  color: red;
+}
+
+.body-rightpanel__houseplans .li .img-inner-wrapper-rightpanel__houseplans .a {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.a {
+  color: #004B91;
+  text-decoration: none;
+}

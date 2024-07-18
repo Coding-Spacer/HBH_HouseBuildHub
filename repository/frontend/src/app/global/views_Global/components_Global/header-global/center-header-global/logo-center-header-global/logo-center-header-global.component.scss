@@ -1,0 +1,40 @@
+
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-logo-center-header__global {}
+
+#logo-center-header__global {
+  display: flex;
+  position: static;
+  float: none;
+  cursor: pointer;
+  width: auto;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo-main-header {
+  color: #ac2828;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icontext-logo-main-header {
+  color: #ac2828;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}

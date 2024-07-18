@@ -1,0 +1,24 @@
+@import '../../../../../styles/styles';
+
+/* ..................... */
+
+
+.page-container {}
+
+#header-container {}
+
+#breadcrumbs-container {
+  color: $breadcrumb-color;
+  margin: 10px 220px;
+  height: 16px;
+  font-size: 13px;
+  font-style: $font-style-italic;
+}
+
+#main-container {}
+
+.a-bottomline-footer {}
+
+#sidebarright-container {}
+
+#footer-container {}

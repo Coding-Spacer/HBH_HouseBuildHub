@@ -1,0 +1,45 @@
+
+@import '../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-bottom-header-global {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Добавлено для вертикального выравнивания */
+  max-height: 24px;
+  clear: both;
+  position: relative;
+  padding-top: 0;
+  box-sizing: border-box;
+  /* Изменено на border-box для включения границ и отступов */
+  flex-flow: row nowrap;
+  width: 100%;
+  margin-top: 7px;
+}
+
+#menu-bottom-header__global {
+  display: flex;
+  align-items: center;
+  /* Добавлено для вертикального выравнивания */
+  cursor: pointer;
+  width: auto;
+  margin-left: 20px;
+}
+
+#geolocation-bottom-header-global {}
+
+#saved-bottom-header-global {
+  margin-right: auto;
+}
+
+#department-bottom-header-global {}
+
+#discount-bottom-header-global {
+  margin-left: 10px;
+}
+
+#customerservice-bottom-header-global {
+  margin-left: auto;
+}

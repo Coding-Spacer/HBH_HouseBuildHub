@@ -1,0 +1,34 @@
+#container-displayviews {}
+
+.wrap-displayviews {}
+
+.displayviews {
+  margin-left: 5px;
+  display: flex
+  /* align-items: center; */
+}
+
+.vertical-view {
+  color: #E35300;
+  cursor: pointer;
+
+}
+
+.horizontal-view {
+  color: #E35300;
+  border: solid 1px;
+  border-color: #f3dbc1;
+  cursor: pointer;
+}
+
+
+.view-switcher {
+  height: 2.4rem;
+  width: 0.1rem;
+  margin-top: 0px;
+  margin-right: 1rem;
+  margin-bottom: 0px;
+  margin-left: 1rem;
+  background-color: #e5e5e5;
+  height: 28px
+}

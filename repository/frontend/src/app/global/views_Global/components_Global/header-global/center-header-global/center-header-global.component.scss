@@ -1,0 +1,26 @@
+@import '../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-center-header__global {
+  clear: both;
+  position: relative;
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid #e5e5e5;
+  flex-flow: row nowrap;
+  width: 100%;
+  align-items: center;
+}
+
+#logo-center-header__global {}
+
+#searchbar-center-header__global {}
+
+#languageselection-center-header__global {}
+
+#registration-center-header__global {}
+
+#message-center-header__global {}
+
+#basket-center-header__global {}

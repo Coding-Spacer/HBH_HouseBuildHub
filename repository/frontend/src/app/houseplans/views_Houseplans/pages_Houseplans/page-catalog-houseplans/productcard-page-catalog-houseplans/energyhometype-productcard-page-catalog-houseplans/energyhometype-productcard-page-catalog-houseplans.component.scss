@@ -1,0 +1,22 @@
+@import '../../../../../../../styles/styles';
+
+
+.energyhometype-productcard__houseplans {
+  position: relative;
+}
+
+.overlay-energyhometype {
+  box-sizing: border-box;
+  background-color: green;
+  color: white;
+  font-weight: 400;
+  padding: 0px 8px;
+  border-radius: 1px;
+  display: flex; 
+}
+
+.energyhometype span {
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  font-style: italic;
+}

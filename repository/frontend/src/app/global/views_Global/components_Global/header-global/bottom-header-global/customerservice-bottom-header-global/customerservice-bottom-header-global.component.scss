@@ -1,0 +1,51 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+
+wrap-customerservice-bottom-header__global {
+  width: auto;
+  position: static;
+  float: none;
+  margin-left: auto;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: 2px;
+  font-size: 13px;
+}
+
+.name-customerservice {
+  display: flex;
+}
+
+.name-customerservice-1 {
+  font-size: 13px;
+  color: rgb(46, 45, 45);
+  font-weight: 400;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -4px;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  letter-spacing: normal;
+}
+
+.material-icons.icon-arrow {
+  margin-top: 2px;
+  font-size: 18px;
+  color: #706f6f;
+}
+
+.vertical-divider {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 0px;
+  display: inline;
+}

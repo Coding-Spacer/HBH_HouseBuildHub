@@ -1,0 +1,29 @@
+#scrolltotop-content-container-global {}
+
+.scrolltotop-content-global {
+  position: fixed;
+  bottom: 40px;
+  right: 0px;
+  width: 36px;
+  height: 36px;
+  background-color: #FF7519;
+  text-align: center;
+  line-height: 18px;
+  cursor: pointer;
+  z-index: 1000;
+  color: #fff;
+}
+
+.scrolltotop-content-global:hover {
+  background-color: #EB650C;
+  color: yellow;
+}
+
+.uparrow-module-scrolltotop {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.uptext-module-scrolltotop {
+  font-size: 14px;
+}

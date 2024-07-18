@@ -1,0 +1,37 @@
+.singin-personal-sociality-footer-content-global {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.see-personal-sociality-footer-content-global {
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.action-button-personal-sociality-footer-content-global {
+  max-width: 230px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 230px;
+  display: block;
+  background-color: #FFCA44;
+  border-radius: 5px;
+}
+
+.action-inner-personal-sociality-footer-content-global {
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  position: relative;
+  color: black;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+}

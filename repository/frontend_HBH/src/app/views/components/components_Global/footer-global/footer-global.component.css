@@ -1,0 +1,134 @@
+#footer-content-container-global {
+  background-color: #232F3E;
+  color: white;
+  font-family: inherit;
+}
+
+.sociality-footer-content-global {
+  margin: 0 auto;
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  min-width: 752px;
+  border: 1px solid #DDD;
+  background-color: white;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: inherit;
+}
+
+.nav-footer-content-global {
+  background-color: #232F3E;
+  font-family: inherit;
+  color: #DDD;
+  padding-right: 60px;
+}
+
+.table-nav-footer-content-global {
+  vertical-align: middle;
+  border-color: inherit;
+  width: 100%;
+  margin-top: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+
+}
+
+.td {
+  width: 25%;
+  text-align: center;
+}
+
+.td ul {
+  padding: 1px 0;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.h-first-table-nav-footer a {
+  font-size: 26px !important;
+  color: #F19204;
+  text-decoration: none;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.h-first-table-nav-footer:hover a {
+  text-decoration: underline;
+}
+
+.li-first-table-nav-footer a {
+  font-size: 18px !important;
+  color: #F19204;
+  text-decoration: none;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.h-all-table-nav-footer {
+  font-size: 18px !important;
+  color: #DDD;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.li-all-table-nav-footer a {
+  text-decoration: none;
+  color: #DDD;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.li-all-table-nav-footer:hover a {
+  text-decoration: underline;
+}
+
+.bottomline-footer-content-global {
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  font-family: inherit;
+  color: #DDD;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.a-bottomline-footer {
+  margin-right: 22px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: inherit;
+  color: #DDD;
+  text-align: center;
+}
+
+.a-bottomline-footer:hover {
+  text-decoration: underline;
+}
+
+.span-bottomline-footer {
+  display: inline-block;
+  text-align: center;
+  padding-top: 4px;
+}

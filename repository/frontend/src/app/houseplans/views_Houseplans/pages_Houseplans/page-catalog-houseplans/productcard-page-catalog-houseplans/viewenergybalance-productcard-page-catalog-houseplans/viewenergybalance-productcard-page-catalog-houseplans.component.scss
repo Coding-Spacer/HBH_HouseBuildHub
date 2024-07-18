@@ -1,0 +1,49 @@
+@import '../../../../../../../styles/styles';
+
+viewenergybalance-productcard-houseplans {}
+
+
+
+#viewenergybalance-houseplan {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid $border-light-color;
+  border-radius: 2px;
+  color: $text-color;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#viewenergybalance-houseplan:hover {
+  color: $accent-color;
+  border: solid 1px $accent-color;
+}
+
+#viewenergybalance-houseplan::before {
+  content: "Energy ";
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s;
+
+}
+
+#viewenergybalance-houseplan::after {
+  content: "See More";
+  position: relative;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#viewenergybalance-houseplan:hover::before {
+  opacity: 0;
+}
+
+#viewenergybalance-houseplan:hover::after {
+  opacity: 1;
+}
