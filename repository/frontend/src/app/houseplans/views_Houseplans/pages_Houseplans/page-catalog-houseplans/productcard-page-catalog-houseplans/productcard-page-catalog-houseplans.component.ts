@@ -4,9 +4,12 @@ import { CommonModule } from '@angular/common';
 
 import { DataHouseplans } from '../../../../interface_Houseplans/data-houseplans-interface';
 
+
+
+
+import {AicostestimatorProductcardPageCatalogHouseplansComponent} from './aicostestimator-productcard-page-catalog-houseplans/aicostestimator-productcard-page-catalog-houseplans.component';
 import { AuthorcountryProductcardPageCatalogHouseplansComponent } from './authorcountry-productcard-page-catalog-houseplans/authorcountry-productcard-page-catalog-houseplans.component';
 import { ConstructioncostProductcardPageCatalogHouseplansComponent } from './constructioncost-productcard-page-catalog-houseplans/constructioncost-productcard-page-catalog-houseplans.component';
-import { CopyrightinfoProductcardPageCatalogHouseplansComponent } from './copyrightinfo-productcard-page-catalog-houseplans/copyrightinfo-productcard-page-catalog-houseplans.component';
 import { DataenergyProductcardPageCatalogHouseplansComponent } from './dataenergy-productcard-page-catalog-houseplans/dataenergy-productcard-page-catalog-houseplans.component';
 import { DatahomeProductcardPageCatalogHouseplansComponent } from './datahome-productcard-page-catalog-houseplans/datahome-productcard-page-catalog-houseplans.component';
 import { EnergycostestimatorProductcardPageCatalogHouseplansComponent } from './energycostestimator-productcard-page-catalog-houseplans/energycostestimator-productcard-page-catalog-houseplans.component';
@@ -14,6 +17,8 @@ import { EnergyhometypeProductcardPageCatalogHouseplansComponent } from './energ
 import { IdProductcardPageCatalogHouseplansComponent } from './id-productcard-page-catalog-houseplans/id-productcard-page-catalog-houseplans.component';
 import { ImageProductcardPageCatalogHouseplansComponent } from './image-productcard-page-catalog-houseplans/image-productcard-page-catalog-houseplans.component';
 import { NameProductcardPageCatalogHouseplansComponent } from './name-productcard-page-catalog-houseplans/name-productcard-page-catalog-houseplans.component';
+import { HumancostestimatorProductcardPageCatalogHouseplansComponent } from './humancostestimator-productcard-page-catalog-houseplans/humancostestimator-productcard-page-catalog-houseplans.component';
+
 import { OnsaleProductcardPageCatalogHouseplansComponent } from './onsale-productcard-page-catalog-houseplans/onsale-productcard-page-catalog-houseplans.component';
 import { PriceProductcardPageCatalogHouseplansComponent } from './price-productcard-page-catalog-houseplans/price-productcard-page-catalog-houseplans.component';
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
@@ -32,16 +37,16 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
   imports: [
     CommonModule,
     MatGridListModule,
-
+    AicostestimatorProductcardPageCatalogHouseplansComponent,
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
-    CopyrightinfoProductcardPageCatalogHouseplansComponent,
     DataenergyProductcardPageCatalogHouseplansComponent,
     DatahomeProductcardPageCatalogHouseplansComponent,
     EnergycostestimatorProductcardPageCatalogHouseplansComponent,
     EnergyhometypeProductcardPageCatalogHouseplansComponent,
     IdProductcardPageCatalogHouseplansComponent,
     ImageProductcardPageCatalogHouseplansComponent,
+    HumancostestimatorProductcardPageCatalogHouseplansComponent,
     NameProductcardPageCatalogHouseplansComponent,
     OnsaleProductcardPageCatalogHouseplansComponent,
     PriceProductcardPageCatalogHouseplansComponent,
@@ -66,7 +71,7 @@ export class ProductcardPageCatalogHouseplansComponent {
     image_Houseplans: 'path/to/image.jpg',
     price_Houseplans: 1240,
     rating_Houseplans: 4.5,
-    sqfttotal_Houseplans: 2060,
+    sqfttotal_Houseplans: 2111,
     wide_Houseplans: '32"40"',
     deep_Houseplans: '20"18"',
     story_Houseplans: 2,

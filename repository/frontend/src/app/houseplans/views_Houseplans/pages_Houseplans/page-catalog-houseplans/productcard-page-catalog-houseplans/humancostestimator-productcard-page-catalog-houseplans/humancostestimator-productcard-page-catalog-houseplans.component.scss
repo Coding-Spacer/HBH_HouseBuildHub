@@ -2,17 +2,17 @@
 @import '../../../../../../../styles/styles';
 
 
-.energycostestimator-productcard__houseplans {}
+.humancostestimator-productcard__houseplans {}
 
 
-#energycostestimator__houseplans {}
+#humancostestimator__houseplans {}
 
-.energycostestimator {}
+.humancostestimator {}
 
 
 
-/* Стили для overlay-energycostestimator */
-.overlay-energycostestimator {
+/* Стили для overlay-humancostestimator */
+.overlay-humancostestimator {
   cursor: pointer;
   display: flex;
   margin-left: 5px;
@@ -21,15 +21,15 @@
   text-decoration: underline;
 }
 
-.icon-energycostestimator {}
+.icon-humancostestimator {}
 
 
-.icon-energycostestimator-size {
+.icon-humancostestimator-size {
   font-size: 16px;
-  color: #FFEB3B;
+  color:aqua;
 }
 
-.text-energycostestimator {
+.text-humancostestimator {
   color: $color;
   font-size: 14px;
   margin-left: 2px;
@@ -37,9 +37,9 @@
 
 }
 
-.expand-energycostestimator {}
+.expand-humancostestimator {}
 
-.expand-energycostestimator-size {
+.expand-humancostestimator-size {
   color: #706d6d;
   font-size: 18px;
 }

@@ -4,14 +4,14 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: $font-family;
-    height: $height;
-    font-size: $font-size;
-    line-height: $line-height;
-    height: $height;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  height: $height;
+  font-size: $font-size;
+  line-height: $line-height;
+  height: $height;
+}
 
 a {
   color: $link-color;
@@ -24,8 +24,9 @@ a {
   }
 }
 
-p {
-}
+
+
+p {}
 
 h1,
 h2,
@@ -35,9 +36,6 @@ h5,
 h6 {
   color: #222;
 }
-
-
-
 
 
 
