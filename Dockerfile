@@ -1,6 +1,8 @@
 # stage 1
 FROM node:latest
-WORKDIR /repository/frontend
+WORKDIR /repository/frontend/src/app
+COPY package*.json ./
+RUN npm install
 COPY . .
 RUN npm install
 RUN npm run build --prod
