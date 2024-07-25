@@ -1,6 +1,6 @@
 # stage 1
 FROM node:latest
-WORKDIR /repository/frontend/src/app
+WORKDIR /repository/frontend
 COPY package*.json ./
 RUN npm install
 COPY . .
