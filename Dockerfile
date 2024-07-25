@@ -1,7 +1,7 @@
+COPY . ./
 FROM node:latest as build
 WORKDIR repository/frontend
 COPY package*.json ./
-COPY . ./
 RUN npm install -g @angular/cli
 
 RUN npm install
