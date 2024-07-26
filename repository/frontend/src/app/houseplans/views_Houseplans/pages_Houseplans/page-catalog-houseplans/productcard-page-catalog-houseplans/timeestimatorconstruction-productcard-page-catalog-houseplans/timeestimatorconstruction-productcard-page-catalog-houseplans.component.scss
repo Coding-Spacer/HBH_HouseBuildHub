@@ -1,0 +1,45 @@
+/* Импорт стилей, если используется */
+@import '../../../../../../../styles/styles';
+
+
+.timeestimatorconstruction-productcard__houseplans {}
+
+
+#timeestimatorconstruction__houseplans {}
+
+.timeestimatorconstruction {}
+
+
+
+/* Стили для overlay-timeestimatorconstruction */
+.overlay-timeestimatorconstruction {
+  cursor: pointer;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 16px;
+  text-decoration: underline;
+}
+
+.icon-timeestimatorconstruction {}
+
+
+.icon-timeestimatorconstruction-size {
+  font-size: 16px;
+  color: orange;
+}
+
+.text-timeestimatorconstruction {
+  color: $color;
+  font-size: 14px;
+  margin-left: 2px;
+
+
+}
+
+.expand-timeestimatorconstruction {}
+
+.expand-timeestimatorconstruction-size {
+  color: #706d6d;
+  font-size: 18px;
+}

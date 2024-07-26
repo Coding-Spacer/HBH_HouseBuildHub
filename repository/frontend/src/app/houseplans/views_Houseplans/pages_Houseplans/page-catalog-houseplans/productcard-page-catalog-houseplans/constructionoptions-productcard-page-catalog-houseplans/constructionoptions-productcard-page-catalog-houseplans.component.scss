@@ -1,44 +1,44 @@
 @import '../../../../../../../styles/styles';
 
 /* ..................... */
-.datahome-grid {
+.constructionoptions-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   width: 100%;
   height: 100%;
 }
 
-.datahome-grid-item {
+.constructionoptions-grid-item {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $background-color;
-  border: 1px solid $border-light-color;
   padding: 0px;
 }
 
+.text-constructionoptions-grid-item {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-top: 10px;
+  padding-left: 15px;
+}
 
-.name-datahome-grid-item {
+
+
+.name-constructionoptions-grid-item {
+  grid-row: 2 / 3;
   color: $grey-light-color;
   font-weight: 400;
   display: flex;
   align-items: center;
   font-size: $font-size-11px;
-  flex-direction: column;
   padding-top: 2px;
 }
 
-.sqfttotal-datahome-grid-item span {
-  font-size: $font-size-13px;
-  color: $black-color;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-}
 
 
-
-.value-datahome-grid-item {
+.value-constructionoptions-grid-item {
   font-size: $font-size-13px;
   color: $black-color;
   font-weight: 500;

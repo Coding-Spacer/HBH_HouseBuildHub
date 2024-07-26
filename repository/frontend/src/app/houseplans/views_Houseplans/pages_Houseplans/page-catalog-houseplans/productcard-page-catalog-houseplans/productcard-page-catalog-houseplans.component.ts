@@ -10,26 +10,28 @@ import { DataHouseplans } from '../../../../interface_Houseplans/data-houseplans
 import {AicostestimatorProductcardPageCatalogHouseplansComponent} from './aicostestimator-productcard-page-catalog-houseplans/aicostestimator-productcard-page-catalog-houseplans.component';
 import { AuthorcountryProductcardPageCatalogHouseplansComponent } from './authorcountry-productcard-page-catalog-houseplans/authorcountry-productcard-page-catalog-houseplans.component';
 import { ConstructioncostProductcardPageCatalogHouseplansComponent } from './constructioncost-productcard-page-catalog-houseplans/constructioncost-productcard-page-catalog-houseplans.component';
-import { DataenergyProductcardPageCatalogHouseplansComponent } from './dataenergy-productcard-page-catalog-houseplans/dataenergy-productcard-page-catalog-houseplans.component';
+import { ConstructionoptionsProductcardPageCatalogHouseplansComponent } from './constructionoptions-productcard-page-catalog-houseplans/constructionoptions-productcard-page-catalog-houseplans.component';
+import { CostestimatorhomeProductcardPageCatalogHouseplansComponent } from './costestimatorhome-productcard-page-catalog-houseplans/costestimatorhome-productcard-page-catalog-houseplans.component';
 import { DatahomeProductcardPageCatalogHouseplansComponent } from './datahome-productcard-page-catalog-houseplans/datahome-productcard-page-catalog-houseplans.component';
-import { EnergycostestimatorProductcardPageCatalogHouseplansComponent } from './energycostestimator-productcard-page-catalog-houseplans/energycostestimator-productcard-page-catalog-houseplans.component';
+import { EnergyestimatorbuildingProductcardPageCatalogHouseplansComponent } from './energyestimatorbuilding-productcard-page-catalog-houseplans/energyestimatorbuilding-productcard-page-catalog-houseplans.component';
 import { EnergyhometypeProductcardPageCatalogHouseplansComponent } from './energyhometype-productcard-page-catalog-houseplans/energyhometype-productcard-page-catalog-houseplans.component';
 import { IdProductcardPageCatalogHouseplansComponent } from './id-productcard-page-catalog-houseplans/id-productcard-page-catalog-houseplans.component';
 import { ImageProductcardPageCatalogHouseplansComponent } from './image-productcard-page-catalog-houseplans/image-productcard-page-catalog-houseplans.component';
 import { NameProductcardPageCatalogHouseplansComponent } from './name-productcard-page-catalog-houseplans/name-productcard-page-catalog-houseplans.component';
 import { HumancostestimatorProductcardPageCatalogHouseplansComponent } from './humancostestimator-productcard-page-catalog-houseplans/humancostestimator-productcard-page-catalog-houseplans.component';
-
 import { OnsaleProductcardPageCatalogHouseplansComponent } from './onsale-productcard-page-catalog-houseplans/onsale-productcard-page-catalog-houseplans.component';
 import { PriceProductcardPageCatalogHouseplansComponent } from './price-productcard-page-catalog-houseplans/price-productcard-page-catalog-houseplans.component';
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
 import { SharebuttonProductcardPageCatalogHouseplansComponent } from './sharebutton-productcard-page-catalog-houseplans/sharebutton-productcard-page-catalog-houseplans.component';
+import { TimeestimatorconstructionProductcardPageCatalogHouseplansComponent } from './timeestimatorconstruction-productcard-page-catalog-houseplans/timeestimatorconstruction-productcard-page-catalog-houseplans.component';
 import { VerificationstatusProductcardPageCatalogHouseplansComponent } from './verificationstatus-productcard-page-catalog-houseplans/verificationstatus-productcard-page-catalog-houseplans.component';
 import { ViewexteriorProductcardPageCatalogHouseplansComponent } from './viewexterior-productcard-page-catalog-houseplans/viewexterior-productcard-page-catalog-houseplans.component';
 import { ViewfloorplansProductcardPageCatalogHouseplansComponent } from './viewfloorplans-productcard-page-catalog-houseplans/viewfloorplans-productcard-page-catalog-houseplans.component';
 import { ViewmodelProductcardPageCatalogHouseplansComponent } from './viewmodel-productcard-page-catalog-houseplans/viewmodel-productcard-page-catalog-houseplans.component';
-import { ViewenergybalanceProductcardPageCatalogHouseplansComponent } from './viewenergybalance-productcard-page-catalog-houseplans/viewenergybalance-productcard-page-catalog-houseplans.component';
+import { ViewvideoProductcardPageCatalogHouseplansComponent } from './viewvideo-productcard-page-catalog-houseplans/viewvideo-productcard-page-catalog-houseplans.component';
 import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutton-productcard-page-catalog-houseplans/earnbutton-productcard-page-catalog-houseplans.component';
+
 
 @Component({
   selector: 'app-productcard-page-catalog-houseplans',
@@ -40,9 +42,10 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     AicostestimatorProductcardPageCatalogHouseplansComponent,
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
-    DataenergyProductcardPageCatalogHouseplansComponent,
+    ConstructionoptionsProductcardPageCatalogHouseplansComponent,
+    CostestimatorhomeProductcardPageCatalogHouseplansComponent,
     DatahomeProductcardPageCatalogHouseplansComponent,
-    EnergycostestimatorProductcardPageCatalogHouseplansComponent,
+    EnergyestimatorbuildingProductcardPageCatalogHouseplansComponent,
     EnergyhometypeProductcardPageCatalogHouseplansComponent,
     IdProductcardPageCatalogHouseplansComponent,
     ImageProductcardPageCatalogHouseplansComponent,
@@ -53,11 +56,12 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,
     SharebuttonProductcardPageCatalogHouseplansComponent,
+   TimeestimatorconstructionProductcardPageCatalogHouseplansComponent,
     VerificationstatusProductcardPageCatalogHouseplansComponent,
     ViewexteriorProductcardPageCatalogHouseplansComponent,
     ViewfloorplansProductcardPageCatalogHouseplansComponent,
     ViewmodelProductcardPageCatalogHouseplansComponent,
-    ViewenergybalanceProductcardPageCatalogHouseplansComponent,
+    ViewvideoProductcardPageCatalogHouseplansComponent,
     EarnbuttonProductcardPageCatalogHouseplansComponent,
   ],
   templateUrl: './productcard-page-catalog-houseplans.component.html',
