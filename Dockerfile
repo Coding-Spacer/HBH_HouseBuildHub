@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR /HBH_HouseBuildHub/repository/frontend
+WORKDIR /app/HBH_HouseBuildHub/repository/frontend
 
 RUN npm install
 
