@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR repository/fronend
+WORKDIR repository/frontend
 
 RUN npm install
 
