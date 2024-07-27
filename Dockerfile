@@ -1,16 +1,14 @@
-FROM node:alpine AS build
+FROM node:latest
 
 # Встановлюємо робочу директорію всередині контейнера
 WORKDIR /app
 
-COPY HBH_houseBuildHub/repository/frontend/package*.json ./
+COPY . .
+
+WORKDIR repository/fronend
 
 RUN npm install
 
-COPY . ./
+EXPOSE 8888
 
-# Відкриваємо порт 80 для доступу до веб-сервера
-EXPOSE 80
-
-# Запускаємо nginx
-CMD ["ng", "serve"]
+CMD [ "ng", "serve" ]
