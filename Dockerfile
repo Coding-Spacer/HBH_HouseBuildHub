@@ -1,15 +1,13 @@
-FROM node:16 AS build
+FROM node:alpine AS build
 
 # Встановлюємо робочу директорію всередині контейнера
 WORKDIR /app
 
-COPY /app/HBH_houseBuildHub/repository/frontend/package*.json ./
+COPY HBH_houseBuildHub/repository/frontend/package*.json ./
 
 RUN npm install
 
-WORKDIR /app
-
-COPY . .
+COPY . ./
 
 # Виконуємо побудову проекту Angular
 RUN npm run build --prod
