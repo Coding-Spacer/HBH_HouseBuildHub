@@ -5,6 +5,8 @@ WORKDIR /app
 
 COPY . .
 
+WORKDIR /HBH_HouseBuildHub/repository/frontend
+
 RUN npm install
 
 # Виконуємо побудову проекту Angular
