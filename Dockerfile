@@ -3,11 +3,13 @@ FROM node:16 AS build
 # Встановлюємо робочу директорію всередині контейнера
 WORKDIR /app
 
-COPY . .
-
-WORKDIR /app/HBH_HouseBuildHub/repository/frontend
+COPY /app/HBH_houseBuildHub/repository/frontend/package*.json ./
 
 RUN npm install
+
+WORKDIR /app
+
+COPY . .
 
 # Виконуємо побудову проекту Angular
 RUN npm run build --prod
