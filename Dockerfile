@@ -6,11 +6,11 @@ WORKDIR /app
 # Копіюємо package.json та package-lock.json в робочу директорію
 COPY package*.json ./
 
-# Встановлюємо залежності
-RUN npm install
-
-# Копіюємо весь код проекту в контейнер
 COPY . .
+
+WORKDIR /repository/frontend
+
+RUN npm install
 
 # Виконуємо побудову проекту Angular
 RUN npm run build --prod
