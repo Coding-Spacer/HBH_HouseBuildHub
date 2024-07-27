@@ -9,9 +9,6 @@ RUN npm install
 
 COPY . ./
 
-# Виконуємо побудову проекту Angular
-RUN npm run build --prod
-
 # Відкриваємо порт 80 для доступу до веб-сервера
 EXPOSE 80
 
