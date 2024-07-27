@@ -3,12 +3,7 @@ FROM node:16 AS build
 # Встановлюємо робочу директорію всередині контейнера
 WORKDIR /app
 
-# Копіюємо package.json та package-lock.json в робочу директорію
-COPY package*.json ./
-
 COPY . .
-
-WORKDIR /repository/frontend
 
 RUN npm install
 
