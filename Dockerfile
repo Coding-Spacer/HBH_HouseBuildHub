@@ -9,11 +9,8 @@ WORKDIR repository/frontend
 
 RUN npm install
 
-FROM public.ecr.aws/docker/library/nginx:alpine
+RUN npm run build
 
-COPY --from=build /app/dist/your-app-name /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/nginx.conf
+EXPOSE 4200
 
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["ng", "serve", "--host", "0.0.0.0"]
