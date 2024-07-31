@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine
 
 # Встановлюємо робочу директорію всередині контейнера
 WORKDIR /app
