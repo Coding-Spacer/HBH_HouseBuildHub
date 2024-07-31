@@ -9,4 +9,4 @@ WORKDIR repository/frontend
 
 RUN npm install
 
-RUN ng build --configuration=production
+RUN ng build --prod
