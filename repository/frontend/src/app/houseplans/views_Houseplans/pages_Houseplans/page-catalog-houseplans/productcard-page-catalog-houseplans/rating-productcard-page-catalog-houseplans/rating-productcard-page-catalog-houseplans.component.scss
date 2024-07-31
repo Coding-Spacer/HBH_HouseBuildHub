@@ -1,3 +1,55 @@
 @import '../../../../../../../styles/styles';
 
-/* ..................... */
+.rating-productcard__houseplans {}
+
+#rating__houseplans {}
+
+.overlay-rating {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.stars-rating {
+  display: flex;
+  cursor: pointer;
+
+}
+
+.stars-size {
+  font-size: 18px;
+  color: #FFA41C;
+  margin-left: -1px;
+}
+
+.expand-rating {
+  color: #706d6d;
+  font-size: 20px;
+}
+
+.quantity-rating {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  height: 26px;
+}
+
+.reviews-rating a {
+  font-size: 13px;
+  color: #a09d9d;
+  position: relative;
+  margin-left: -4px;
+  top: -4px;
+}
+
+.reviews-rating a:hover {
+  color: #FF6A00;
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+/* Импорт стилей, если используется */
+@import '../../../../../../../styles/styles';
+
+
+.author-productcard__houseplans {}
+
+
+#author__houseplans {}
+
+.author {}
+
+
+
+/* Стили для overlay-author */
+.overlay-author {
+  cursor: pointer;
+  display: flex;
+  border-bottom: 1px solid #cfcfcf;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.icon-author {}
+
+
+
+.cf-aaa {
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  left: 60px;
+}
+
+
+.picture-for-icons-1 {
+  background-image: url(/assets/assets_Global/icon_Global/picture-for-icons-1.png);
+}
+
+.usaflag-picture-for-icons-1 {
+  background-position: -114px -373px;
+}
+
+
+.icon-author-size {
+  font-size: 16px;
+  color: green;
+}
+
+.text-author {
+  color: $color;
+  font-size: 13px;
+  margin-left: 30px;
+}
+
+.expand-author {}
+
+.expand-author-size {
+  color: #706d6d;
+  font-size: 16px;
+}

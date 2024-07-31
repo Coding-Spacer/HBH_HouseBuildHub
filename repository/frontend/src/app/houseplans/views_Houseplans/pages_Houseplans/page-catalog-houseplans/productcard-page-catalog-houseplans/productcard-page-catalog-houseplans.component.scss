@@ -3,19 +3,21 @@
 /* Общий стиль карточки товара */
 .wrap-productcard-page-catalog__houseplans {
   width: 328px;
-  height: 508px;
+  height: auto;
   border: solid 1px;
   border-color: $border-light-color;
   border-radius: 2px;
   margin: 0 auto;
   box-sizing: border-box;
-  overflow: hidden;
-  /* Предотвращение переполнения */
+  overflow: hidden;  
+ 
 }
 
 .wrap-productcard-page-catalog__houseplans:hover {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .13), -3px -3px 3px rgba(0, 0, 0, .13);
-  z-index: 1;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13), -3px -3px 3px rgba(0, 0, 0, 0.13);
+  border: 1px solid orange;
+
 }
 
 /* Сетка для карточки товара */
@@ -23,11 +25,36 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows:
-    [row1-start] 20px [row2-start] 240px [row3-start] auto [row4-start] 20px [row5-start] 24px [row6-start] 20px [row7-start] 20px [row8-start] 20px [row9-start] 20px [row10-start] 20px [row11-start] 20px [row12-start] 20px [row13-start] 20px [row14-start] 20px [row15-start] 20px [row16-start] 20px [row17-start] 20px [row18-start] 20px [row19-start] 20px [row20-start] 20px [row21-start] 20px [row22-start] 20px [row23-start] 20px [row24-start] 20px [row25-start] 20px;
-  box-sizing: border-box;
 
+    [row1-start] 20px
+    /* row1/column1: wrap-viewexterior-productcard__houseplans */
+    /* row1/column2: wrap-viewfloorplans-productcard__houseplans */
+    /* row1/column3: wrap-viewmodel-productcard__houseplans */
+    /* row1/column4: wrap-viewvideo-productcard__houseplans */
+    [row2-start] 240px
+    /* row2/column1-4: wrap-image-productcard__houseplans */
+    /* row2/column1-4: wrap-savebutton-productcard__houseplans */
+    /* row2/column1-4: wrap-сomparebutton-productcard__houseplans */
+    /* row2/column1-4: wrap-sharebutton-productcard__houseplans */
+    /* row2/column1-4: wrap-earnbutton-productcard__houseplans */
+    /* row2/column1-4: wrap-ecofriendlylabel-productcard__houseplans */
+    /* row2/column1-4: wrap-eneregysavelabel-productcard__houseplans */
+    /* row2/column1-4: wrap-solarstationlabel-productcard__houseplans */
+    /* row2/column1-4: wrap-energyhometype-productcard__houseplans */
+    [row3-start] auto
+    /* row3/column1-2: wrap-id-productcard__houseplan */
+    /* row3/column3-4: wrap-price-productcard__houseplan */
+    [row4-start] auto
+    /* row4/column1-4: wrap-datahome-productcard__houseplans */
+    [row5-start] auto
+    /* row5/column1-4: wrap-constructionoptions-productcard__houseplans */
+
+
+
+
+    [row6-start] auto [row7-start] auto [row8-start] auto [row9-start] auto [row10-start] auto [row11-start];
+  box-sizing: border-box;
   position: relative;
-  z-index: 1;
   padding: 4px;
 }
 
@@ -42,8 +69,6 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-
-
 
 
 
@@ -73,6 +98,7 @@
   width: 100%;
   height: 240px;
   object-fit: cover;
+  z-index: 1;
 }
 
 .wrap-savebutton-productcard__houseplans {
@@ -127,6 +153,7 @@
   left: 0px;
   top: 214px;
   z-index: 2;
+  height: 26px;
 }
 
 .wrap-price-productcard__houseplans {
@@ -136,34 +163,79 @@
   left: 0px;
   top: 214px;
   z-index: 2;
+  height: 26px;
 }
 
 .wrap-datahome-productcard__houseplans {
   grid-column: 1 / 5;
   grid-row: 3 / 4;
   position: relative;
-  left: 0px;
+}
+
+.wrap-constructionoptions-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 4 / 5;
+  position: relative;
+}
+
+.wrap-name-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 5 / 6;
+  position: relative;
+}
+
+.wrap-rating-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 6 / 7;
+  position: relative;
+  height: 26px;
+}
+
+.wrap-authorcountry-productcard__houseplans {
+  grid-column: 2 / 4;
+  grid-row: 7 / 8;
+  position: relative;
+}
+
+.wrap-verificationstatus-productcard__houseplans {
+  grid-column: 4 / 5;
+  grid-row: 7 / 8;
+  position: relative;
+}
+
+
+.wrap-costestimatorhome-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 8 / 9;
+  position: relative;
+}
+
+/* AI-Powered Construction Cost Estimator
+      для преміум підписників значок зверху зправа зробити над написом
+      Швидкий онлайнт розрахунок вартості будівництва будинку за допомогою штучного інтелекту в декілька кліків = описати коротко як це працює +перехід на сторінку розрахунку + лише для преміум підписників*/
+/*Local Best Builders Cost Estimator
+          Запит на розрахунок вартості будівництва будинку кращими місцевими будівельниками = описати як це працює*/
+
+.wrap-energyestimatorbuilding-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 9 / 10;
+  position: relative;
+}
+
+.wrap-timeestimatorconstruction-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 10 / 11;
+  position: relative;
+}
+
+
+
+.wrap-regionalexpert-productcard__houseplans {
+  grid-column: 1 / 5;
+  grid-row: 12 / 13;
+  position: relative;
 }
 
 
 
 
-
-
-
-.wrap-authorcountry-productcard__houseplans {}
-
-.wrap-constructioncost-productcard__houseplans {}
-
-.wrap-copyrightinfo-productcard__houseplans {}
-
-.wrap-dataenergy-productcard__houseplans {}
-
-.wrap-energycostestimator-productcard__houseplans {}
-
-.wrap-rating-productcard__houseplans {}
-
-.wrap-verificationstatus-productcard__houseplans {}
-
-
-.wrap-griditemreserve-productcard__houseplans {}

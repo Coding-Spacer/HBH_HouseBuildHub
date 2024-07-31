@@ -1,0 +1,47 @@
+/* Импорт стилей, если используется */
+@import '../../../../../../../styles/styles';
+
+
+.verification-productcard__houseplans {}
+
+
+#verification__houseplans {}
+
+.verification {}
+
+
+
+/* Стили для overlay-verification */
+.overlay-verification {
+  cursor: pointer;
+  display: flex;
+  border-bottom: 1px solid #cfcfcf;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.icon-verification {}
+
+
+.icon-verification-size {
+  font-size: 14px;
+  color: green;
+}
+
+.text-verification {
+  color: green;
+  font-size: 12px;
+  margin-left: 1px;
+
+
+}
+
+.expand-verification {}
+
+.expand-verification-size {
+  color: #706d6d;
+  font-size: 16px;
+}
+
+
+

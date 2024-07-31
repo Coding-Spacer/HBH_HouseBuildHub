@@ -1,10 +1,10 @@
 @import '../../../../../../../styles/styles';
 
-viewenergybalance-productcard-houseplans {}
+viewvideo-productcard-houseplans {}
 
 
 
-#viewenergybalance-houseplan {
+#viewvideo-houseplan {
   box-sizing: border-box;
   position: relative;
   background-color: #fff;
@@ -19,31 +19,31 @@ viewenergybalance-productcard-houseplans {}
   text-align: center;
 }
 
-#viewenergybalance-houseplan:hover {
+#viewvideo-houseplan:hover {
   color: $accent-color;
   border: solid 1px $accent-color;
 }
 
-#viewenergybalance-houseplan::before {
-  content: "Energy ";
+#viewvideo-houseplan::before {
+  content: "Video";
   position: absolute;
   opacity: 1;
   transition: opacity 0.3s;
 
 }
 
-#viewenergybalance-houseplan::after {
-  content: "See More";
+#viewvideo-houseplan::after {
+  content: "See Video";
   position: relative;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-#viewenergybalance-houseplan:hover::before {
+#viewvideo-houseplan:hover::before {
   opacity: 0;
 }
 
-#viewenergybalance-houseplan:hover::after {
+#viewvideo-houseplan:hover::after {
   opacity: 1;
 }

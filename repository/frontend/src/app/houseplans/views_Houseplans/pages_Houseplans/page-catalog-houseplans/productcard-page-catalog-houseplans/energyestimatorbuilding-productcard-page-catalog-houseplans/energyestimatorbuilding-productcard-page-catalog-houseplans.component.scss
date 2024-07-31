@@ -1,0 +1,52 @@
+/* Импорт стилей, если используется */
+@import '../../../../../../../styles/styles';
+
+
+.energyestimatorbuilding-productcard__houseplans {}
+
+
+#energyestimatorbuilding__houseplans {}
+
+.energyestimatorbuilding {}
+
+
+
+/* Стили для overlay-energyestimatorbuilding */
+.overlay-energyestimatorbuilding {
+  cursor: pointer;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-decoration-color: $color;
+  border-bottom: 1px solid $divider-color;
+}
+
+.icon-energyestimatorbuilding {}
+
+
+.icon-energyestimatorbuilding-size {
+  font-size: 16px;
+  color: orange;
+}
+
+.text-energyestimatorbuilding {
+  color: $color;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.text-energyestimatorbuilding:hover {
+  color: $accent-color;
+}
+
+
+
+
+.expand-energyestimatorbuilding {}
+
+.expand-energyestimatorbuilding-size {
+  color: #706d6d;
+  font-size: 18px;
+}

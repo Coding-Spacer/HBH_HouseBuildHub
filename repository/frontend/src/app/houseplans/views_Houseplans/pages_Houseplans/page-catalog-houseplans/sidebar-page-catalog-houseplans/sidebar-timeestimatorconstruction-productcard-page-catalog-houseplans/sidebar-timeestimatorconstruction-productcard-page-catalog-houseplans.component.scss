@@ -1,0 +1,11 @@
+.sidebar-content {
+  width: 200px;
+  height: 50vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: gold;
+  z-index: 1000;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+}
