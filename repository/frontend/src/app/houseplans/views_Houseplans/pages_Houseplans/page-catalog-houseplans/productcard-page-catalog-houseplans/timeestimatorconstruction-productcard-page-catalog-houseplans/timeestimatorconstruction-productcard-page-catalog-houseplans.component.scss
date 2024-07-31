@@ -17,8 +17,10 @@
   display: flex;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 16px;
+  margin-top: 10px;
   text-decoration: underline;
+  text-decoration-color: $color;
+  border-bottom: 1px solid $divider-color;
 }
 
 .icon-timeestimatorconstruction {}
@@ -26,15 +28,17 @@
 
 .icon-timeestimatorconstruction-size {
   font-size: 16px;
-  color: orange;
+  color:#00A4E4;
 }
 
 .text-timeestimatorconstruction {
   color: $color;
   font-size: 14px;
-  margin-left: 2px;
+  margin-left: 3px;
+}
 
-
+.text-timeestimatorconstruction:hover {
+  color: $accent-color;
 }
 
 .expand-timeestimatorconstruction {}

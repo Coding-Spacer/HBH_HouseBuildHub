@@ -1,7 +1,11 @@
 @import '../../../../../styles/styles';
 
 /* ..................... */
-.page-container {}
+.page-container {
+  max-width: 1686px;
+  
+  
+}
 
 .ad-container {}
 
@@ -9,28 +13,26 @@
 
 #breadcrumbs-container {
   color: $breadcrumb-color;
-  margin: 10px 220px;
+  margin: 10px 265px;
   height: 16px;
   font-size: 13px;
   font-style: $font-style-italic;
 }
 
-#main-container {
+#main-container__houseplans {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  /* 280px для фільтра, решта для контенту */
-  gap: 20px;
-  /* Відстань між зонами */ 
-}
+  grid-template-columns: 280px 1fr 52px;  
+  gap: 8px; }
 
 #filterpanel-pagecatalog__houseplans {
   grid-column: 1 / 2;
-  background-color: #f1f1f1;
+  background-color: #F8FAFD;
   padding: 20px;
 }
 
 #content-pagecatalog__houseplans {
   grid-column: 2 / 3;
+  
 }
 
 #lays-sorting-toggle__houseplans {
@@ -51,6 +53,17 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+
+#sidebar-tools__global {
+  grid-column: 3 / 4;
+  background-color: #F8FAFD;
+
+
+}
+
+
+
+
 
 #additional-container {}
 

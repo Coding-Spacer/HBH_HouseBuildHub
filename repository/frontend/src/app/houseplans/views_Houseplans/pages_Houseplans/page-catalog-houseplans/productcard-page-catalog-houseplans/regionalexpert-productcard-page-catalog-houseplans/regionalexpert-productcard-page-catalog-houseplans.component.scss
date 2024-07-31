@@ -1,0 +1,65 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+.regionalexpert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+  background-color: rgb(247, 247, 247);
+}
+
+.text-regionalexpert-grid-item {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-top: 8px;
+  padding-left: 5px;
+  display: flex;
+}
+
+.overlay-regionalexpert {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  text-decoration: underline;
+  text-decoration-color: $color;
+}
+
+.icon-regionalexpert {}
+
+.icon-regionalexpert-size {
+  font-size: 16px;
+  color: #FF5722;
+}
+
+.text-regionalexpert {
+  color: $black-color;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.name-regionalexpert {
+  grid-row: 2 / 3;
+  color: $color;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  font-size: $font-size-14px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.name-regionalexpert:hover {
+  color: $accent-color;
+}
+
+.expand-regionalexpert-size {
+  font-size: $font-size-14px;
+  color: $color;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  padding-top: 2px;
+}

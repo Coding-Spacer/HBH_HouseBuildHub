@@ -1,13 +1,10 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, EventEmitter, Output, ChangeDetectionStrategy } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { CommonModule } from '@angular/common';
 
+
 import { DataHouseplans } from '../../../../interface_Houseplans/data-houseplans-interface';
 
-
-
-
-import {AicostestimatorProductcardPageCatalogHouseplansComponent} from './aicostestimator-productcard-page-catalog-houseplans/aicostestimator-productcard-page-catalog-houseplans.component';
 import { AuthorcountryProductcardPageCatalogHouseplansComponent } from './authorcountry-productcard-page-catalog-houseplans/authorcountry-productcard-page-catalog-houseplans.component';
 import { ConstructioncostProductcardPageCatalogHouseplansComponent } from './constructioncost-productcard-page-catalog-houseplans/constructioncost-productcard-page-catalog-houseplans.component';
 import { ConstructionoptionsProductcardPageCatalogHouseplansComponent } from './constructionoptions-productcard-page-catalog-houseplans/constructionoptions-productcard-page-catalog-houseplans.component';
@@ -18,8 +15,8 @@ import { EnergyhometypeProductcardPageCatalogHouseplansComponent } from './energ
 import { IdProductcardPageCatalogHouseplansComponent } from './id-productcard-page-catalog-houseplans/id-productcard-page-catalog-houseplans.component';
 import { ImageProductcardPageCatalogHouseplansComponent } from './image-productcard-page-catalog-houseplans/image-productcard-page-catalog-houseplans.component';
 import { NameProductcardPageCatalogHouseplansComponent } from './name-productcard-page-catalog-houseplans/name-productcard-page-catalog-houseplans.component';
-import { HumancostestimatorProductcardPageCatalogHouseplansComponent } from './humancostestimator-productcard-page-catalog-houseplans/humancostestimator-productcard-page-catalog-houseplans.component';
 import { OnsaleProductcardPageCatalogHouseplansComponent } from './onsale-productcard-page-catalog-houseplans/onsale-productcard-page-catalog-houseplans.component';
+import { RegionalexpertProductcardPageCatalogHouseplansComponent } from './regionalexpert-productcard-page-catalog-houseplans/regionalexpert-productcard-page-catalog-houseplans.component';
 import { PriceProductcardPageCatalogHouseplansComponent } from './price-productcard-page-catalog-houseplans/price-productcard-page-catalog-houseplans.component';
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
@@ -38,8 +35,7 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
   standalone: true,
   imports: [
     CommonModule,
-    MatGridListModule,
-    AicostestimatorProductcardPageCatalogHouseplansComponent,
+    MatGridListModule,   
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
     ConstructionoptionsProductcardPageCatalogHouseplansComponent,
@@ -49,14 +45,14 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     EnergyhometypeProductcardPageCatalogHouseplansComponent,
     IdProductcardPageCatalogHouseplansComponent,
     ImageProductcardPageCatalogHouseplansComponent,
-    HumancostestimatorProductcardPageCatalogHouseplansComponent,
     NameProductcardPageCatalogHouseplansComponent,
     OnsaleProductcardPageCatalogHouseplansComponent,
+    RegionalexpertProductcardPageCatalogHouseplansComponent,
     PriceProductcardPageCatalogHouseplansComponent,
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,
     SharebuttonProductcardPageCatalogHouseplansComponent,
-   TimeestimatorconstructionProductcardPageCatalogHouseplansComponent,
+    TimeestimatorconstructionProductcardPageCatalogHouseplansComponent,
     VerificationstatusProductcardPageCatalogHouseplansComponent,
     ViewexteriorProductcardPageCatalogHouseplansComponent,
     ViewfloorplansProductcardPageCatalogHouseplansComponent,
@@ -84,4 +80,6 @@ export class ProductcardPageCatalogHouseplansComponent {
     basement_Houseplans: true,
     garage_Houseplans: true,
   };
+
+  
 }

@@ -10,7 +10,7 @@
   gap: 8px;
 }
 
-/* Wrapper for icons with white borders */
+
 .icon-wrapper-earnbutton {
   background-color: rgba(0, 0, 0, 0.5);
   /* Semi-transparent black background */
@@ -23,7 +23,8 @@
   justify-content: center;
   align-items: center;
   transition: background-color 0.3s, border-color 0.3s;
-  /* Smooth transition on hover */
+  position: relative;
+
 }
 
 /* Style for buttons */
@@ -34,19 +35,26 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  color: $background-color;
   cursor: pointer;
 }
 
 /* Styles for icons */
 .material-icons {
   font-size: 18px;
+  color: white;
+  position: relative;
+  top:3px;
 }
 
 /* Style for buttons on hover */
 .icon-wrapper-earnbutton:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: yellow;
   /* White background on hover */
   border-color: $accent-color;
   /* Accent color border on hover */
+}
+
+.material-icons:hover {
+  color: $accent-color;
+  /* White color */
 }

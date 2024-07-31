@@ -17,8 +17,10 @@
   display: flex;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 16px;
+  margin-top: 10px;
   text-decoration: underline;
+  text-decoration-color: $color;
+  border-bottom: 1px solid $divider-color;
 }
 
 .icon-energyestimatorbuilding {}
@@ -32,10 +34,15 @@
 .text-energyestimatorbuilding {
   color: $color;
   font-size: 14px;
-  margin-left: 2px;
-
-
+  margin-left: 4px;
 }
+
+.text-energyestimatorbuilding:hover {
+  color: $accent-color;
+}
+
+
+
 
 .expand-energyestimatorbuilding {}
 

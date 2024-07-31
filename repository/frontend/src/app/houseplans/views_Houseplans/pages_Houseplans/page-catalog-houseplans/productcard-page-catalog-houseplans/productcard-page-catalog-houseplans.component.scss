@@ -9,14 +9,14 @@
   border-radius: 2px;
   margin: 0 auto;
   box-sizing: border-box;
-  overflow: hidden;
-  /* Предотвращение переполнения */
+  overflow: hidden;  
+ 
 }
 
 .wrap-productcard-page-catalog__houseplans:hover {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .13), -3px -3px 3px rgba(0, 0, 0, .13);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13), -3px -3px 3px rgba(0, 0, 0, 0.13);
-    border: 1px solid orange;
+  border: 1px solid orange;
 
 }
 
@@ -27,10 +27,10 @@
   grid-template-rows:
 
     [row1-start] 20px
-      /* row1/column1: wrap-viewexterior-productcard__houseplans */
-      /* row1/column2: wrap-viewfloorplans-productcard__houseplans */
-      /* row1/column3: wrap-viewmodel-productcard__houseplans */
-      /* row1/column4: wrap-viewvideo-productcard__houseplans */
+    /* row1/column1: wrap-viewexterior-productcard__houseplans */
+    /* row1/column2: wrap-viewfloorplans-productcard__houseplans */
+    /* row1/column3: wrap-viewmodel-productcard__houseplans */
+    /* row1/column4: wrap-viewvideo-productcard__houseplans */
     [row2-start] 240px
     /* row2/column1-4: wrap-image-productcard__houseplans */
     /* row2/column1-4: wrap-savebutton-productcard__houseplans */
@@ -52,7 +52,7 @@
 
 
 
-    [row6-start] auto [row7-start] auto [row8-start] auto [row9-start] auto [row10-start] auto [row11-start] ;
+    [row6-start] auto [row7-start] auto [row8-start] auto [row9-start] auto [row10-start] auto [row11-start];
   box-sizing: border-box;
   position: relative;
   padding: 4px;
@@ -203,19 +203,26 @@
   position: relative;
 }
 
-.wrap-energyestimatorbuilding-productcard__houseplans {
+
+.wrap-costestimatorhome-productcard__houseplans {
   grid-column: 1 / 5;
   grid-row: 8 / 9;
   position: relative;
 }
 
-.wrap-timeestimatorconstruction-productcard__houseplans { 
+/* AI-Powered Construction Cost Estimator
+      для преміум підписників значок зверху зправа зробити над написом
+      Швидкий онлайнт розрахунок вартості будівництва будинку за допомогою штучного інтелекту в декілька кліків = описати коротко як це працює +перехід на сторінку розрахунку + лише для преміум підписників*/
+/*Local Best Builders Cost Estimator
+          Запит на розрахунок вартості будівництва будинку кращими місцевими будівельниками = описати як це працює*/
+
+.wrap-energyestimatorbuilding-productcard__houseplans {
   grid-column: 1 / 5;
   grid-row: 9 / 10;
   position: relative;
 }
 
-.wrap-costestimatorhome-productcard__houseplans { 
+.wrap-timeestimatorconstruction-productcard__houseplans {
   grid-column: 1 / 5;
   grid-row: 10 / 11;
   position: relative;
@@ -223,24 +230,12 @@
 
 
 
-
-
-
-
-
-.wrap-aicostestimator-productcard__houseplans {
-  grid-column: 1 / 5;
-  grid-row: 11 / 12;
-  position: relative;
-  /* AI-Powered Construction Cost Estimator
-  для преміум підписників значок зверху зправа зробити над написом
-  Швидкий онлайнт розрахунок вартості будівництва будинку за допомогою штучного інтелекту в декілька кліків = описати коротко як це працює +перехід на сторінку розрахунку + лише для преміум підписників*/
-}
-
-.wrap-humancostestimator-productcard__houseplans {
+.wrap-regionalexpert-productcard__houseplans {
   grid-column: 1 / 5;
   grid-row: 12 / 13;
   position: relative;
-  /*Local Best Builders Cost Estimator
-  Запит на розрахунок вартості будівництва будинку кращими місцевими будівельниками = описати як це працює*/
 }
+
+
+
+
