@@ -8,7 +8,7 @@ viewfloorplans-productcard-houseplans {}
   box-sizing: border-box;
   position: relative;
   background-color: #fff;
-  border: 1px solid $border-light-color;
+  border: 1px solid $border-accent-color;
   border-radius: 2px;
   color: $text-color;
   cursor: pointer;
@@ -29,7 +29,7 @@ viewfloorplans-productcard-houseplans {}
   position: absolute;
   opacity: 1;
   transition: opacity 0.3s;
-
+  top: 1px
 }
 
 #viewfloorplans-houseplan::after {
@@ -38,6 +38,7 @@ viewfloorplans-productcard-houseplans {}
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s;
+  top: 1px;
 }
 
 #viewfloorplans-houseplan:hover::before {

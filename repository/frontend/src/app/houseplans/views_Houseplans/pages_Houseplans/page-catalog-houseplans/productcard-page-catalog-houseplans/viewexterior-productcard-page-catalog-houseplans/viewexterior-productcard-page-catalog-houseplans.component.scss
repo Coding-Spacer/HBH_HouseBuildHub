@@ -8,7 +8,7 @@ viewexterior-productcard-houseplans {}
   box-sizing: border-box;
   position: relative;
   background-color: #fff;
-  border: 1px solid $border-light-color;
+  border: 1px solid $border-accent-color;
   border-radius: 2px;
   color: $text-color;
   cursor: pointer;
@@ -16,7 +16,7 @@ viewexterior-productcard-houseplans {}
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
 }
 
 #viewexterior-houseplan:hover {
@@ -28,8 +28,8 @@ viewexterior-productcard-houseplans {}
   content: "Exterior";
   position: absolute;
   opacity: 1;
-  transition: opacity 0.3s; 
-
+  transition: opacity 0.3s;
+  top: 1px
 }
 
 #viewexterior-houseplan::after {
@@ -38,6 +38,8 @@ viewexterior-productcard-houseplans {}
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s;
+  top: 1px;
+
 }
 
 #viewexterior-houseplan:hover::before {

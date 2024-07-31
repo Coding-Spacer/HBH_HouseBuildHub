@@ -10,7 +10,6 @@ import { ConstructioncostProductcardPageCatalogHouseplansComponent } from './con
 import { ConstructionoptionsProductcardPageCatalogHouseplansComponent } from './constructionoptions-productcard-page-catalog-houseplans/constructionoptions-productcard-page-catalog-houseplans.component';
 import { CostestimatorhomeProductcardPageCatalogHouseplansComponent } from './costestimatorhome-productcard-page-catalog-houseplans/costestimatorhome-productcard-page-catalog-houseplans.component';
 import { DatahomeProductcardPageCatalogHouseplansComponent } from './datahome-productcard-page-catalog-houseplans/datahome-productcard-page-catalog-houseplans.component';
-import { EnergyestimatorbuildingProductcardPageCatalogHouseplansComponent } from './energyestimatorbuilding-productcard-page-catalog-houseplans/energyestimatorbuilding-productcard-page-catalog-houseplans.component';
 import { EnergyhometypeProductcardPageCatalogHouseplansComponent } from './energyhometype-productcard-page-catalog-houseplans/energyhometype-productcard-page-catalog-houseplans.component';
 import { IdProductcardPageCatalogHouseplansComponent } from './id-productcard-page-catalog-houseplans/id-productcard-page-catalog-houseplans.component';
 import { ImageProductcardPageCatalogHouseplansComponent } from './image-productcard-page-catalog-houseplans/image-productcard-page-catalog-houseplans.component';
@@ -21,7 +20,6 @@ import { PriceProductcardPageCatalogHouseplansComponent } from './price-productc
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
 import { SharebuttonProductcardPageCatalogHouseplansComponent } from './sharebutton-productcard-page-catalog-houseplans/sharebutton-productcard-page-catalog-houseplans.component';
-import { TimeestimatorconstructionProductcardPageCatalogHouseplansComponent } from './timeestimatorconstruction-productcard-page-catalog-houseplans/timeestimatorconstruction-productcard-page-catalog-houseplans.component';
 import { VerificationstatusProductcardPageCatalogHouseplansComponent } from './verificationstatus-productcard-page-catalog-houseplans/verificationstatus-productcard-page-catalog-houseplans.component';
 import { ViewexteriorProductcardPageCatalogHouseplansComponent } from './viewexterior-productcard-page-catalog-houseplans/viewexterior-productcard-page-catalog-houseplans.component';
 import { ViewfloorplansProductcardPageCatalogHouseplansComponent } from './viewfloorplans-productcard-page-catalog-houseplans/viewfloorplans-productcard-page-catalog-houseplans.component';
@@ -40,8 +38,7 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     ConstructioncostProductcardPageCatalogHouseplansComponent,
     ConstructionoptionsProductcardPageCatalogHouseplansComponent,
     CostestimatorhomeProductcardPageCatalogHouseplansComponent,
-    DatahomeProductcardPageCatalogHouseplansComponent,
-    EnergyestimatorbuildingProductcardPageCatalogHouseplansComponent,
+    DatahomeProductcardPageCatalogHouseplansComponent,    
     EnergyhometypeProductcardPageCatalogHouseplansComponent,
     IdProductcardPageCatalogHouseplansComponent,
     ImageProductcardPageCatalogHouseplansComponent,
@@ -51,8 +48,7 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     PriceProductcardPageCatalogHouseplansComponent,
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,
-    SharebuttonProductcardPageCatalogHouseplansComponent,
-    TimeestimatorconstructionProductcardPageCatalogHouseplansComponent,
+    SharebuttonProductcardPageCatalogHouseplansComponent,   
     VerificationstatusProductcardPageCatalogHouseplansComponent,
     ViewexteriorProductcardPageCatalogHouseplansComponent,
     ViewfloorplansProductcardPageCatalogHouseplansComponent,

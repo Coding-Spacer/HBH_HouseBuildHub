@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
-  text-decoration: underline;
+  
   text-decoration-color: $color;
 }
 
@@ -33,6 +33,7 @@
 .icon-regionalexpert-size {
   font-size: 16px;
   color: #FF5722;
+  margin-left: 5px;
 }
 
 .text-regionalexpert {
@@ -48,18 +49,37 @@
   display: flex;
   align-items: center;
   font-size: $font-size-14px;
-  padding-top: 2px;
+  padding-top: 2px;  
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .name-regionalexpert:hover {
   color: $accent-color;
+  text-decoration-color:$accent-color;
 }
 
 .expand-regionalexpert-size {
-  font-size: $font-size-14px;
+  font-size: $font-size-16px;
   color: $color;
   font-weight: 500;
   letter-spacing: 0.2px;
-  padding-top: 2px;
+  padding-top: 7px;
+  padding-left: 1px;
+}
+
+sup.reference {
+  unicode-bidi: -moz-isolate;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  white-space: nowrap;
+  font-weight: normal;
+  font-style: normal;
+  cursor: help;
+  margin-left: 2px;
+  margin-top: -4px;
+}
+
+.link-with-help-cursor {
+  cursor: help;
 }
