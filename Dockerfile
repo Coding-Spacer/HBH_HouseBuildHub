@@ -1,5 +1,7 @@
 FROM public.ecr.aws/docker/library/node:latest
 
+ENTRYPOINT ["tail", "-f", "/dev/null"]
+
 # Встановлюємо робочу директорію всередині контейнера
 WORKDIR /app
 
