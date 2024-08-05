@@ -10,7 +10,6 @@ import { ConstructioncostProductcardPageCatalogHouseplansComponent } from './con
 import { ConstructionoptionsProductcardPageCatalogHouseplansComponent } from './constructionoptions-productcard-page-catalog-houseplans/constructionoptions-productcard-page-catalog-houseplans.component';
 import { CostestimatorhomeProductcardPageCatalogHouseplansComponent } from './costestimatorhome-productcard-page-catalog-houseplans/costestimatorhome-productcard-page-catalog-houseplans.component';
 import { DatahomeProductcardPageCatalogHouseplansComponent } from './datahome-productcard-page-catalog-houseplans/datahome-productcard-page-catalog-houseplans.component';
-import { EnergyestimatorbuildingProductcardPageCatalogHouseplansComponent } from './energyestimatorbuilding-productcard-page-catalog-houseplans/energyestimatorbuilding-productcard-page-catalog-houseplans.component';
 import { EnergyhometypeProductcardPageCatalogHouseplansComponent } from './energyhometype-productcard-page-catalog-houseplans/energyhometype-productcard-page-catalog-houseplans.component';
 import { IdProductcardPageCatalogHouseplansComponent } from './id-productcard-page-catalog-houseplans/id-productcard-page-catalog-houseplans.component';
 import { ImageProductcardPageCatalogHouseplansComponent } from './image-productcard-page-catalog-houseplans/image-productcard-page-catalog-houseplans.component';
@@ -21,13 +20,18 @@ import { PriceProductcardPageCatalogHouseplansComponent } from './price-productc
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
 import { SharebuttonProductcardPageCatalogHouseplansComponent } from './sharebutton-productcard-page-catalog-houseplans/sharebutton-productcard-page-catalog-houseplans.component';
-import { TimeestimatorconstructionProductcardPageCatalogHouseplansComponent } from './timeestimatorconstruction-productcard-page-catalog-houseplans/timeestimatorconstruction-productcard-page-catalog-houseplans.component';
 import { VerificationstatusProductcardPageCatalogHouseplansComponent } from './verificationstatus-productcard-page-catalog-houseplans/verificationstatus-productcard-page-catalog-houseplans.component';
-import { ViewexteriorProductcardPageCatalogHouseplansComponent } from './viewexterior-productcard-page-catalog-houseplans/viewexterior-productcard-page-catalog-houseplans.component';
+
 import { ViewfloorplansProductcardPageCatalogHouseplansComponent } from './viewfloorplans-productcard-page-catalog-houseplans/viewfloorplans-productcard-page-catalog-houseplans.component';
 import { ViewmodelProductcardPageCatalogHouseplansComponent } from './viewmodel-productcard-page-catalog-houseplans/viewmodel-productcard-page-catalog-houseplans.component';
 import { ViewvideoProductcardPageCatalogHouseplansComponent } from './viewvideo-productcard-page-catalog-houseplans/viewvideo-productcard-page-catalog-houseplans.component';
+import { ViewenteriorProductcardPageCatalogHouseplansComponent } from './viewenterior-productcard-page-catalog-houseplans/viewenterior-productcard-page-catalog-houseplans.component';
+
+
+
 import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutton-productcard-page-catalog-houseplans/earnbutton-productcard-page-catalog-houseplans.component';
+import { ViewexteriorProductcardPageCatalogHouseplansComponent } from "./viewexterior-productcard-page-catalog-houseplans copy/viewexterior-productcard-page-catalog-houseplans.component";
+import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeomap-productcard-page-catalog-houseplans/viewgeomap-productcard-page-catalog-houseplans.component';
 
 
 @Component({
@@ -35,13 +39,12 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
   standalone: true,
   imports: [
     CommonModule,
-    MatGridListModule,   
+    MatGridListModule,
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
     ConstructionoptionsProductcardPageCatalogHouseplansComponent,
     CostestimatorhomeProductcardPageCatalogHouseplansComponent,
     DatahomeProductcardPageCatalogHouseplansComponent,
-    EnergyestimatorbuildingProductcardPageCatalogHouseplansComponent,
     EnergyhometypeProductcardPageCatalogHouseplansComponent,
     IdProductcardPageCatalogHouseplansComponent,
     ImageProductcardPageCatalogHouseplansComponent,
@@ -52,14 +55,15 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,
     SharebuttonProductcardPageCatalogHouseplansComponent,
-    TimeestimatorconstructionProductcardPageCatalogHouseplansComponent,
     VerificationstatusProductcardPageCatalogHouseplansComponent,
-    ViewexteriorProductcardPageCatalogHouseplansComponent,
     ViewfloorplansProductcardPageCatalogHouseplansComponent,
     ViewmodelProductcardPageCatalogHouseplansComponent,
     ViewvideoProductcardPageCatalogHouseplansComponent,
     EarnbuttonProductcardPageCatalogHouseplansComponent,
-  ],
+    ViewexteriorProductcardPageCatalogHouseplansComponent,
+    ViewenteriorProductcardPageCatalogHouseplansComponent,
+    ViewgeomapProductcardPageCatalogHouseplansComponent
+],
   templateUrl: './productcard-page-catalog-houseplans.component.html',
   styleUrls: ['./productcard-page-catalog-houseplans.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

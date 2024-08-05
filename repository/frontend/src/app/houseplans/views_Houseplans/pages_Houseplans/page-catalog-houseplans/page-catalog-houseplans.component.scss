@@ -37,15 +37,35 @@
 
 #lays-sorting-toggle__houseplans {
   display: flex;
-  /* Располагаем элементы в строку */
-  justify-content: space-between;
-  /* Равномерно распределяем элементы по контейнеру */
-  align-items: center;
-  /* Выравниваем элементы по центру вертикально */
-  background-color: #d7e444;
-  padding: 10px;
-  margin-bottom: 20px;
+  align-items: center;    
+  margin-bottom: 10px;
+  border: 1px solid $border-light-color;
+  border-radius: 1px; 
+  min-height: 46px;
+    /* Минимальная высота */
+    max-height: max-content;
+    /* Максимальная высота по содержимому */
+
 }
+
+
+
+.wrap-cardlays {  
+  display: flex; 
+  flex-grow: 1;
+}
+
+
+.wrap-cardsorting {
+  display: flex;
+  
+}
+
+.wrap-cardviewtoggle {  
+  display: flex; 
+}
+
+
 
 #product-card__houseplans {
   background-color: $background-color;

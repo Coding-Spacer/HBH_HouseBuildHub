@@ -23,6 +23,8 @@
   grid-row: 1 / 2;
   margin-top: 10px;
   padding-left: 15px;
+  text-decoration: underline;
+  display: flex;
 }
 
 .name-constructionoptions-grid-item {
@@ -41,4 +43,20 @@
   font-weight: 500;
   letter-spacing: 0.2px;
   padding-top: 2px;
+}
+
+sup.reference {
+  unicode-bidi: -moz-isolate;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  white-space: nowrap;
+  font-weight: normal;
+  font-style: normal;
+  cursor: help;
+  margin-left: 2px;
+  margin-top: -4px;
+}
+
+.link-with-help-cursor {
+  cursor: help;
 }

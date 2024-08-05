@@ -2,7 +2,6 @@
 
   <!-- Advertising section above the header -->
   <aside class="ad-container">
-    <app-banner-aboveheader-global></app-banner-aboveheader-global>
   </aside>
 
   <!-- Header -->
@@ -22,13 +21,32 @@
 
   <!-- Main content -->
   <main id="main-container__houseplans">
-    <div id="filterpanel-pagecatalog__houseplans">filterpanel</div>
+    <div id="filterpanel-pagecatalog__houseplans">filterpanel
+
+    </div>
+
     <div id="content-pagecatalog__houseplans">
+
       <div id="lays-sorting-toggle__houseplans">
-        <app-chipsfilter-page-catalog-houseplans></app-chipsfilter-page-catalog-houseplans>
-        <app-cardsorting-page-catalog-houseplans></app-cardsorting-page-catalog-houseplans>
-        <app-cardviewtoggle-page-catalog-houseplans></app-cardviewtoggle-page-catalog-houseplans>
+        
+
+
+        <div class="wrap-cardlays">
+          <app-chipsfilter-page-catalog-houseplans></app-chipsfilter-page-catalog-houseplans>
+        </div>
+
+
+        <div class="wrap-cardsorting">
+          <app-cardsorting-page-catalog-houseplans></app-cardsorting-page-catalog-houseplans>
+        </div>
+
+        <div class="wrap-cardviewtoggle">
+          <app-cardviewtoggle-page-catalog-houseplans></app-cardviewtoggle-page-catalog-houseplans>
+        </div>
+
       </div>
+
+
       <div id="product-card__houseplans">
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>

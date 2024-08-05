@@ -1,10 +1,10 @@
 @import '../../../../../../../styles/styles';
 
-viewfloorplans-productcard-houseplans {}
+viewgeomap-productcard-houseplans {}
 
 
 
-#viewfloorplans-houseplan {
+#viewgeomap-houseplan {
   box-sizing: border-box;
   position: relative;
   background-color: #fff;
@@ -17,23 +17,25 @@ viewfloorplans-productcard-houseplans {}
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: green;
+  border: solid 1px green;
 }
 
-#viewfloorplans-houseplan:hover {
-  color: $accent-color;
-  border: solid 1px $accent-color;
+#viewgeomap-houseplan:hover {
+  color: green;
+  border: solid 1px green;
 }
 
-#viewfloorplans-houseplan::before {
-  content: "Floor Plans";
+#viewgeomap-houseplan::before {
+  content: "Geo Mapping";
   position: absolute;
   opacity: 1;
   transition: opacity 0.3s;
   top: 1px
 }
 
-#viewfloorplans-houseplan::after {
-  content: "View Plans";
+#viewgeomap-houseplan::after {
+  content: "Geo Map >>> ";
   position: relative;
   justify-content: center;
   opacity: 0;
@@ -41,10 +43,10 @@ viewfloorplans-productcard-houseplans {}
   top: 1px;
 }
 
-#viewfloorplans-houseplan:hover::before {
+#viewgeomap-houseplan:hover::before {
   opacity: 0;
 }
 
-#viewfloorplans-houseplan:hover::after {
+#viewgeomap-houseplan:hover::after {
   opacity: 1;
 }

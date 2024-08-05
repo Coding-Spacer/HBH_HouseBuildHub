@@ -12,12 +12,12 @@
 
 
 /* Стили для overlay-verification */
-.overlay-verification {
-  cursor: pointer;
+.overlay-verification {  
   display: flex;
   border-bottom: 1px solid #cfcfcf;
   margin-left: 4px;
   margin-right: 4px;
+  padding-top: 4px;
 }
 
 .icon-verification {}
@@ -32,16 +32,21 @@
   color: green;
   font-size: 12px;
   margin-left: 1px;
-
-
 }
 
-.expand-verification {}
-
-.expand-verification-size {
-  color: #706d6d;
-  font-size: 16px;
+sup.reference {
+  unicode-bidi: -moz-isolate;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  white-space: nowrap;
+  font-weight: normal;
+  font-style: normal;
+  cursor: help;
+  margin-left: 2px;
+  margin-top: -6px;
 }
 
-
+.link-with-help-cursor {
+  cursor: help;
+}
 

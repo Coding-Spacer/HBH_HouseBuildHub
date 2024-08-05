@@ -2,7 +2,7 @@ import {  Component, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
-import { BannerAboveheaderGlobalComponent } from '../../../../global/views_Global/components_Global/banner-global/banner-aboveheader-global/banner-aboveheader-global.component';
+
 import { HeaderGlobalComponent } from '../../../../global/views_Global/components_Global/header-global/header-global.component';
 import { BreadcrumbGlobalComponent } from '../../../../global/views_Global/components_Global/breadcrumb-global/breadcrumb-global/breadcrumb-global.component';
 import { ProductcardPageCatalogHouseplansComponent } from './productcard-page-catalog-houseplans/productcard-page-catalog-houseplans.component';
@@ -16,8 +16,7 @@ import { BannerPageCatalogHouseplansComponent } from './banner-page-catalog-hous
   selector: 'app-page-catalog-houseplans',
   standalone: true,
   imports: [
-    CommonModule,        
-    BannerAboveheaderGlobalComponent,
+    CommonModule,  
     HeaderGlobalComponent,
     BreadcrumbGlobalComponent,
     ProductcardPageCatalogHouseplansComponent,
