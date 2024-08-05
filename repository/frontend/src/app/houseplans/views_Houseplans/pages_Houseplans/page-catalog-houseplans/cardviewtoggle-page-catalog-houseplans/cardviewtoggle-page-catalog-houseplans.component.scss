@@ -1,0 +1,34 @@
+@import '../../../../../../styles/styles';
+
+.wrap-viewtoggle {
+  margin-right: 10px;
+  display: flex;
+  width: auto;
+}
+
+.viewtoggle {
+  align-items: center;
+  display: flex;
+  width: auto;
+}
+
+.vertical-view {
+  color: #E35300;
+  cursor: default;
+}
+
+.horizontal-view {
+  color: #d8d8d8;  
+  cursor: default;
+}
+
+.view-switcher {
+  height: 2.4rem;
+  width: 0.1rem;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  background-color: #e5e5e5;
+  height: 24px
+}

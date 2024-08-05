@@ -1,0 +1,62 @@
+@import '../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-top-header__global {
+  clear: both;
+  position: relative;
+  display: flex;
+  height: 32px;
+  flex-flow: row nowrap;
+  width: 100%;
+  align-items: center;
+  background: #445569;
+  /* #232F3E */
+  color: white;
+  justify-content: space-between;
+}
+
+#logo-top-header__global {}
+
+#investorcenter-top-header__global  {
+  color: yellow;  
+}
+
+#investorcenter-top-header__global a {  
+  text-decoration: none;
+  color: yellow;
+}
+
+#investorcenter-top-header__global a:hover { 
+  text-decoration: underline;
+}
+
+#earn-top-header__global  {
+  color: yellow;
+  text-decoration: none;
+}
+
+#earn-top-header__global a {
+  color: yellow;
+  text-decoration: none
+}
+
+#earn-top-header__global a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+#version-top-header__global {  
+  color: white;
+  font-size: 15px;
+
+}
+
+#visitcount-top-header__global {
+  color: yellow;
+  cursor: help;
+}
+
+#minformation-center-header__global {}
+
+#setting-top-header__global {}

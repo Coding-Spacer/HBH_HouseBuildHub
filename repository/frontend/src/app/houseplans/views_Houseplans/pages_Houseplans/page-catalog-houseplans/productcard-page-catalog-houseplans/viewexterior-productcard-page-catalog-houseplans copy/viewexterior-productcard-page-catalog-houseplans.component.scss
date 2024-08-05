@@ -1,10 +1,10 @@
 @import '../../../../../../../styles/styles';
 
-viewvideo-productcard-houseplans {}
+viewexterior-productcard-houseplans {}
 
 
 
-#viewvideo-houseplan {
+#viewexterior-houseplan {
   box-sizing: border-box;
   position: relative;
   background-color: #fff;
@@ -19,34 +19,33 @@ viewvideo-productcard-houseplans {}
   text-align: center;
 }
 
-#viewvideo-houseplan:hover {
+#viewexterior-houseplan:hover {
   color: $accent-color;
   border: solid 1px $accent-color;
 }
 
-#viewvideo-houseplan::before {
-  content: "Video";
+#viewexterior-houseplan::before {
+  content: "Exterior";
   position: absolute;
   opacity: 1;
   transition: opacity 0.3s;
-  top: 1px;
-
+  top: 1px
 }
 
-#viewvideo-houseplan::after {
-  content: "See Video";
+#viewexterior-houseplan::after {
+  content: "View";
   position: relative;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s;
   top: 1px;
-  
+
 }
 
-#viewvideo-houseplan:hover::before {
+#viewexterior-houseplan:hover::before {
   opacity: 0;
 }
 
-#viewvideo-houseplan:hover::after {
+#viewexterior-houseplan:hover::after {
   opacity: 1;
 }

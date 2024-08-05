@@ -1,10 +1,10 @@
 @import '../../../../../../../styles/styles';
 
-viewexterior-productcard-houseplans {}
+viewenterior-productcard-houseplans {}
 
 
 
-#viewexterior-houseplan {
+#viewenterior-houseplan {
   box-sizing: border-box;
   position: relative;
   background-color: #fff;
@@ -19,20 +19,20 @@ viewexterior-productcard-houseplans {}
   text-align: center;
 }
 
-#viewexterior-houseplan:hover {
+#viewenterior-houseplan:hover {
   color: $accent-color;
-  border: solid 1px $accent-color;
+  border: solid 1px $accent-color;  
 }
 
-#viewexterior-houseplan::before {
-  content: "Exterior";
+#viewenterior-houseplan::before {
+  content: "Enterior ";
   position: absolute;
   opacity: 1;
   transition: opacity 0.3s;
   top: 1px
 }
 
-#viewexterior-houseplan::after {
+#viewenterior-houseplan::after {
   content: "Enlarge";
   position: relative;
   justify-content: center;
@@ -42,10 +42,10 @@ viewexterior-productcard-houseplans {}
 
 }
 
-#viewexterior-houseplan:hover::before {
+#viewenterior-houseplan:hover::before {
   opacity: 0;
 }
 
-#viewexterior-houseplan:hover::after {
+#viewenterior-houseplan:hover::after {
   opacity: 1;
 }

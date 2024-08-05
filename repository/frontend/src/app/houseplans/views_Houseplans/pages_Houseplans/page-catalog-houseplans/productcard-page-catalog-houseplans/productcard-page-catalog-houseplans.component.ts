@@ -21,11 +21,17 @@ import { RatingProductcardPageCatalogHouseplansComponent } from './rating-produc
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
 import { SharebuttonProductcardPageCatalogHouseplansComponent } from './sharebutton-productcard-page-catalog-houseplans/sharebutton-productcard-page-catalog-houseplans.component';
 import { VerificationstatusProductcardPageCatalogHouseplansComponent } from './verificationstatus-productcard-page-catalog-houseplans/verificationstatus-productcard-page-catalog-houseplans.component';
-import { ViewexteriorProductcardPageCatalogHouseplansComponent } from './viewexterior-productcard-page-catalog-houseplans/viewexterior-productcard-page-catalog-houseplans.component';
+
 import { ViewfloorplansProductcardPageCatalogHouseplansComponent } from './viewfloorplans-productcard-page-catalog-houseplans/viewfloorplans-productcard-page-catalog-houseplans.component';
 import { ViewmodelProductcardPageCatalogHouseplansComponent } from './viewmodel-productcard-page-catalog-houseplans/viewmodel-productcard-page-catalog-houseplans.component';
 import { ViewvideoProductcardPageCatalogHouseplansComponent } from './viewvideo-productcard-page-catalog-houseplans/viewvideo-productcard-page-catalog-houseplans.component';
+import { ViewenteriorProductcardPageCatalogHouseplansComponent } from './viewenterior-productcard-page-catalog-houseplans/viewenterior-productcard-page-catalog-houseplans.component';
+
+
+
 import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutton-productcard-page-catalog-houseplans/earnbutton-productcard-page-catalog-houseplans.component';
+import { ViewexteriorProductcardPageCatalogHouseplansComponent } from "./viewexterior-productcard-page-catalog-houseplans copy/viewexterior-productcard-page-catalog-houseplans.component";
+import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeomap-productcard-page-catalog-houseplans/viewgeomap-productcard-page-catalog-houseplans.component';
 
 
 @Component({
@@ -33,12 +39,12 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
   standalone: true,
   imports: [
     CommonModule,
-    MatGridListModule,   
+    MatGridListModule,
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
     ConstructionoptionsProductcardPageCatalogHouseplansComponent,
     CostestimatorhomeProductcardPageCatalogHouseplansComponent,
-    DatahomeProductcardPageCatalogHouseplansComponent,    
+    DatahomeProductcardPageCatalogHouseplansComponent,
     EnergyhometypeProductcardPageCatalogHouseplansComponent,
     IdProductcardPageCatalogHouseplansComponent,
     ImageProductcardPageCatalogHouseplansComponent,
@@ -48,14 +54,16 @@ import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutto
     PriceProductcardPageCatalogHouseplansComponent,
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,
-    SharebuttonProductcardPageCatalogHouseplansComponent,   
+    SharebuttonProductcardPageCatalogHouseplansComponent,
     VerificationstatusProductcardPageCatalogHouseplansComponent,
-    ViewexteriorProductcardPageCatalogHouseplansComponent,
     ViewfloorplansProductcardPageCatalogHouseplansComponent,
     ViewmodelProductcardPageCatalogHouseplansComponent,
     ViewvideoProductcardPageCatalogHouseplansComponent,
     EarnbuttonProductcardPageCatalogHouseplansComponent,
-  ],
+    ViewexteriorProductcardPageCatalogHouseplansComponent,
+    ViewenteriorProductcardPageCatalogHouseplansComponent,
+    ViewgeomapProductcardPageCatalogHouseplansComponent
+],
   templateUrl: './productcard-page-catalog-houseplans.component.html',
   styleUrls: ['./productcard-page-catalog-houseplans.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
