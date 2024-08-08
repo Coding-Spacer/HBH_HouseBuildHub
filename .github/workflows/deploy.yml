@@ -20,12 +20,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd HBH_HouseBuildHub/repository/frontend
+        cd repository/frontend
         npm install
 
     - name: Build Angular app
       run: |
-        cd HBH_HouseBuildHub/repository/frontend
+        cd repository/frontend
         npm run build --prod
 
     - name: Configure AWS credentials
