@@ -1,4 +1,5 @@
 import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
+import { ModalManagerGlobalService } from '../../../../../../global/services_Global/modal-manager-global.service';
 import { GeolocationBottomHeaderGlobalComponent } from "../../../../../../global/views_Global/components_Global/header-global/bottom-header-global/geolocation-bottom-header-global/geolocation-bottom-header-global.component";
 
 @Component({
@@ -11,4 +12,11 @@ import { GeolocationBottomHeaderGlobalComponent } from "../../../../../../global
     './regionalexpert-productcard-page-catalog-houseplans.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RegionalexpertProductcardPageCatalogHouseplansComponent {}
+export class RegionalexpertProductcardPageCatalogHouseplansComponent {
+  constructor(private modalService: ModalManagerGlobalService) {}
+
+  openModal() {
+    const modalId = 'costModal'; // Задайте идентификатор модального окна
+    this.modalService.openModal(modalId); // Откроет модальное окно с заданным идентификатором
+  }
+}

@@ -3,7 +3,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { CommonModule } from '@angular/common';
 
 
-import { DataHouseplans } from '../../../../interface_Houseplans/data-houseplans-interface';
+import { ProductCardHouseplans } from '../../../../interface_Houseplans/product-card-houseplans.interface';
 
 import { AuthorcountryProductcardPageCatalogHouseplansComponent } from './authorcountry-productcard-page-catalog-houseplans/authorcountry-productcard-page-catalog-houseplans.component';
 import { ConstructioncostProductcardPageCatalogHouseplansComponent } from './constructioncost-productcard-page-catalog-houseplans/constructioncost-productcard-page-catalog-houseplans.component';
@@ -69,7 +69,7 @@ import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeoma
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ProductcardPageCatalogHouseplansComponent {
-  dataHouseplans: DataHouseplans = {
+  productCardHouseplans: ProductCardHouseplans = {
     id_Houseplans: 100,
     name_Houseplans: 'Example House',
     image_Houseplans: 'path/to/image.jpg',
@@ -85,5 +85,5 @@ export class ProductcardPageCatalogHouseplansComponent {
     garage_Houseplans: true,
   };
 
-  
+
 }

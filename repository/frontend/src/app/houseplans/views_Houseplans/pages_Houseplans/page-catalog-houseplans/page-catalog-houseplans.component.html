@@ -21,14 +21,14 @@
 
   <!-- Main content -->
   <main id="main-container__houseplans">
-    <div id="filterpanel-pagecatalog__houseplans">filterpanel
+    <div id="filterpanel-pagecatalog__houseplans"><app-filtercard-page-catalog-houseplans></app-filtercard-page-catalog-houseplans>
 
     </div>
 
     <div id="content-pagecatalog__houseplans">
 
       <div id="lays-sorting-toggle__houseplans">
-        
+
 
 
         <div class="wrap-cardlays">
@@ -76,6 +76,8 @@
   <footer id="footer-container">
     <!-- < <app-footer-global></app-footer-global>-->
   </footer>
+
+  <app-info-modal-global *ngIf="currentModalId"></app-info-modal-global>
 
 
 

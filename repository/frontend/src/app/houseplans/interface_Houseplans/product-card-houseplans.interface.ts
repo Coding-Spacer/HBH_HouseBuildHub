@@ -1,4 +1,4 @@
-export interface DataHouseplans {
+export interface ProductCardHouseplans {
   // Common
   id_Houseplans: number;
   name_Houseplans: string;
