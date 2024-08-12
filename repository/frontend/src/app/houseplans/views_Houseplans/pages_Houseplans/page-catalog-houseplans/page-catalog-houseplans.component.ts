@@ -1,9 +1,6 @@
-import {  Component, ChangeDetectionStrategy, OnInit } from '@angular/core';
+import { Component, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ModalManagerGlobalService } from '../../../../global/services_Global/modal-manager-global.service';
-
-
-
 
 import { HeaderGlobalComponent } from '../../../../global/views_Global/components_Global/header-global/header-global.component';
 import { BreadcrumbGlobalComponent } from '../../../../global/views_Global/components_Global/breadcrumb-global/breadcrumb-global/breadcrumb-global.component';
@@ -13,9 +10,8 @@ import { ChipsfilterPageCatalogHouseplansComponent } from './chipsfilter-page-ca
 import { CardviewtogglePageCatalogHouseplansComponent } from './cardviewtoggle-page-catalog-houseplans/cardviewtoggle-page-catalog-houseplans.component';
 import { CardsortingPageCatalogHouseplansComponent } from './cardsorting-page-catalog-houseplans/cardsorting-page-catalog-houseplans.component';
 import { BannerPageCatalogHouseplansComponent } from './banner-page-catalog-houseplans/banner-page-catalog-houseplans.component';
-import { InfoModalGlobalComponent } from "../../../../global/views_Global/components_Global/modal-global/info-modal-global/info-modal-global.component";
+import { InfoModalGlobalComponent } from '../../../../global/views_Global/components_Global/modal-global/info-modal-global/info-modal-global.component';
 import { RatingModalGlobalComponent } from '../../../../global/views_Global/components_Global/modal-global/rating-modal-global/rating-modal-global.component';
-
 
 @Component({
   selector: 'app-page-catalog-houseplans',
@@ -49,13 +45,5 @@ export class PageCatalogHouseplansComponent implements OnInit {
       this.currentModalId = state.modalId;
       this.currentInteractionType = state.interactionType;
     });
-  }
-
-  openModalOnClick() {
-    this.modalService.openModalOnClick('costModal');
-  }
-
-  closeModalOnClick() {
-    this.modalService.closeModalOnClick();
   }
 }

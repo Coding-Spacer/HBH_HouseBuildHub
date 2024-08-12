@@ -1,6 +1,7 @@
-import { Component, EventEmitter, Output, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { CommonModule } from '@angular/common';
+
 
 
 import { ProductCardHouseplans } from '../../../../interface_Houseplans/product-card-houseplans.interface';
@@ -38,7 +39,7 @@ import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeoma
   selector: 'app-productcard-page-catalog-houseplans',
   standalone: true,
   imports: [
-    CommonModule,
+    CommonModule,    
     MatGridListModule,
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
