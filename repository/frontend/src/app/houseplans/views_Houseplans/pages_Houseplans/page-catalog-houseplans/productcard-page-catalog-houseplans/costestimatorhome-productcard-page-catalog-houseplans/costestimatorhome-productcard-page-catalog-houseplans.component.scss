@@ -17,7 +17,6 @@
   padding-left: 15px;
   display: flex;
   border-top: 1px solid $divider-color;
-  text-decoration: underline;  
 }
 
 .overlay-costestimatorhome {
@@ -26,16 +25,19 @@
   align-items: center;
   background-color: $background-color;
   padding: 0px;
-  margin-top: 5px; 
+  margin-top: 5px;
   padding-bottom: 1px;
   border-bottom: 1px solid $divider-color;
+  cursor: pointer;
 }
+
+
 
 
 .icon-costestimatorhome {}
 
 .icon-costestimatorhome-size {
-  font-size: 16px; 
+  font-size: 16px;
   padding-top: 2px;
 }
 
@@ -45,23 +47,28 @@
   font-weight: 400;
   display: flex;
   align-items: center;
-  font-size: $font-size-14px; 
-  cursor: pointer;
+  font-size: $font-size-14px;
   padding-left: 2px;
+  text-decoration: underline;
 }
 
 .name-costestimatorhome:hover {
   color: $accent-color;
+  text-decoration: underline;
 }
+
+
 
 .expand-costestimatorhome-size {
   font-size: $font-size-16px;
   color: $color;
   font-weight: 500;
   letter-spacing: 0.2px;
-  padding-top: 7px;
+  padding-top: 4px;
   padding-left: 1px;
 }
+
+
 
 
 .icon-cost {

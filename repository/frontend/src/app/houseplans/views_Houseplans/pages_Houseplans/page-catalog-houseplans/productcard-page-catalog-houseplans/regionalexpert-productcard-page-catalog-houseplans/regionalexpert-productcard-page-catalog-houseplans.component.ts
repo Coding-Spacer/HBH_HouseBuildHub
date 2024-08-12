@@ -13,10 +13,10 @@ import { GeolocationBottomHeaderGlobalComponent } from "../../../../../../global
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RegionalexpertProductcardPageCatalogHouseplansComponent {
-  constructor(private modalService: ModalManagerGlobalService) {}
+  constructor(public modalService: ModalManagerGlobalService) {}
 
-  openModal() {
-    const modalId = 'costModal'; // Задайте идентификатор модального окна
-    this.modalService.openModal(modalId); // Откроет модальное окно с заданным идентификатором
+  openModalOnClick() {
+    const modalId = 'infoModal'; // Задайте идентификатор модального окна
+    this.modalService.openModalOnClick(modalId); // Откроет модальное окно с заданным идентификатором
   }
 }

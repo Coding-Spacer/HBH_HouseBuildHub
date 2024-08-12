@@ -77,8 +77,8 @@
     <!-- < <app-footer-global></app-footer-global>-->
   </footer>
 
-  <app-info-modal-global *ngIf="currentModalId"></app-info-modal-global>
-
+  <app-info-modal-global *ngIf="currentModalId === 'infoModal'"></app-info-modal-global>
+  <app-rating-modal-global *ngIf="currentModalId === 'ratingModal'"></app-rating-modal-global>
 
 
 
