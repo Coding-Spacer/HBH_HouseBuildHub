@@ -1,0 +1,41 @@
+@import '../../../../../styles/styles';
+
+/* ..................... */
+.page-container {
+  max-width: 1686px;
+
+
+}
+
+.ad-container {}
+
+#header-container {}
+
+#breadcrumbs-container {
+  color: $breadcrumb-color;
+  margin: 10px 265px;
+  height: 16px;
+  font-size: 13px;
+  font-style: $font-style-italic;
+}
+
+#main-container__houseplans {
+  display: grid;
+  grid-template-columns: 1fr 52px;
+  gap: 8px;
+}
+
+
+
+#sidebar-tools__global {
+  grid-column: 3 / 4;
+  background-color: #F8FAFD;
+}
+
+
+
+
+
+#additional-container {}
+
+#footer-container {}
