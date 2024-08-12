@@ -14,6 +14,7 @@ import { CardviewtogglePageCatalogHouseplansComponent } from './cardviewtoggle-p
 import { CardsortingPageCatalogHouseplansComponent } from './cardsorting-page-catalog-houseplans/cardsorting-page-catalog-houseplans.component';
 import { BannerPageCatalogHouseplansComponent } from './banner-page-catalog-houseplans/banner-page-catalog-houseplans.component';
 import { InfoModalGlobalComponent } from "../../../../global/views_Global/components_Global/modal-global/info-modal-global/info-modal-global.component";
+import { RatingModalGlobalComponent } from '../../../../global/views_Global/components_Global/modal-global/rating-modal-global/rating-modal-global.component';
 
 
 @Component({
@@ -30,28 +31,31 @@ import { InfoModalGlobalComponent } from "../../../../global/views_Global/compon
     CardsortingPageCatalogHouseplansComponent,
     BannerPageCatalogHouseplansComponent,
     InfoModalGlobalComponent,
+    RatingModalGlobalComponent,
   ],
   templateUrl: './page-catalog-houseplans.component.html',
   styleUrls: ['./page-catalog-houseplans.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PageCatalogHouseplansComponent {
+export class PageCatalogHouseplansComponent implements OnInit {
   currentModalId: string | null = null;
+  currentInteractionType: 'click' | 'hover' | null = null;
 
   constructor(private modalService: ModalManagerGlobalService) {}
 
   ngOnInit() {
-    this.modalService.modalState$.subscribe((modalId: string | null) => {
-      this.currentModalId = modalId;
-    });    
+    this.modalService.modalState$.subscribe((state) => {
+      // Проверяем, какой тип взаимодействия и идентификатор модального окна
+      this.currentModalId = state.modalId;
+      this.currentInteractionType = state.interactionType;
+    });
   }
 
-  openModal() {
-    this.modalService.openModal('costModal');
+  openModalOnClick() {
+    this.modalService.openModalOnClick('costModal');
   }
 
-  closeModal() {
-    this.modalService.closeModal();
+  closeModalOnClick() {
+    this.modalService.closeModalOnClick();
   }
-
 }

@@ -11,8 +11,8 @@ import { ModalManagerGlobalService } from '../../../../services_Global/modal-man
 export class InfoModalGlobalComponent {
   constructor(private modalService: ModalManagerGlobalService) {}
 
-  closeModal() {    
-    this.modalService.closeModal();
+  closeModalOnClick() {    
+    this.modalService.closeModalOnClick();
     
   }
 }

@@ -1,6 +1,8 @@
 @import '../../../../../../../styles/styles';
 
-.rating-productcard__houseplans {}
+.rating-productcard__houseplans {
+  position: relative; 
+}
 
 #rating__houseplans {}
 
@@ -8,17 +10,19 @@
   margin: 0px 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+  width: 100%;
 }
 
 .rating {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;  
 }
 
 .stars-rating {
-  display: flex;
+  display: flex; 
   cursor: pointer;
 
 }

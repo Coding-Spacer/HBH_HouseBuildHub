@@ -14,9 +14,9 @@ import { ModalManagerGlobalService } from '../../../../../../global/services_Glo
 export class ConstructionoptionsProductcardPageCatalogHouseplansComponent {
   constructor(private modalService: ModalManagerGlobalService) {}
 
-  openModal() {
-    const modalId = 'costModal'; // Задайте идентификатор модального окна
-    this.modalService.openModal(modalId); // Откроет модальное окно с заданным идентификатором
+  openModalOnClick() {
+    const modalId = 'infoModal'; // Задайте идентификатор модального окна
+    this.modalService.openModalOnClick(modalId); // Откроет модальное окно с заданным идентификатором
   }
 }
 

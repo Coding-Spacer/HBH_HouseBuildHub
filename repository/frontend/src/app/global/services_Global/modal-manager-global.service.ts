@@ -5,19 +5,33 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root',
 })
 export class ModalManagerGlobalService {
-
-  private modalSubject = new BehaviorSubject<string | null>(null);
+  private currentModalId: string | null = null;
+  private modalSubject = new BehaviorSubject<{
+    modalId: string | null;
+    interactionType: 'click' | 'hover' | null;
+  }>({
+    modalId: null,
+    interactionType: null,
+  });
 
   // Observable to subscribe to modal changes
   modalState$ = this.modalSubject.asObservable();
 
-  // Method to open a modal
-  openModal(modalId: string) {
-    this.modalSubject.next(modalId);
+  // Method to open a modal on click
+  openModalOnClick(modalId: string) {  
+    this.modalSubject.next({ modalId, interactionType: 'click' });    
   }
 
-  // Method to close the modal
-  closeModal() {
-    this.modalSubject.next(null);
+   closeModalOnClick() {    
+    this.modalSubject.next({ modalId: null, interactionType: 'click' });
+  }
+
+  openModalOnHover(modalId: string) {    
+    this.modalSubject.next({ modalId, interactionType: 'hover' });
+  }
+  
+
+  closeModalOnLeave() {    
+    this.modalSubject.next({ modalId: null, interactionType: 'hover' });
   }
 }
