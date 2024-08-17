@@ -1,41 +1,85 @@
 @import '../../../../../styles/styles';
 
 /* ..................... */
+
+.wrap-page-container {
+  background-color: #E3E6E6;
+    /* Серый фон */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
 .page-container {
   max-width: 1686px;
-
-
+  margin: 0 auto;
 }
 
 .ad-container {}
 
 #header-container {}
 
-#breadcrumbs-container {
-  color: $breadcrumb-color;
-  margin: 10px 265px;
-  height: 16px;
-  font-size: 13px;
-  font-style: $font-style-italic;
-}
 
 #main-container__global {
-  display: grid;
-  grid-template-columns: 1fr 52px;
-  gap: 8px;
+  display: flex;
+  min-height: 100vh;
+  flex-grow: 1;
+    /* Контейнер занимает оставшееся пространство */
+}
+
+#layout-main-container {
+  display: flex;
+  position: relative;
+}
+
+
+.text-content{
+  background-color: transparent;
+  color:white;
+  position: absolute;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+
+
 }
 
 
 
-#sidebar-tools__global {
-  grid-column: 3 / 4;
-  background-color: #F8FAFD;
+
+
+
+
+
+
+
+
+
+
+#wrap-card-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 100vh;
+
 }
 
-
-
+.wrap-card {
+  background-color: white;
+  display: block;
+  width: 312px;
+  height: 420px;
+  margin: 10px;
+}
 
 
 #additional-container {}
 
 #footer-container {}
+
+

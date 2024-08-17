@@ -1,0 +1,52 @@
+@import '../../../../../../../styles/styles';
+
+viewsunenergy-productcard-houseplans {}
+
+
+
+#viewsunenergy-houseplan {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid $border-accent-color;
+  border-radius: 2px;
+  color: $text-color;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(251, 115, 10);
+  border: solid 1px rgb(251, 115, 10);
+}
+
+#viewsunenergy-houseplan:hover {
+  color: rgb(251, 115, 10);
+  border: solid 1px rgb(251, 115, 10);
+}
+
+#viewsunenergy-houseplan::before {
+  content: "Sun Energy";
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s;
+  top: 1px
+}
+
+#viewsunenergy-houseplan::after {
+  content: "Insolation > ";
+  position: relative;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 1px;
+}
+
+#viewsunenergy-houseplan:hover::before {
+  opacity: 0;
+}
+
+#viewsunenergy-houseplan:hover::after {
+  opacity: 1;
+}

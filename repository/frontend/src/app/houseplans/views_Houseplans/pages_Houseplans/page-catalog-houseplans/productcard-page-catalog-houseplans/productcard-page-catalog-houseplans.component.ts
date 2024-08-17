@@ -27,6 +27,7 @@ import { ViewfloorplansProductcardPageCatalogHouseplansComponent } from './viewf
 import { ViewmodelProductcardPageCatalogHouseplansComponent } from './viewmodel-productcard-page-catalog-houseplans/viewmodel-productcard-page-catalog-houseplans.component';
 import { ViewvideoProductcardPageCatalogHouseplansComponent } from './viewvideo-productcard-page-catalog-houseplans/viewvideo-productcard-page-catalog-houseplans.component';
 import { ViewenteriorProductcardPageCatalogHouseplansComponent } from './viewenterior-productcard-page-catalog-houseplans/viewenterior-productcard-page-catalog-houseplans.component';
+import { ViewsunenergyProductcardPageCatalogHouseplansComponent } from './viewsunenergy-productcard-page-catalog-houseplans/viewsunenergy-productcard-page-catalog-houseplans.component';
 
 
 
@@ -39,7 +40,7 @@ import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeoma
   selector: 'app-productcard-page-catalog-houseplans',
   standalone: true,
   imports: [
-    CommonModule,    
+    CommonModule,
     MatGridListModule,
     AuthorcountryProductcardPageCatalogHouseplansComponent,
     ConstructioncostProductcardPageCatalogHouseplansComponent,
@@ -63,7 +64,8 @@ import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeoma
     EarnbuttonProductcardPageCatalogHouseplansComponent,
     ViewexteriorProductcardPageCatalogHouseplansComponent,
     ViewenteriorProductcardPageCatalogHouseplansComponent,
-    ViewgeomapProductcardPageCatalogHouseplansComponent
+    ViewgeomapProductcardPageCatalogHouseplansComponent,
+    ViewsunenergyProductcardPageCatalogHouseplansComponent
 ],
   templateUrl: './productcard-page-catalog-houseplans.component.html',
   styleUrls: ['./productcard-page-catalog-houseplans.component.scss'],
