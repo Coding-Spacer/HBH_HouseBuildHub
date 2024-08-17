@@ -3,8 +3,9 @@
 /* ..................... */
 .page-container {
   max-width: 1686px;
-  
-  
+  margin: 0 auto;
+
+
 }
 
 .ad-container {}
@@ -21,7 +22,7 @@
 
 #main-container__houseplans {
   display: grid;
-  grid-template-columns: 280px 1fr 52px;  
+  grid-template-columns: 280px 1fr 52px;
   gap: 8px; }
 
 #filterpanel-pagecatalog__houseplans {
@@ -32,15 +33,15 @@
 
 #content-pagecatalog__houseplans {
   grid-column: 2 / 3;
-  
+
 }
 
 #lays-sorting-toggle__houseplans {
   display: flex;
-  align-items: center;    
+  align-items: center;
   margin-bottom: 10px;
   border: 1px solid $border-light-color;
-  border-radius: 1px; 
+  border-radius: 1px;
   min-height: 46px;
     /* Минимальная высота */
     max-height: max-content;
@@ -50,19 +51,19 @@
 
 
 
-.wrap-cardlays {  
-  display: flex; 
+.wrap-cardlays {
+  display: flex;
   flex-grow: 1;
 }
 
 
 .wrap-cardsorting {
   display: flex;
-  
+
 }
 
-.wrap-cardviewtoggle {  
-  display: flex; 
+.wrap-cardviewtoggle {
+  display: flex;
 }
 
 
