@@ -1,0 +1,14 @@
+@import '../../../../../../styles/styles';
+
+/* ..................... */
+
+.template {
+  color: #eeeeee;
+  font-size: 18px;
+  /* Используйте flexbox для центрирования содержимого */
+  justify-content: center;
+  /* Центрирование по горизонтали */
+  align-items: center;
+  /* Центрирование по вертикали */
+  text-align: center;
+}
