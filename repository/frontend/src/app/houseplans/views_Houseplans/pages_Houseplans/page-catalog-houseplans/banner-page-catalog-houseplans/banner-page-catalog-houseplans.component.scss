@@ -1,0 +1,76 @@
+@import '../../../../../../styles/styles';
+
+#wrap-banner-page-catalog-houseplans {
+  display: flex;
+  height: 250px;
+  background-color: #E3E6E6;
+  width: 100%;
+
+}
+
+.banner-houseplans {
+  color: white;
+  margin: 10px;
+  position: relative;
+  width: 100%;
+  cursor: default;
+}
+
+.text1-banner {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+
+.text2-banner {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+}
+
+.text3-banner {
+  font-size: 34px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 660px;
+}
+
+
+.button-close-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text-button-close {
+  font-size: 14px;
+}
+
+.icon-button-close {
+  font-size: 26px;
+  font-weight: 500;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.icon-button-close:hover {
+  border: 1px solid $accent-color;
+}

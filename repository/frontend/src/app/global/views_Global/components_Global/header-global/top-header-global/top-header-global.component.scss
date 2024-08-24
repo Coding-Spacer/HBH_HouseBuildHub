@@ -1,7 +1,6 @@
 @import '../../../../../../styles/styles';
 
 /* ..................... */
-
 .wrap-top-header__global {
   clear: both;
   position: relative;
@@ -18,20 +17,20 @@
 
 #logo-top-header__global {}
 
-#investorcenter-top-header__global  {
-  color: yellow;  
+#investorcenter-top-header__global {
+  color: yellow;
 }
 
-#investorcenter-top-header__global a {  
+#investorcenter-top-header__global a {
   text-decoration: none;
   color: yellow;
 }
 
-#investorcenter-top-header__global a:hover { 
+#investorcenter-top-header__global a:hover {
   text-decoration: underline;
 }
 
-#earn-top-header__global  {
+#earn-top-header__global {
   color: yellow;
   text-decoration: none;
 }
@@ -46,17 +45,41 @@
   text-decoration: underline;
 }
 
-#version-top-header__global {  
+#version-top-header__global {
   color: white;
-  font-size: 15px;
+  font-size: 16px;
 
 }
 
 #visitcount-top-header__global {
-  color: yellow;
-  cursor: help;
+  color: white;
+  display: flex;
 }
 
-#minformation-center-header__global {}
+.number-visitcount {
+  text-decoration: underline;
+  margin-left: 5px;
+  font-weight: 500;
+  color: #00FF00;
+}
 
-#setting-top-header__global {}
+
+#setting-top-header__global {
+  color: yellow;
+  display: flex;
+}
+
+.icon-setting {
+  font-size: 14px;
+}
+
+.text-setting {
+  margin-left: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.text-setting:hover {
+  text-decoration: underline;
+}

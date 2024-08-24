@@ -18,13 +18,13 @@ export const routes: Routes = [
     path: 'houseplans',
     component: PageCatalogHouseplansComponent,
     data: { breadcrumb: 'Houseplans & Home Floor Plans' },
-  }, 
+  },
 
 
   {
     path: 'houseplan-id-100Z',
     component: PageProductHouseplansComponent,
-    data: { breadcrumb: 'Houseplan ID: 100-Z' },   
+    data: { breadcrumb: 'Houseplan ID: 100-Z' },
   },
 
   {
