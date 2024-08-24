@@ -10,6 +10,7 @@ import { HeaderGlobalComponent } from '../../../../global/views_Global/component
 import { HomeshopsectionPageMainGlobalComponent } from './homeshopsection-page-main-global/homeshopsection-page-main-global.component';
 import { HouseplansectionPageMainGlobalComponent } from './houseplansection-page-main-global/houseplansection-page-main-global.component';
 import { MortgagesectionPageMainGlobalComponent } from './mortgagesection-page-main-global/mortgagesection-page-main-global.component';
+import { PersonalhelpwidgetPageMainGlobalComponent } from './personalhelpwidget-page-main-global/personalhelpwidget-page-main-global.component';
 import { SuppliersectionPageMainGlobalComponent } from './suppliersection-page-main-global/suppliersection-page-main-global.component';
 
 
@@ -27,6 +28,7 @@ import { SuppliersectionPageMainGlobalComponent } from './suppliersection-page-m
     HomeshopsectionPageMainGlobalComponent,
     HouseplansectionPageMainGlobalComponent,
     MortgagesectionPageMainGlobalComponent,
+    PersonalhelpwidgetPageMainGlobalComponent,
     SuppliersectionPageMainGlobalComponent,
 
   ],

@@ -60,13 +60,30 @@
   background-color: white;
   display: block;
   width: 312px;
-  height: 420px;
+  height: 480px;
   margin: 10px;
   border: 1px solid rgb(222, 222, 222);
   box-sizing: border-box;
     /* Включает границу и отступы в размеры элемента */
 
 }
+
+#wrap-personalhelpwidget__global {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 160px;
+
+
+}
+
+.wrap-personalhelpwidget {
+
+
+}
+
+
+
 
 
 #additional-container {}
