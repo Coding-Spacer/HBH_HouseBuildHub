@@ -1,0 +1,75 @@
+@import '../../../../../../styles/styles';
+
+
+.wrap-personalhelpcard-page-catalog__houseplans {
+  width: 328px;
+  height: auto;
+  border: solid 1px;
+  border-color: rgb(233, 233, 233);
+  border-radius: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: default;
+  box-shadow: 0 0 3px 3px #C8F3FA;
+  border: 1px solid #858690;
+}
+
+.wrap-personalhelpcard-page-catalog__houseplans:hover {
+  box-shadow: 2px 2px 2px 2px #7abfca, -2px -2px 2px 2px #7abfca;
+  border: 1px solid orange;
+}
+
+/* Сетка для карточки товара */
+.gridcontainer-personalhelpcard-page-catalog__houseplans {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:
+    [row1-start] 20px
+    /* wrap-name-personalhelpcard__houseplans */
+    /* wrap-buttonclose-personalhelpcard__houseplans */
+    [row2-start] 150px
+    /* wrap-stateselect-personalhelpcard__houseplans */
+    [row3-start] auto
+    /* wrap-accountcreate-personalhelpcard__houseplans */
+    [row4-start] auto
+    /* wrap-terms-personalhelpcard__houseplans */
+  ;
+  box-sizing: border-box;
+  position: relative;
+  padding: 20px;
+}
+
+
+
+
+.wrap-name-personalhelpcard__houseplans {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+}
+
+.wrap-buttonclose-personalhelpcard__houseplans {
+  grid-row: 1 / 2;
+  grid-column: 4 / 5;
+  justify-self: end;
+}
+
+.wrap-stateselect-personalhelpcard__houseplans {
+  grid-row: 2 / 3;
+  grid-column: 1 / 5;
+}
+
+.wrap-accountcreate-personalhelpcard__houseplans {
+  grid-row: 3 / 4;
+  grid-column: 1 / 5;
+}
+
+.wrap-terms-personalhelpcard__houseplans {
+  grid-row: 4 / 5;
+  grid-column: 1 / 5;
+}
+
+
+
+
+

@@ -6,15 +6,9 @@
 <div class="page-container">
 
   <!-- Advertising section above the header -->
-  <aside class="ad-container">
+  <aside *ngIf="bannerVisible"> <app-banner-page-catalog-houseplans ></app-banner-page-catalog-houseplans>
   </aside>
 
-
-
-  <!--  Advertising section below the header
-      <aside id="ad-container">
-  </aside>
-  -->
 
   <!-- Breadcrumb navigation -->
   <nav id="breadcrumbs-container">
@@ -52,6 +46,7 @@
       <div id="product-card__houseplans">
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+        <app-personalhelpcard-page-catalog-houseplans></app-personalhelpcard-page-catalog-houseplans>
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
         <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>

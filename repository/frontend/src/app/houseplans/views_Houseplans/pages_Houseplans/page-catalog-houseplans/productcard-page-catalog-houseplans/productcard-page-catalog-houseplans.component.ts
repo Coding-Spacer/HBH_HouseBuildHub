@@ -17,6 +17,10 @@ import { ImageProductcardPageCatalogHouseplansComponent } from './image-productc
 import { NameProductcardPageCatalogHouseplansComponent } from './name-productcard-page-catalog-houseplans/name-productcard-page-catalog-houseplans.component';
 import { OnsaleProductcardPageCatalogHouseplansComponent } from './onsale-productcard-page-catalog-houseplans/onsale-productcard-page-catalog-houseplans.component';
 import { RegionalexpertProductcardPageCatalogHouseplansComponent } from './regionalexpert-productcard-page-catalog-houseplans/regionalexpert-productcard-page-catalog-houseplans.component';
+import { PersonalhelpcardPageCatalogHouseplansComponent } from '../personalhelpcard-page-catalog-houseplans/personalhelpcard-page-catalog-houseplans.component';
+
+
+
 import { PriceProductcardPageCatalogHouseplansComponent } from './price-productcard-page-catalog-houseplans/price-productcard-page-catalog-houseplans.component';
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
@@ -53,6 +57,7 @@ import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeoma
     NameProductcardPageCatalogHouseplansComponent,
     OnsaleProductcardPageCatalogHouseplansComponent,
     RegionalexpertProductcardPageCatalogHouseplansComponent,
+    PersonalhelpcardPageCatalogHouseplansComponent,
     PriceProductcardPageCatalogHouseplansComponent,
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,

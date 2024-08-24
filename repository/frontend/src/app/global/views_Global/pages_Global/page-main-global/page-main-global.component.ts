@@ -1,5 +1,6 @@
 import { Component, ChangeDetectionStrategy,  } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 
 import { ArchitectsectionPageMainGlobalComponent } from './architectsection-page-main-global/architectsection-page-main-global.component';
@@ -18,6 +19,7 @@ import { SuppliersectionPageMainGlobalComponent } from './suppliersection-page-m
   standalone: true,
   imports: [
     CommonModule,
+    RouterModule,
     ArchitectsectionPageMainGlobalComponent,
     BuildersectionPageMainGlobalComponent,
     DiscountsectionPageMainGlobalComponent,
