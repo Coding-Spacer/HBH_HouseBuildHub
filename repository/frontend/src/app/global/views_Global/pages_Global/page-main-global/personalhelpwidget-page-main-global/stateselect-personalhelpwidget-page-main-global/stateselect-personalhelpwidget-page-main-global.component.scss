@@ -1,0 +1,66 @@
+@import '../../../../../../../styles/styles';
+
+#wrap-stateselect-personalhelpwidget-page-main__global {
+  margin-top: 20px;
+}
+
+.stateselect-global {}
+
+.text-stateselect {
+  color: $color;
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+.text-stateselect p {
+  margin: 0;
+}
+
+.search-stateselect {
+  width: 100%;
+  height: auto;
+  border: 1px solid #858690;
+  border-radius: 5px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0 3px 3px #C8F3FA;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.search-stateselect:hover {
+  border: 1px solid orange;
+  box-shadow: none;
+}
+
+.icon-geolocation {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #da4848;
+  pointer-events: none;
+}
+
+.expand-stateselect {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #706d6d;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+#input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
