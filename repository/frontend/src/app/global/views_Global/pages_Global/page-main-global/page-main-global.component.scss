@@ -73,17 +73,30 @@
   position: absolute;
   top: 40px;
   right: 160px;
-
-
 }
 
-.wrap-personalhelpwidget {
+.wrap-personalhelpwidget {}
 
+#wrap-singin-modal__global {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  right: auto;
+}
+.wrap-singin-modal {}
 
+#wrap-createaccount-modal__global {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 20%;
+  transform: translateX(-50%);
+  right: auto;
 }
 
-
-
+.wrap-createaccount-modal {}
 
 
 #additional-container {}
