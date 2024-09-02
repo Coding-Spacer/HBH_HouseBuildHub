@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-
+import { Component, ChangeDetectionStrategy,  } from '@angular/core';
 
 import { AccountcreatePersonalhelpwidgetPageMainGlobalComponent } from './accountcreate-personalhelpwidget-page-main-global/accountcreate-personalhelpwidget-page-main-global.component';
 import { AdditionalinfoPersonalhelpwidgetPageMainGlobalComponent } from './additionalinfo-personalhelpwidget-page-main-global/additionalinfo-personalhelpwidget-page-main-global.component';
@@ -25,11 +24,10 @@ import { TermsPersonalhelpcardPageCatalogHouseplansComponent } from "../../../..
     StateselectPersonalhelpwidgetPageMainGlobalComponent,
     TermsPersonalhelpwidgetPageMainGlobalComponent,
     ButtonclosePersonalhelpcardPageCatalogHouseplansComponent,
-    TermsPersonalhelpcardPageCatalogHouseplansComponent
-],
+    TermsPersonalhelpcardPageCatalogHouseplansComponent,
+  ],
   templateUrl: './personalhelpwidget-page-main-global.component.html',
-  styleUrl: './personalhelpwidget-page-main-global.component.scss'
+  styleUrl: './personalhelpwidget-page-main-global.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PersonalhelpwidgetPageMainGlobalComponent {
-
-}
+export class PersonalhelpwidgetPageMainGlobalComponent {}

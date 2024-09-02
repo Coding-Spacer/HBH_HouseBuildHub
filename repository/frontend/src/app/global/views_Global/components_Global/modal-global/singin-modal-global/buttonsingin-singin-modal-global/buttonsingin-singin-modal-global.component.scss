@@ -1,0 +1,50 @@
+@import '../../../../../../../styles/styles';
+
+#wrap-buttonsingin-singinmodal__global {
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.buttonsingin {
+  background-color: rgb(44, 44, 254);
+  color: white;
+  border-radius: 8px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.buttonsingin:hover {
+  border: 2px solid orange;
+  text-decoration: underline;
+}
+
+.text-buttonsingin {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.adtext-buttonsingin {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: blue;
+  cursor: pointer;
+  margin-top: 8px;
+  position: relative;
+}
+
+.adtext-buttonsingin:hover {
+  color: $accent-color;
+  cursor: pointer;
+  text-decoration: underline;
+}

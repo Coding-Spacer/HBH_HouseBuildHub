@@ -1,0 +1,25 @@
+@import '../../../../../../../styles/styles';
+
+#wrap-additionalinfo-personalhelpwidget-page-main__global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.additionalinfo-global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text-additionalinfo {
+  font-size: 12px;
+  line-height: 1.5;
+  color: $grey-light-color;
+  
+}
+

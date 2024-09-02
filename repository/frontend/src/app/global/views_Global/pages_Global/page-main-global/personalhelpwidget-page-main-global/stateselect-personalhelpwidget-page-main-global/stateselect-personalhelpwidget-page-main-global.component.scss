@@ -1,15 +1,16 @@
 @import '../../../../../../../styles/styles';
 
 #wrap-stateselect-personalhelpwidget-page-main__global {
-  margin-top: 20px;
+
 }
 
 .stateselect-global {}
 
 .text-stateselect {
-  color: $color;
+  color: black;
   font-weight: 500;
   margin-left: 6px;
+  margin-top: 20px;
 }
 
 .text-stateselect p {
@@ -64,3 +65,5 @@
   box-sizing: border-box;
   cursor: pointer;
 }
+
+

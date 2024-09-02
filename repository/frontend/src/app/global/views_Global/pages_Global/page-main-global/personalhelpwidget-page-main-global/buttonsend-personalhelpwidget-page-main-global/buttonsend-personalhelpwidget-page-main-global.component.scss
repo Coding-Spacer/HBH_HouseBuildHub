@@ -1,0 +1,33 @@
+@import '../../../../../../../styles/styles';
+
+#wrap-buttonsend-personalhelpwidget-page-main__global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.buttonsend-global {
+  background-color: #F7CA00;
+  border-radius: 8px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.buttonsend-global:hover {
+  border: 2px solid orange;
+  text-decoration: underline;
+}
+
+.text-buttonsend {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: $color;
+}

@@ -1,0 +1,34 @@
+@import '../../../../../../../styles/styles';
+
+.select-createaccountnmodal {
+  display: flex;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.singin-createaccountnmodal {
+  color: $light-color;
+  flex: 1;
+  text-align: center;
+  padding-bottom: 1px;
+  border-bottom: 1px solid $light-color;
+  margin-right: 30px;
+  transition: all 0.1s ease;
+}
+
+.newaccount-createaccountnmodal {
+  color: $accent-color;
+  flex: 1;
+  text-align: center;
+  padding-bottom: 1px;
+  border-bottom: 4px solid orange;
+  margin-left: 30px;
+  transition: all 0.1s ease;
+}
+
+.singin-createaccountnmodal:hover {
+  color: blue;
+  border-bottom: 4px solid blue;
+  cursor: pointer;
+}

@@ -1,82 +1,83 @@
-<!-- Header -->
-<header id="header-container">
-  <app-header-global></app-header-global>
-</header>
-
 <div class="page-container">
 
-  <!-- Advertising section above the header -->
-  <aside *ngIf="bannerVisible"> <app-banner-page-catalog-houseplans ></app-banner-page-catalog-houseplans>
-  </aside>
+  <!-- Header -->
+  <header id="header-container">
+    <app-header-global></app-header-global>
+  </header>
 
+  <!-- Сontent container -->
+  <main id="content-container">
 
-  <!-- Breadcrumb navigation -->
-  <nav id="breadcrumbs-container">
-    <app-breadcrumb-global></app-breadcrumb-global>
-  </nav>
+    <!-- Advertising section above the header -->
+    <aside *ngIf="bannerVisible">
+      <app-banner-page-catalog-houseplans></app-banner-page-catalog-houseplans>
+    </aside>
 
-  <!-- Main content -->
-  <main id="main-container__houseplans">
-    <div id="filterpanel-pagecatalog__houseplans"><app-filtercard-page-catalog-houseplans></app-filtercard-page-catalog-houseplans>
+    <!-- Breadcrumb navigation -->
+    <nav id="breadcrumbs-container">
+      <app-breadcrumb-global></app-breadcrumb-global>
+    </nav>
 
-    </div>
+    <!-- Main content -->
+    <section id="main-container__houseplans">
 
-    <div id="content-pagecatalog__houseplans">
+      <!-- Filter panel -->
+      <div id="filterpanel-pagecatalog__houseplans">
+        <app-filtercard-page-catalog-houseplans></app-filtercard-page-catalog-houseplans>
+      </div>
 
-      <div id="lays-sorting-toggle__houseplans">
+      <!-- Content container -->
+      <div id="content-pagecatalog__houseplans">
 
+        <!-- Sorting and view toggle -->
+        <div id="lays-sorting-toggle__houseplans">
 
+          <div class="wrap-cardlays">
+            <app-chipsfilter-page-catalog-houseplans></app-chipsfilter-page-catalog-houseplans>
+          </div>
 
-        <div class="wrap-cardlays">
-          <app-chipsfilter-page-catalog-houseplans></app-chipsfilter-page-catalog-houseplans>
+          <div class="wrap-cardsorting">
+            <app-cardsorting-page-catalog-houseplans></app-cardsorting-page-catalog-houseplans>
+          </div>
+
+          <div class="wrap-cardviewtoggle">
+            <app-cardviewtoggle-page-catalog-houseplans></app-cardviewtoggle-page-catalog-houseplans>
+          </div>
+
         </div>
 
-
-        <div class="wrap-cardsorting">
-          <app-cardsorting-page-catalog-houseplans></app-cardsorting-page-catalog-houseplans>
-        </div>
-
-        <div class="wrap-cardviewtoggle">
-          <app-cardviewtoggle-page-catalog-houseplans></app-cardviewtoggle-page-catalog-houseplans>
+        <!-- Product cards -->
+        <div id="product-card__houseplans">
+          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          <app-personalhelpcard-page-catalog-houseplans></app-personalhelpcard-page-catalog-houseplans>
+          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
         </div>
 
       </div>
 
+      <!-- Sidebar tools -->
+      <div id="sidebar-tools__global">sidebar</div>
 
-      <div id="product-card__houseplans">
-        <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-        <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-        <app-personalhelpcard-page-catalog-houseplans></app-personalhelpcard-page-catalog-houseplans>
-        <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-        <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-        <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-        <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-      </div>
-    </div>
-    <div id="sidebar-tools__global">sidebar</div>
+    </section>
 
+    <!-- Additional content -->
+    <section class="additional-container">
+      <!--<app-viewed-products></app-viewed-products>-->
+    </section>
 
+    <!-- Modals -->
+    <app-info-modal-global *ngIf="currentModalId === 'infoModal'"></app-info-modal-global>
+    <app-rating-modal-global *ngIf="currentModalId === 'ratingModal'"></app-rating-modal-global>
 
   </main>
 
-  <!-- Left sidebar  -->
-
-  <!-- Right sidebar -->
-
-  <!-- Additional content -->
-  <section class="additional-container">
-    <!--<app-viewed-products></app-viewed-products>-->
-  </section>
-
-
   <!-- Footer -->
   <footer id="footer-container">
-    <!-- < <app-footer-global></app-footer-global>-->
+    <!-- <app-footer-global></app-footer-global>-->
   </footer>
-
-  <app-info-modal-global *ngIf="currentModalId === 'infoModal'"></app-info-modal-global>
-  <app-rating-modal-global *ngIf="currentModalId === 'ratingModal'"></app-rating-modal-global>
-
-
 
 </div>
