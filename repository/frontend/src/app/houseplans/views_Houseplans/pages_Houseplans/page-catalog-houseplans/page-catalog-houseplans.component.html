@@ -9,9 +9,11 @@
   <main id="content-container">
 
     <!-- Advertising section above the header -->
-    <aside *ngIf="bannerVisible">
+    @if (bannerVisible) {
+    <aside>
       <app-banner-page-catalog-houseplans></app-banner-page-catalog-houseplans>
     </aside>
+    }
 
     <!-- Breadcrumb navigation -->
     <nav id="breadcrumbs-container">
@@ -48,13 +50,31 @@
 
         <!-- Product cards -->
         <div id="product-card__houseplans">
-          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+
+          <div class="">
+            <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          </div>
+
+          <div class="">
+            <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          </div>
+
+        <div *ngIf="isVisible" (click)="onClosehelpcard()">
           <app-personalhelpcard-page-catalog-houseplans></app-personalhelpcard-page-catalog-houseplans>
-          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
-          <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+        </div>
+
+          <div class="">
+            <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          </div>
+
+          <div class="">
+            <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          </div>
+
+          <div class="">
+            <app-productcard-page-catalog-houseplans></app-productcard-page-catalog-houseplans>
+          </div>
+
         </div>
 
       </div>
@@ -70,8 +90,15 @@
     </section>
 
     <!-- Modals -->
-    <app-info-modal-global *ngIf="currentModalId === 'infoModal'"></app-info-modal-global>
-    <app-rating-modal-global *ngIf="currentModalId === 'ratingModal'"></app-rating-modal-global>
+
+    @if (currentModalId === 'infoModal') {
+    <app-info-modal-global></app-info-modal-global>
+    }
+
+    @if (currentModalId === 'ratingModal') {
+    <app-rating-modal-global></app-rating-modal-global>
+    }
+
 
   </main>
 

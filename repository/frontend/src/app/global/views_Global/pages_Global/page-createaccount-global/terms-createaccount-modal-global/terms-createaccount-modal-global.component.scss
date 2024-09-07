@@ -1,0 +1,35 @@
+@import '../../../../../../styles/styles';
+
+#wrap-terms-createaccoutnmodal__global {  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      margin-top: 2px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  
+    .terms-global {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .text-terms {
+      font-size: 12px;
+      line-height: 1.5;
+      color: $color;
+    }
+  
+    .privacy-link {
+      color: #0000FF;
+      text-decoration: underline;
+    }
+  
+    .privacy-link:hover {
+      color: $accent-color;
+      text-decoration: underline;
+    }

@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+
 
 import { AdditionalinfoPersonalhelpcardPageCatalogHouseplansComponent } from './additionalinfo-personalhelpcard-page-catalog-houseplans/additionalinfo-personalhelpcard-page-catalog-houseplans.component';
 import { BuilderselectPersonalhelpcardPageCatalogHouseplansComponent } from './builderselect-personalhelpcard-page-catalog-houseplans/builderselect-personalhelpcard-page-catalog-houseplans.component';
@@ -17,6 +20,7 @@ import { UsercontactPersonalhelpcardPageCatalogHouseplansComponent } from './use
   selector: 'app-personalhelpcard-page-catalog-houseplans',
   standalone: true,
   imports: [
+    CommonModule,
     AdditionalinfoPersonalhelpcardPageCatalogHouseplansComponent,
     BuilderselectPersonalhelpcardPageCatalogHouseplansComponent,
     ButtonclosePersonalhelpcardPageCatalogHouseplansComponent,
@@ -29,12 +33,11 @@ import { UsercontactPersonalhelpcardPageCatalogHouseplansComponent } from './use
     TimeselectPersonalhelpcardPageCatalogHouseplansComponent,
     TermsPersonalhelpcardPageCatalogHouseplansComponent,
     UsercontactPersonalhelpcardPageCatalogHouseplansComponent,
-
-
   ],
   templateUrl: './personalhelpcard-page-catalog-houseplans.component.html',
-  styleUrl: './personalhelpcard-page-catalog-houseplans.component.scss'
+  styleUrl: './personalhelpcard-page-catalog-houseplans.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PersonalhelpcardPageCatalogHouseplansComponent {
-
+ 
 }

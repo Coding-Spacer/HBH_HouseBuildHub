@@ -1,0 +1,121 @@
+@import '../../../../../styles/styles';
+
+.wrap-createaccount__global {}
+
+.brand-createaccount__global {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  color: $color;
+}
+
+.content-createaccount__global {
+  width: auto;
+  height: auto;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid rgb(222, 222, 222);
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #F7FEFF;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: default;
+  box-shadow: 0px 0px 3px 3px #F7FEFF;
+  margin-top: 10px;
+}
+
+.footer-createaccount__global {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.gridcontainer-content-createaccount__global {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:
+    [row1-start] auto
+    /* wrap-name-gridcontainer-content__global */
+    /*wrap-buttonclose-gridcontainer-content__global */
+    [row2-start] auto
+    /* wrap-terms-gridcontainer-content__global */
+    [row3-start] auto
+    /* wrap-select-gridcontainer-content__global */
+    [row4-start] auto
+    /* wrap-ern-gridcontainer-content__global */
+    [row5-start] auto
+    /* wrap-email-gridcontainer-content__global */
+    [row6-start] auto
+    /* wrap-password-gridcontainer-content__global */
+    [row7-start] auto
+    /* wrap-buttoncontinue-gridcontainer-content__global */
+    [row8-start] auto
+    /* socialaccounts-gridcontainer-content__global */
+    [row9-start] auto
+    /* socialaccounts-gridcontainer-content__global */
+    [row10-start] auto
+    /* wrap-additionalinfo-gridcontainer-content__global */
+  ;
+  box-sizing: border-box;
+  position: relative;
+  padding: 20px;
+}
+
+
+.wrap-name-gridcontainer-content__global {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+}
+
+.wrap-buttonclose-gridcontainer-content__globall {
+  grid-row: 1 / 2;
+  grid-column: 4 / 5;
+  justify-self: end;
+}
+
+.wrap-terms-gridcontainer-content__global {
+  grid-row: 2 / 3;
+  grid-column: 1 / 5;
+}
+
+.wrap-select-gridcontainer-content__global {
+  grid-row: 3 / 4;
+  grid-column: 1 / 5;
+}
+
+.wrap-ern-gridcontainer-content__global {
+  grid-row: 4 / 5;
+  grid-column: 1 / 5;
+}
+
+.wrap-email-gridcontainer-content__global {
+  grid-row: 5 / 6;
+  grid-column: 1 / 5;
+}
+
+.wrap-password-gridcontainer-content__global {
+  grid-row: 6 / 7;
+  grid-column: 1 / 5;
+}
+
+.wrap-buttoncontinue-gridcontainer-content__global {
+  grid-row: 7 / 8;
+  grid-column: 1 / 5;
+}
+
+
+.wrap-socialaccounts-gridcontainer-content__global {
+  grid-row: 8 / 9;
+  grid-column: 1 / 5;
+}
+
+.wrap-additionalinfo-gridcontainer-content__global {
+  grid-row: 9 / 10;
+  grid-column: 1 / 5;
+}
