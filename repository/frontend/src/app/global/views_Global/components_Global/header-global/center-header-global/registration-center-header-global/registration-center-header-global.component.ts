@@ -1,12 +1,15 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-registration-center-header-global',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterModule
+  ],
   templateUrl: './registration-center-header-global.component.html',
-  styleUrl: './registration-center-header-global.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ['./registration-center-header-global.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RegistrationCenterHeaderGlobalComponent {}
+export class RegistrationCenterHeaderGlobalComponent {
+}

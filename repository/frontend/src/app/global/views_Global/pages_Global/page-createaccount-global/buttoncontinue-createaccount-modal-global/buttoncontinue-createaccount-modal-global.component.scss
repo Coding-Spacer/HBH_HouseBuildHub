@@ -1,0 +1,35 @@
+@import '../../../../../../styles/styles';
+
+#wrap-buttoncontinue-createaccountmodal__global {
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.buttoncontinue {
+  background-color: #F7CA00;
+  border-radius: 8px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+
+}
+
+.buttoncontinue:hover {
+  border: 2px solid orange;
+  text-decoration: underline;
+}
+
+.text-buttoncontinue {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  color: $color;
+}

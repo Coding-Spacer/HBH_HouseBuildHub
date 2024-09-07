@@ -1,0 +1,66 @@
+@import '../../../../../../styles/styles';
+
+#wrap-ern-createaccountnmodal__global {}
+
+.ern-global {
+  margin-top: 20px;
+}
+
+.search-ern {
+  width: 100%;
+  height: auto;
+  border: 1px solid #858690;
+  border-radius: 5px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0 3px 3px #C8F3FA;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.search-ern:hover {
+  border: 1px solid orange;
+  box-shadow: none;
+}
+
+/* Выравнивание элементов внутри по высоте */
+.select-ern {
+  display: flex;
+  align-items: center;
+  /* Выровнять элементы по высоте */
+
+  position: relative;
+  cursor: pointer;
+}
+
+.icon-ern {
+  font-size: 18px;
+  color: blue;
+}
+
+.expand-ern {
+  font-size: 20px;
+  color: #706d6d;
+}
+
+#input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: black !important;
+}
+
+.text-ern {
+  color: green;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 20px;
+  margin-top: -2px;
+}

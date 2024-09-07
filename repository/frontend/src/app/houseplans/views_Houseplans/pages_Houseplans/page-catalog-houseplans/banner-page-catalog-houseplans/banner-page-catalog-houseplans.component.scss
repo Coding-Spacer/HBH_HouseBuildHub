@@ -10,7 +10,7 @@
 
 .banner-houseplans {
   color: white;
-  margin: 10px;
+  margin: 0px;
   position: relative;
   width: 100%;
   cursor: default;
@@ -25,6 +25,7 @@
   position: absolute;
   top: 0;
   left: 60px;
+  color: #8B3A3A
 }
 
 .text2-banner {
@@ -35,19 +36,86 @@
   position: absolute;
   bottom: 0;
   left: 60px;
+  color: #4B6043
 }
 
 .text3-banner {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 500;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 0px;
-  left: 660px;
+  left: 620px;
+  margin-top: -10px;
+  color: #4B6043
 }
 
+.infoblock-1-banner {
+  position: absolute;
+  margin-top: 80px;
+  left: 620px;
+  background-image: url(/assets/assets_Houseplans/image_Houseplans/b_1_220x140.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(90%) contrast(80%);
+}
+
+.foto-infoblock-1 {}
+
+.infoblock-2-banner {
+  position: absolute;
+  margin-top: 80px;
+  left: 860px;
+  background: white;
+}
+
+.foto-infoblock-2 {}
+
+.infoblock-3-banner {
+  position: absolute;
+  margin-top: 80px;
+  left: 1100px;
+}
+
+.foto-infoblock-3 {}
+
+.infoblock {
+  border: 1px solid white;
+  width: 220px;
+  height: 140px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  color: $color;
+  box-shadow: 0 0 3px 3px #C8F3FA;
+  align-items: center;
+}
+
+.infoblock:hover {
+  color: #FF8C42;
+  border: 1px solid orange;
+  text-decoration: underline;
+}
+
+.name-infoblock {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #FF8C42
+}
+
+.text-infoblock {
+  font-size: 13px;
+  font-weight: 500;
+  color: #4B6043;
+  margin-top: 30px
+}
 
 .button-close-banner {
   display: flex;
@@ -58,16 +126,13 @@
   right: 0;
 }
 
-.text-button-close {
-  font-size: 14px;
-}
-
 .icon-button-close {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 500;
   border: 1px solid white;
   border-radius: 3px;
-  margin-top: 3px;
+  margin-top: 15px;
+  margin-right: 15px;
   cursor: pointer;
 }
 

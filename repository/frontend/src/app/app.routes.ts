@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
 
 
-
+import { ConditionsusePageHelpGlobalComponent } from './global/views_Global/pages_Global/page-help-global/conditionsuse-page-help-global/conditionsuse-page-help-global.component';
+import { PageCreateaccountGlobalComponent } from './global/views_Global/pages_Global/page-createaccount-global/page-createaccount-global.component';
 import { PageCatalogArchitectsComponent } from './architects/views_Architects/pages_Architects/page-catalog-architects/page-catalog-architects.component';
 import { PageCatalogBuildersComponent } from './builders/views_Builders/pages_Builders/page-catalog-builders/page-catalog-builders.component';
 import { PageCatalogFinancingComponent } from './financing/views_Financing/pages_Financing/page-catalog-financing/page-catalog-financing.component';
@@ -16,6 +17,10 @@ import { PageNotfoundGlobalComponent } from './global/views_Global/pages_Global/
 import { PagePartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-partnership-global.component';
 import { PageProductHouseplansComponent } from './houseplans/views_Houseplans/pages_Houseplans/page-product-houseplans/page-product-houseplans.component';
 import { PageSavedGlobalComponent } from './global/views_Global/pages_Global/page-saved-global/page-saved-global.component';
+import { PageSinginGlobalComponent } from './global/views_Global/pages_Global/page-singin-global/page-singin-global.component';
+import { PrivacynoticePageHelpGlobalComponent } from './global/views_Global/pages_Global/page-help-global/privacynotice-page-help-global/privacynotice-page-help-global.component';
+
+
 
 
 
@@ -38,6 +43,18 @@ export const routes: Routes = [
     path: 'builders',
     component: PageCatalogBuildersComponent,
     data: { breadcrumb: 'Builders' },
+  },
+
+  {
+    path: 'conditionsuse',
+    component: ConditionsusePageHelpGlobalComponent,
+    data: { breadcrumb: 'Conditions of Use' },
+  },
+
+  {
+    path: 'createaccount',
+    component: PageCreateaccountGlobalComponent,
+    data: { breadcrumb: 'Create Account of Use' },
   },
 
   {
@@ -87,12 +104,23 @@ export const routes: Routes = [
     component: PageCatalogPermittingComponent,
     data: { breadcrumb: 'Permit Assistance' },
   },
-  
+
+  {
+    path: 'privacynotice',
+    component: PrivacynoticePageHelpGlobalComponent,
+    data: { breadcrumb: 'Privacy Notice' },
+  },
 
   {
     path: 'saved',
     component: PageSavedGlobalComponent,
     data: { breadcrumb: 'Saved' },
+  },
+
+  {
+    path: 'singin',
+    component: PageSinginGlobalComponent,
+    data: { breadcrumb: 'Sing in' },
   },
 
   {

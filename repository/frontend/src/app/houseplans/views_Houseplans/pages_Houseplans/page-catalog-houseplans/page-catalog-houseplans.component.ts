@@ -21,7 +21,7 @@ import { CardviewtogglePageCatalogHouseplansComponent } from './cardviewtoggle-p
 import { CardsortingPageCatalogHouseplansComponent } from './cardsorting-page-catalog-houseplans/cardsorting-page-catalog-houseplans.component';
 import { InfoModalGlobalComponent } from '../../../../global/views_Global/components_Global/modal-global/info-modal-global/info-modal-global.component';
 import { RatingModalGlobalComponent } from '../../../../global/views_Global/components_Global/modal-global/rating-modal-global/rating-modal-global.component';
-import { PersonalhelpcardPageCatalogHouseplansComponent } from "./personalhelpcard-page-catalog-houseplans/personalhelpcard-page-catalog-houseplans.component";
+import { PersonalhelpcardPageCatalogHouseplansComponent } from './personalhelpcard-page-catalog-houseplans/personalhelpcard-page-catalog-houseplans.component';
 
 @Component({
   selector: 'app-page-catalog-houseplans',
@@ -39,8 +39,8 @@ import { PersonalhelpcardPageCatalogHouseplansComponent } from "./personalhelpca
     BannerPageCatalogHouseplansComponent,
     InfoModalGlobalComponent,
     RatingModalGlobalComponent,
-    PersonalhelpcardPageCatalogHouseplansComponent
-],
+    PersonalhelpcardPageCatalogHouseplansComponent,
+  ],
   templateUrl: './page-catalog-houseplans.component.html',
   styleUrls: ['./page-catalog-houseplans.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -75,5 +75,10 @@ export class PageCatalogHouseplansComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.bannerSubscription.unsubscribe();
+  }
+
+  isVisible = true;
+  onClosehelpcard() {
+    this.isVisible = false;
   }
 }

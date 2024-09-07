@@ -5,14 +5,12 @@ import { RouterModule } from '@angular/router';
 
 import { ArchitectsectionPageMainGlobalComponent } from './architectsection-page-main-global/architectsection-page-main-global.component';
 import { BuildersectionPageMainGlobalComponent } from './buildersection-page-main-global/buildersection-page-main-global.component';
-import { CreateaccountModalGlobalComponent } from '../../components_Global/modal-global/createaccount-modal-global/createaccount-modal-global.component';
 import { DiscountsectionPageMainGlobalComponent } from './discountsection-page-main-global/discountsection-page-main-global.component';
 import { HeaderGlobalComponent } from '../../../../global/views_Global/components_Global/header-global/header-global.component';
 import { HomeshopsectionPageMainGlobalComponent } from './homeshopsection-page-main-global/homeshopsection-page-main-global.component';
 import { HouseplansectionPageMainGlobalComponent } from './houseplansection-page-main-global/houseplansection-page-main-global.component';
 import { MortgagesectionPageMainGlobalComponent } from './mortgagesection-page-main-global/mortgagesection-page-main-global.component';
 import { PersonalhelpwidgetPageMainGlobalComponent } from './personalhelpwidget-page-main-global/personalhelpwidget-page-main-global.component';
-import { SinginModalGlobalComponent } from '../../components_Global/modal-global/singin-modal-global/singin-modal-global.component';
 import { SuppliersectionPageMainGlobalComponent } from './suppliersection-page-main-global/suppliersection-page-main-global.component';
 
 
@@ -25,14 +23,12 @@ import { SuppliersectionPageMainGlobalComponent } from './suppliersection-page-m
     RouterModule,
     ArchitectsectionPageMainGlobalComponent,
     BuildersectionPageMainGlobalComponent,
-    CreateaccountModalGlobalComponent,
     DiscountsectionPageMainGlobalComponent,
     HeaderGlobalComponent,
     HomeshopsectionPageMainGlobalComponent,
     HouseplansectionPageMainGlobalComponent,
     MortgagesectionPageMainGlobalComponent,
     PersonalhelpwidgetPageMainGlobalComponent,
-    SinginModalGlobalComponent,   
     SuppliersectionPageMainGlobalComponent,
 
   ],

@@ -11,7 +11,7 @@ import { BannerGlobalService } from '../../../../../global/services_Global/banne
 export class BannerPageCatalogHouseplansComponent {
   constructor(private bannerGlobalService: BannerGlobalService) {}
 
-  closeBanner(): void {    
+  closeBanner(): void {
     this.bannerGlobalService.hideBanner(); // Викликає метод для приховування банера
   }
 }
