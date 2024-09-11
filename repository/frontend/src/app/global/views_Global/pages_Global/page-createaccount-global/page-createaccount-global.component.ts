@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { ButtoncontinueCreateaccountModalGlobalComponent } from './buttoncontinue-createaccount-modal-global/buttoncontinue-createaccount-modal-global.component';
@@ -33,4 +33,13 @@ import { TermsCreateaccountModalGlobalComponent } from './terms-createaccount-mo
   styleUrl: './page-createaccount-global.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PageCreateaccountGlobalComponent {}
+
+export class PageCreateaccountGlobalComponent implements OnInit {
+  currentYear!: number;
+
+  constructor() {}
+
+  ngOnInit(): void {
+    this.currentYear = new Date().getFullYear();
+  }
+}

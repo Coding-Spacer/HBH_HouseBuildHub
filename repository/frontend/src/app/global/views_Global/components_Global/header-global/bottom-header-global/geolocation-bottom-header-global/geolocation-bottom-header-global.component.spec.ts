@@ -1,23 +1,28 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { Component, OnInit, signal } from '@angular/core';
+import { RegionSelectGlobalService } from '../../../../../services_Global/region-select-global.service';
 
-import { GeolocationBottomHeaderGlobalComponent } from './geolocation-bottom-header-global.component';
+@Component({
+  selector: 'app-geolocation-bottom-header-global',
+  standalone: true,
+  templateUrl: './geolocation-bottom-header-global.component.html',
+  styleUrls: ['./geolocation-bottom-header-global.component.scss'],
+})
+export class GeolocationBottomHeaderGlobalComponent implements OnInit {
+  // Используем обычный массив, так как signal может быть не нужен
+  regions: string[] = ['Los Angeles', 'New York', 'Chicago', 'Houston'];
+  selectedRegion = signal<string | null>(null);
 
-describe('GeolocationBottomHeaderGlobalComponent', () => {
-  let component: GeolocationBottomHeaderGlobalComponent;
-  let fixture: ComponentFixture<GeolocationBottomHeaderGlobalComponent>;
+  constructor(private regionService: RegionSelectGlobalService) {}
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [GeolocationBottomHeaderGlobalComponent]
-    })
-    .compileComponents();
-    
-    fixture = TestBed.createComponent(GeolocationBottomHeaderGlobalComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+  ngOnInit() {
+    // Подписка на сервис для получения выбранного региона
+    this.regionService.selectedRegion$.subscribe((region) => {
+      this.selectedRegion.set(region);
+    });
+  }
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+  onRegionSelect(event: Event) {
+    const selectedRegion = (event.target as HTMLSelectElement).value;
+    this.regionService.setSelectedRegion(selectedRegion);
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../../../../../../styles/styles';
+
+.typecustom-productcard__houseplans {
+  position: relative;
+}
+
+.overlay-typecustom {
+  box-sizing: border-box;
+  background: linear-gradient(125deg, yellow 90%, transparent 50%);
+  color: red;
+  font-weight: 500;
+  padding-left: 6px;
+  padding-right: 16px;
+  border-radius: 1px;
+  display: flex;
+  height: 100%;  
+  width: 100%;    
+  text-align: center; 
+  cursor: help; 
+}
+
+.overlay-typecustom:hover {
+  background: linear-gradient(125deg, white 90%, transparent 50%);    
+}
+
+.typecustom span {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  background: linear-gradient(135deg, yellow 50%, transparent 50%);
+  -webkit-background-clip: text;
+}

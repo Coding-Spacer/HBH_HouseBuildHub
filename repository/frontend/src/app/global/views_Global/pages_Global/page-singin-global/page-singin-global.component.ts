@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { AdditionalinfoSinginModalGlobalComponent } from './additionalinfo-singin-modal-global/additionalinfo-singin-modal-global.component';
 import { ButtoncloseSinginModalGlobalComponent } from './buttonclose-singin-modal-global/buttonclose-singin-modal-global.component';
@@ -22,14 +22,21 @@ import { TermsSinginModalGlobalComponent } from './terms-singin-modal-global/ter
     ButtonsinginSinginModalGlobalComponent,
     EmailSinginModalGlobalComponent,
     NameSinginModalGlobalComponent,
-    PasswordSinginModalGlobalComponent,   
+    PasswordSinginModalGlobalComponent,
     SelectSinginModalGlobalComponent,
     SocialaccoutnsSinginModalGlobalComponent,
-    TermsSinginModalGlobalComponent
-
+    TermsSinginModalGlobalComponent,
   ],
   templateUrl: './page-singin-global.component.html',
   styleUrl: './page-singin-global.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PageSinginGlobalComponent {}
+export class PageSinginGlobalComponent implements OnInit {
+  currentYear!: number;
+
+  constructor() {}
+
+  ngOnInit(): void {
+    this.currentYear = new Date().getFullYear();
+  }
+}

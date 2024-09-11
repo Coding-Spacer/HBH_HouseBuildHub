@@ -5,9 +5,7 @@
 .wrap-geolocation-bottom-header__global {
   width: auto;
   position: static;
-  float: none;
-  margin-left: 100px;
-  margin-right: 0px;
+  float: none; 
   display: flex;
   justify-content: flex-end;
 }
@@ -41,10 +39,6 @@
   margin-right: 1px;
 }
 
-.wrap-geolocation-bottom-header__global:hover .name-icon-geolocation a {
-  color: #E35300;
-  text-decoration: none;
-}
 
 .vertical-divider {
   list-style: none;
@@ -55,3 +49,65 @@
   margin-right: 10px;
   display: inline;
 }
+
+
+
+.region-select-container {
+  margin-left: 16px;
+}
+
+.sorting {
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: -3px;  
+  box-sizing: border-box;
+  color: blue;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;  
+  font-weight: 600;
+  max-width: 100%;
+  overflow: hidden; 
+  padding-right: 6px;
+  text-align: left;     
+}
+
+.sorting:hover {
+  color: rgb(0, 102, 204);
+    /* Более яркий синий при наведении */
+}
+
+.dropdown-sorting {
+  border: none;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.dropdown-sorting:focus {
+  outline: none;
+}
+
+.dropdown-sorting:hover {
+  color: rgb(0, 102, 204);
+    /* Цвет текста при наведении */
+  
+}
+
+.item-sorting {}
+
+.sorting select {
+  color: blue;
+  /* Синий цвет текста для опций */
+  font-weight: 500;
+  /* Толщина шрифта для опций */
+  background-color: white;
+  /* Белый фон для опций */
+  cursor: pointer;
+  font-style: italic;
+}
+
+
+
+

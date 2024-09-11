@@ -139,3 +139,33 @@
 .icon-button-close:hover {
   border: 1px solid $accent-color;
 }
+
+.adsblock-1-banner {
+  position: absolute;
+  margin-top: 74px;
+  left: 370px;
+  background: yellow;
+  padding: 5px;
+  transform: rotate(-18deg);
+    transform-origin: left bottom;
+    border-radius: 4px;
+ 
+}
+
+.name-adsblock {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  color: red
+
+}
+
+.text-adsblock {
+  font-size: 13px;
+  font-weight: 500;
+  color: red;
+  margin-top: 5px;  
+}
