@@ -1,11 +1,10 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component,  } from '@angular/core';
 
 @Component({
   selector: 'app-geolocation-bottom-header-global',
   standalone: true,
-  imports: [],
   templateUrl: './geolocation-bottom-header-global.component.html',
-  styleUrl: './geolocation-bottom-header-global.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrls: ['./geolocation-bottom-header-global.component.scss'],
 })
-export class GeolocationBottomHeaderGlobalComponent {}
+export class GeolocationBottomHeaderGlobalComponent  {  
+}

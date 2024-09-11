@@ -19,22 +19,22 @@ import { OnsaleProductcardPageCatalogHouseplansComponent } from './onsale-produc
 import { RegionalexpertProductcardPageCatalogHouseplansComponent } from './regionalexpert-productcard-page-catalog-houseplans/regionalexpert-productcard-page-catalog-houseplans.component';
 import { PersonalhelpcardPageCatalogHouseplansComponent } from '../personalhelpcard-page-catalog-houseplans/personalhelpcard-page-catalog-houseplans.component';
 
-
-
 import { PriceProductcardPageCatalogHouseplansComponent } from './price-productcard-page-catalog-houseplans/price-productcard-page-catalog-houseplans.component';
 import { RatingProductcardPageCatalogHouseplansComponent } from './rating-productcard-page-catalog-houseplans/rating-productcard-page-catalog-houseplans.component';
 import { SavebuttonProductcardPageCatalogHouseplansComponent } from './savebutton-productcard-page-catalog-houseplans/savebutton-productcard-page-catalog-houseplans.component';
 import { SharebuttonProductcardPageCatalogHouseplansComponent } from './sharebutton-productcard-page-catalog-houseplans/sharebutton-productcard-page-catalog-houseplans.component';
+import { TypecontainerProductcardPageCatalogHouseplansComponent } from './typecontainer-productcard-page-catalog-houseplans/typecontainer-productcard-page-catalog-houseplans.component';
+import { TypecustomProductcardPageCatalogHouseplansComponent } from './typecustom-productcard-page-catalog-houseplans/typecustom-productcard-page-catalog-houseplans.component';
+import { TypeglulamProductcardPageCatalogHouseplansComponent } from './typeglulam-productcard-page-catalog-houseplans/typeglulam-productcard-page-catalog-houseplans.component';
+import { TypemodularProductcardPageCatalogHouseplansComponent } from './typemodular-productcard-page-catalog-houseplans/typemodular-productcard-page-catalog-houseplans.component';
+import { TypeprefabProductcardPageCatalogHouseplansComponent } from './typeprefab-productcard-page-catalog-houseplans/typeprefab-productcard-page-catalog-houseplans.component';
+import { TypeprintedProductcardPageCatalogHouseplansComponent } from './typeprinted-productcard-page-catalog-houseplans/typeprinted-productcard-page-catalog-houseplans.component';
 import { VerificationstatusProductcardPageCatalogHouseplansComponent } from './verificationstatus-productcard-page-catalog-houseplans/verificationstatus-productcard-page-catalog-houseplans.component';
-
 import { ViewfloorplansProductcardPageCatalogHouseplansComponent } from './viewfloorplans-productcard-page-catalog-houseplans/viewfloorplans-productcard-page-catalog-houseplans.component';
 import { ViewmodelProductcardPageCatalogHouseplansComponent } from './viewmodel-productcard-page-catalog-houseplans/viewmodel-productcard-page-catalog-houseplans.component';
 import { ViewvideoProductcardPageCatalogHouseplansComponent } from './viewvideo-productcard-page-catalog-houseplans/viewvideo-productcard-page-catalog-houseplans.component';
 import { ViewenteriorProductcardPageCatalogHouseplansComponent } from './viewenterior-productcard-page-catalog-houseplans/viewenterior-productcard-page-catalog-houseplans.component';
 import { ViewsunenergyProductcardPageCatalogHouseplansComponent } from './viewsunenergy-productcard-page-catalog-houseplans/viewsunenergy-productcard-page-catalog-houseplans.component';
-
-
-
 import { EarnbuttonProductcardPageCatalogHouseplansComponent } from './earnbutton-productcard-page-catalog-houseplans/earnbutton-productcard-page-catalog-houseplans.component';
 import { ViewexteriorProductcardPageCatalogHouseplansComponent } from "./viewexterior-productcard-page-catalog-houseplans copy/viewexterior-productcard-page-catalog-houseplans.component";
 import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeomap-productcard-page-catalog-houseplans/viewgeomap-productcard-page-catalog-houseplans.component';
@@ -62,6 +62,12 @@ import { ViewgeomapProductcardPageCatalogHouseplansComponent } from './viewgeoma
     RatingProductcardPageCatalogHouseplansComponent,
     SavebuttonProductcardPageCatalogHouseplansComponent,
     SharebuttonProductcardPageCatalogHouseplansComponent,
+    TypecontainerProductcardPageCatalogHouseplansComponent,
+    TypecustomProductcardPageCatalogHouseplansComponent,
+    TypeglulamProductcardPageCatalogHouseplansComponent,
+    TypemodularProductcardPageCatalogHouseplansComponent,
+    TypeprefabProductcardPageCatalogHouseplansComponent,
+    TypeprintedProductcardPageCatalogHouseplansComponent,      
     VerificationstatusProductcardPageCatalogHouseplansComponent,
     ViewfloorplansProductcardPageCatalogHouseplansComponent,
     ViewmodelProductcardPageCatalogHouseplansComponent,
