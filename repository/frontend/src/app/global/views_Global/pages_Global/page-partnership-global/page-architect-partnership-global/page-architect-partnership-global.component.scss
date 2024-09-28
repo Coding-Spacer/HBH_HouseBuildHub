@@ -1,0 +1,115 @@
+@import '../../../../../../styles/styles';
+
+/* ..................... */
+
+#content-container {
+  margin: 20px; 
+}
+
+#header-container {}
+
+#nav-container {}
+
+.name-partnership-program {
+  font-size: 22px;
+  font-weight: 500;
+  color: $text-light-color;
+  text-align: start;
+  margin-left: 200px;
+}
+
+.name-text-color {
+  color: black;
+  font-size: 24px;
+}
+
+.content-partnership-program {
+  display: flex;
+  margin-top: 20px;
+  text-align: start;
+}
+
+.menu-content {
+  border: 1px solid $border-light-color;
+  border-radius: 2px;
+  width: 300px;
+  height: min-content;
+  color: $link-color;
+  background-color: #FCFCFC;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  cursor: pointer;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+li:hover {
+  color: $accent-color;
+  text-decoration: underline;
+  text-decoration-color: $accent-color;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.name-main-content {
+  padding: 10px;
+}
+
+.title-name-main-content {
+  color: $text-light-color;
+  font-size: 15px;
+}
+
+.text-name-main-content {
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: blue;
+  text-decoration: underline;
+}
+
+.item-main-content {
+  padding: 10px;
+  border-bottom: 1px solid $border-light-color;
+}
+
+.title-item-main-content {
+  color: $accent-color;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.text-item-main-content {
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+.additional-content {
+  width: 500px;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto; // Центрування
+  border: 1px solid $border-light-color;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+  color: #d0d0d0;
+  display: block;
+  box-sizing: border-box;  
+}
+
+#footer-container {}

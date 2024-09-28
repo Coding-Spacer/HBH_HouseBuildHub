@@ -15,7 +15,9 @@
   justify-content: space-between;
 }
 
-#logo-top-header__global {}
+#logo-top-header__global {
+  margin-left: 20px;
+}
 
 #investorcenter-top-header__global {
   color: yellow;
@@ -67,6 +69,7 @@
 #setting-top-header__global {
   color: yellow;
   display: flex;
+  margin-right: 20px;
 }
 
 .icon-setting {

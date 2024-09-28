@@ -11,7 +11,6 @@
   min-width: 720px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
   background-color: white;
-  max-width: none
 
 }
 
@@ -21,5 +20,16 @@
   min-width: 720px;
   max-width: none;
 
-  padding: 0 40px;
+}
+
+#top-header__global {
+ 
+}
+
+#center-header__global {
+  margin: 0 40px;
+}
+
+#bottom-header__global {
+  margin: 0 40px;
 }
