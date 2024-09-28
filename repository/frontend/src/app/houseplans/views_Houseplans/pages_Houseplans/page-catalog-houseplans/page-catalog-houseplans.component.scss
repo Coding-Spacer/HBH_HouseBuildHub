@@ -2,11 +2,12 @@
 
 /* ..................... */
 
-.page-container {}
+.page-container {
+  max-width: 1686px;
+  margin: 0 auto;}
 
 #content-container {
-  max-width: 1686px;
-  margin: 0 auto;
+
 }
 
 .banner-container {
