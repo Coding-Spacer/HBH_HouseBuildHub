@@ -2,36 +2,15 @@
 
 /* ..................... */
 
+.page-container {
+  max-width: 1686px;
+  margin: 0 auto;
+}
+
+#header-container {}
+
+#nav-container {}
+
 #content-container {
-  color: white;
-  background-color: #E3E6E6;
-  margin: 0;
-  padding: 0;
-  height: 300px;
-  width: 100%;
-  padding-top: 10px;
-  display: flex;
-  /* Добавить flexbox */
-  justify-content: center;
-  /* Центрировать по горизонтали */
-  align-items: center;
-  /* Центрировать по вертикали */
-  text-align: center;
-  /* Выравнивание текста по центру */
-}
-
-#content-container p {
-  font-size: 30px;
-}
-
-.temporary-text {
-  font-size: 18px;
-  color: $accent-color;
-}
-
-.temporary-email {
-  margin-top: 10px;
-  color: $accent-color;
-  font-size: 22px;
-  font-weight: 500;
+  margin: 20px;
 }

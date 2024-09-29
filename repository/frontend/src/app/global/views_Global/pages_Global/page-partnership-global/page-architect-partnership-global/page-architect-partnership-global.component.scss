@@ -2,8 +2,13 @@
 
 /* ..................... */
 
+.page-container {
+  max-width: 1686px;
+  margin: 0 auto;
+}
+
 #content-container {
-  margin: 20px; 
+  margin: 20px;
 }
 
 #header-container {}
@@ -15,7 +20,7 @@
   font-weight: 500;
   color: $text-light-color;
   text-align: start;
-  margin-left: 200px;
+  margin-left: 5px;
 }
 
 .name-text-color {
@@ -32,10 +37,32 @@
 .menu-content {
   border: 1px solid $border-light-color;
   border-radius: 2px;
-  width: 300px;
+  width: 320px;
   height: min-content;
   color: $link-color;
   background-color: #FCFCFC;
+}
+
+.link-menu-content {
+  display: flex;
+  border-bottom: 1px solid $border-light-color;
+  height: 40px;
+  padding-left: 10px;
+  align-items: center;
+  color: $text-light-color;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.name-menu-content {
+  display: flex;
+  height: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
+  align-items: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 ul {
@@ -45,6 +72,7 @@ ul {
 
 li {
   padding: 5px;
+  padding-left: 10px;
   cursor: pointer;
   transition: color 0.3s, text-decoration 0.3s;
 }
@@ -98,6 +126,11 @@ li:hover {
   letter-spacing: normal;
 }
 
+
+#helpfulinfo-architects {
+  margin-top: 20px;
+}
+
 .additional-content {
   width: 500px;
   height: min-content;
@@ -109,7 +142,7 @@ li:hover {
   padding: 10px;
   color: #d0d0d0;
   display: block;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 #footer-container {}

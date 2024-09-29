@@ -36,7 +36,7 @@
 .category-submenu {
   display: flex;
   padding: 0;
-  margin-left: 200px;
+  margin-left: 20px;
   color: $link-color;
   height: auto; 
 }
@@ -54,8 +54,8 @@
 .item-submenu,
 .item-develop-submenu {
   font-size: 14px;
-  padding-left: 15px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 6px;
   border-bottom: 2px solid rgba(51, 153, 221, 0.5);
   border-right: 1px solid rgba(51, 153, 221, 0.5);
   height: 40px;
@@ -63,7 +63,7 @@
   align-items: center;
   margin: 0;
   white-space: normal;
-  width: 126px;
+  width: 145px;
   box-sizing: border-box;
   margin: 0;
 }
@@ -76,6 +76,7 @@
   color: #d0d0d0;
   cursor: help;
   border-bottom: 2px solid $border-light-color;
+  border-right: 1px solid $border-light-color;
 }
 
 .start-item-submenu:hover,
