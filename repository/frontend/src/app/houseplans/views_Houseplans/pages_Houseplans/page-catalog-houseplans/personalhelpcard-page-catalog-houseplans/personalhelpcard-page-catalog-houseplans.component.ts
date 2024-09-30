@@ -39,5 +39,5 @@ import { UsercontactPersonalhelpcardPageCatalogHouseplansComponent } from './use
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PersonalhelpcardPageCatalogHouseplansComponent {
- 
+
 }

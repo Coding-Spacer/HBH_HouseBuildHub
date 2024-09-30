@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-stubindevelopment-placeholders-global',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterModule
+  ],
   templateUrl: './stubindevelopment-placeholders-global.component.html',
-  styleUrl: './stubindevelopment-placeholders-global.component.scss'
+  styleUrl: './stubindevelopment-placeholders-global.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class StubindevelopmentPlaceholdersGlobalComponent {
-
-}
+export class StubindevelopmentPlaceholdersGlobalComponent {}

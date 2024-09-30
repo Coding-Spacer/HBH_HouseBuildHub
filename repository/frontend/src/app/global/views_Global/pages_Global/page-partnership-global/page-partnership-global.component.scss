@@ -57,10 +57,6 @@
 
 
 
-
-
-
-
 .block-partnership {
   display: flex;
   align-items: center;
@@ -77,6 +73,7 @@
 .block-partnership:hover {
   background: rgb(238, 238, 238);
   border: 1px solid orange;
+  color:blue
 }
 
 .block-reserve-partnership {
@@ -96,6 +93,7 @@
 
 .icon {
   margin-left: 20px;
+  font-size: 32px;
 }
 
 .infotext {

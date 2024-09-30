@@ -2,12 +2,117 @@
 
 /* ..................... */
 
-.wrapper-page-investorcenter-global {
+#page-container {
+  max-width: 1686px;
+  margin: 0 auto;
+}
 
-  align-items: center;
+/* Advertising section above the header */
+#ad-container {}
+
+
+
+/* Header */
+#header-container {}
+
+
+
+/* Main content */
+#main-container {
+  background: #6b8e23
+}
+
+.wrapper-main-partnership {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.name-partnership {
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.adtext-name-partnership {
+  margin-top: 12px;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.content-partnership {
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 20px;
-  margin-left: 40px;
-  text-align: center;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.block-investment {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  margin: 12px;
+  border: 1px solid rgb(238, 238, 238);
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  color: $color
+}
+
+.block-investment:hover {
+  background: rgb(238, 238, 238);
+  border: 1px solid orange;
+  color: green
+}
+
+.block-reserve-investment {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  margin: 12px;
+  border: 1px solid rgb(238, 238, 238);
+  background: white;
+  border-radius: 6px;
+  cursor: help;
+  color: #d0d0d0;
+}
+
+
+
+.icon {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+.infotext {
+
+  margin-left: 20px;
+  font-size: 16px;
 
 }
+
+.icon-architect {}
+
+
+
+
+
+/* Additional content */
+#additional-container {}
+
+
+
+/* Footer */
+#footer-container {}

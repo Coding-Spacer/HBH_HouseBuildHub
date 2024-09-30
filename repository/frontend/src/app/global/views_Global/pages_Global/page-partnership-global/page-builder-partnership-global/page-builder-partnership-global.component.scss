@@ -2,6 +2,11 @@
 
 /* ..................... */
 
+.page-container {
+  max-width: 1686px;
+  margin: 0 auto;
+}
+
 #content-container {
   color: white;
   background-color: #E3E6E6;
@@ -24,8 +29,8 @@
   font-size: 30px;
 }
 
-.temporary-text  {  
-  font-size: 18px; 
+.temporary-text  {
+  font-size: 18px;
   color: $accent-color;
 }
 
