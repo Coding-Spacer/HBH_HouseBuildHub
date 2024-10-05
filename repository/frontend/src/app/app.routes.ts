@@ -29,15 +29,20 @@ import { PageLandbrokerPartnershipGlobalComponent } from './global/views_Global/
 import { PageMainGlobalComponent } from './global/views_Global/pages_Global/page-main-global/page-main-global.component';
 import { PageNotfoundGlobalComponent } from './global/views_Global/pages_Global/page-notfound-global/page-notfound-global.component';
 import { PagePartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-partnership-global.component';
+import { PagePartnerstatisticGlobalComponent } from './global/views_Global/pages_Global/page-partnerstatistic-global/page-partnerstatistic-global.component';
 import { PageProductHouseplansComponent } from './houseplans/views_Houseplans/pages_Houseplans/page-product-houseplans/page-product-houseplans.component';
 import { PageSavedGlobalComponent } from './global/views_Global/pages_Global/page-saved-global/page-saved-global.component';
 import { PageSinginGlobalComponent } from './global/views_Global/pages_Global/page-singin-global/page-singin-global.component';
 import { PagePermitterPartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-permitter-partnership-global/page-permitter-partnership-global.component';
+import { PagePlatformanalyticGlobalComponent } from './global/views_Global/pages_Global/page-platformanalytic-global/page-platformanalytic-global.component';
 import { PagePrifabhousePartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-prifabhouse-partnership-global/page-prifabhouse-partnership-global.component';
 import { PrivacynoticePageHelpGlobalComponent } from './global/views_Global/pages_Global/page-help-global/privacynotice-page-help-global/privacynotice-page-help-global.component';
 import { PageRealtorPartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-realtor-partnership-global/page-realtor-partnership-global.component';
+import { PageSubscriptionplanGlobalComponent } from './global/views_Global/pages_Global/page-subscriptionplan-global/page-subscriptionplan-global.component';
 import { PageSupplierPartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-supplier-partnership-global/page-supplier-partnership-global.component';
 import { PageVisitorsPartnershipGlobalComponent } from './global/views_Global/pages_Global/page-partnership-global/page-visitors-partnership-global/page-visitors-partnership-global.component';
+
+
 
 
 
@@ -107,9 +112,20 @@ export const routes: Routes = [
   },
 
   {
+    path: 'partner-statistics',
+    component: PagePartnerstatisticGlobalComponent,
+    data: { breadcrumb: 'Partner Statistics' },
+  },
+
+  {
     path: 'partnerships-permitters',
     component: PagePermitterPartnershipGlobalComponent,
     data: { breadcrumb: 'Partnership with Permitting Consultants' },
+  },
+  {
+    path: 'platform-analytics',
+    component: PagePlatformanalyticGlobalComponent,
+    data: { breadcrumb: 'Platform Analytics' },
   },
 
   {
@@ -242,12 +258,18 @@ export const routes: Routes = [
     path: 'saved',
     component: PageSavedGlobalComponent,
     data: { breadcrumb: 'Saved' },
-  },
+  },  
 
   {
     path: 'singin',
     component: PageSinginGlobalComponent,
     data: { breadcrumb: 'Sing in' },
+  },
+
+  {
+    path: 'subcriptions',
+    component: PageSubscriptionplanGlobalComponent,
+    data: { breadcrumb: 'Subcription plans' },
   },
 
   {

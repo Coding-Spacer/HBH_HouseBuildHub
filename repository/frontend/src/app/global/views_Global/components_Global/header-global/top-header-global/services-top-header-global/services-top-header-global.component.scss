@@ -1,0 +1,25 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-services {
+  display: flex;
+  align-items: center; 
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.wrap-services:hover {
+  color: #ec7210;
+}
+
+.icon-view {
+  font-size: 22px;
+}
+
+.icon-name {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.services-submenu-header__global {}

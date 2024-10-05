@@ -1,0 +1,86 @@
+@import '../../../../../../styles/styles';
+
+/* ..................... */
+
+.services-submenu-header {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 72px;
+  z-index: 100;
+  width: 280px;
+  height: auto;
+  box-sizing: border-box;
+  border-top: 1px solid #7d7d7d;
+  background-color: #232F3F;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.content-submenu {
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.option-submenu {
+  margin: 40px 0 0 20px;
+  color: #ec7210;
+  font-size: 18px;
+}
+
+.buttonclose-submenu {
+  position: absolute;
+right: 30px;
+top: 30px;
+}
+
+
+.icon-buttonclose-submenu {
+  font-size: 22px;
+  font-weight: 500;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 3px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.icon-buttonclose-submenu:hover {
+  border: 1px solid #ec7210;
+}
+
+
+.name-option-submenu {}
+
+.divider-submenu {
+  border-top: 1px solid #7d7d7d;
+  margin: 20px;
+}
+
+.name-divider-submenu {}
+
+.sections-submenu {
+  margin-top: 40px;
+}
+
+.section-submenu {
+  display: flex;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.section-submenu:hover {}
+
+.icon-section-submenu {
+  font-size: 20px;
+}
+
+.name-section-submenu {
+  margin-left: 6px;
+  margin-top: 3px;
+}
+
+.name-section-submenu:hover {
+  color: #ec7210;
+}
+

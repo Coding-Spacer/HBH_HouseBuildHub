@@ -1,0 +1,14 @@
+
+<div class="wrap-services" title="Services" (click)="toggleMenu()">
+  <div class="icon-services">
+    <i class="icon-view material-icons">apps</i>
+  </div>
+  <div class="icon-name"> Services </div>
+</div>
+
+
+<div class="container-services-submenu-header__global" [hidden]="!(isMenuVisible$ | async)">
+  <div>
+    <app-services-submenu-header-global></app-services-submenu-header-global>
+  </div>
+</div>
