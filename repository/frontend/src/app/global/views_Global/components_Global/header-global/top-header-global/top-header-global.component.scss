@@ -10,36 +10,41 @@
   width: 100%;
   align-items: center;
   background: #232F3F;
-  color: white;  
+  color: white;
 }
 
-#logo-top-header__global {
+.vertical-divider {
+  list-style: none;
+  color: #7d7d7d;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline;
+  font-size: 20px;
+}
+
+#container-logo-top-header__global {
   margin-left: 20px;
   padding: 0 12px;
-  border-right: 1px solid #7d7d7d;
-  cursor:  default;
 }
 
-#container-services-top-header__global {
-  margin-left: 12px; 
-  
-}
+#container-services-top-header__global {}
+
+#container-help-top-header__global {}
+
+#container-message-top-header__global {}
+
+#container-settings-top-header__global {}
+
+#container-saved-top-header__global {}
+
+#container-card-top-header__global {}
+
+#container-account-top-header__global {}
 
 
 
-#investorcenter-top-header__global {
-  color: yellow;
-  margin-left: 60px;
-}
 
-#investorcenter-top-header__global a {
-  text-decoration: none;
-  color: yellow;
-}
 
-#investorcenter-top-header__global a:hover {
-  text-decoration: underline;
-}
 
 #earn-top-header__global {
   color: yellow;
@@ -53,41 +58,17 @@
 }
 
 #earn-top-header__global a:hover {
-  color: yellow;
+  color: $accent-color;
   text-decoration: underline;
 }
 
 #version-top-header__global {
-  color: white;
-  font-size: 16px;
-  margin-left: 20px;
-
-}
-
-#visitcount-top-header__global {
-  color: white;
-  display: flex;
-  margin-left: 20px;
-}
-
-.number-visitcount {
-  text-decoration: underline;
-  margin-left: 5px;
-  font-weight: 500;
-  color: #00FF00;
-}
-
-
-#setting-top-header__global {
-  color: yellow;
-  display: flex;
-  margin-right: 20px;
-}
-
-.icon-setting {
+  color: rgb(255, 198, 198);
   font-size: 14px;
   margin-left: 20px;
+
 }
+
 
 .text-setting {
   margin-left: 4px;

@@ -1,0 +1,20 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-logo {
+  cursor: pointer;
+  display: flex;
+  max-width: 20px;
+  align-items: center;
+}
+
+.wrap-logo:hover .icon-logo {
+  color: $accent-color;
+}
+
+.icon-logo {
+  color: white;  
+  font-size: 15px;
+}
+

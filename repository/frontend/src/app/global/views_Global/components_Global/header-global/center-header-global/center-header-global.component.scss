@@ -6,25 +6,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 46px;
   clear: both;
   position: relative;
   box-sizing: border-box;
   flex-flow: row nowrap;
   width: 100%;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #b1e0ff;   
+  background: linear-gradient(to top, #f8f9fa 0%, transparent 50%); 
+
+
+
 }
 
-#logo-center-header__global {}
 
-#searchbar-center-header__global {
+#allmenu-center-header__global {}
+
+#departament-center-header__global {
   display: flex;
+  align-items: center; 
+  cursor: pointer;
+  width: auto;
+  margin-left: 10px;
+  font-weight: 500;   
 }
-
-#languageselection-center-header__global {}
-
-#registration-center-header__global {}
-
-#message-center-header__global {}
-
-#basket-center-header__global {}

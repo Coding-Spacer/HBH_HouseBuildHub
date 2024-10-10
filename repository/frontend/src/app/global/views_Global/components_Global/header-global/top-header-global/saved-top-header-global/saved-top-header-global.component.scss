@@ -1,0 +1,38 @@
+@import '../../../../../../../styles/styles';
+
+/* ..................... */
+
+.wrap-saved {
+  cursor: pointer;
+  display: flex;
+  max-width: 20px;
+  align-items: center;
+}
+
+.wrap-saved:hover .icon-saved {
+  color: $accent-color;
+}
+
+.wrap-saved:hover .reviews-saved {
+  color: $accent-color;
+}
+
+.icon-saved {
+  color: white;
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+.name-icon-saved a {
+  margin-left: 4px;
+  font-size: 13px;
+  color: rgb(46, 45, 45)
+}
+
+.reviews-saved {
+  font-size: 12px;
+  color: white;
+  position: relative;
+  bottom: 27px;
+  margin-left: 2px;
+}
