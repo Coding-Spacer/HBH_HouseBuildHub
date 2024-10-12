@@ -3,23 +3,34 @@
 /* ..................... */
 
 .wrap-settings {
-  cursor: pointer;
-  display: flex;
-  max-width: 20px;
-  align-items: center;
+    width: 44px;
+      height: 44px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 2px;
 }
 
 .wrap-settings:hover .icon-settings{
   color: $accent-color;
 }
 
+.wrap-settings:hover  {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+
+
+
 .wrap-saved:hover .reviews-settings {
   color: $accent-color;
 }
 
 .icon-settings {
-  color: white;
-  margin-top: 2px;
+  color: white; 
   font-size: 18px;
 }
 

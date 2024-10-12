@@ -3,14 +3,23 @@
 /* ..................... */
 
 .wrap-logo {
-  cursor: pointer;
-  display: flex;
-  max-width: 20px;
-  align-items: center;
+  width: 60px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
 }
 
 .wrap-logo:hover .icon-logo {
   color: $accent-color;
+}
+
+.wrap-logo:hover  {
+  border: 1px solid white;
+    border-radius: 2px;
 }
 
 .icon-logo {

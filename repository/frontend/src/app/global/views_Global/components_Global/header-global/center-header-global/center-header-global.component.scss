@@ -4,29 +4,102 @@
 
 .wrap-center-header__global {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 46px;
-  clear: both;
-  position: relative;
+  height: 40px;
   box-sizing: border-box;
-  flex-flow: row nowrap;
   width: 100%;
-  border-bottom: 1px solid #b1e0ff;   
-  background: linear-gradient(to top, #f8f9fa 0%, transparent 50%); 
-
-
-
+  border-bottom: 1px solid #b1e0ff;
+  background: linear-gradient(to top, #f8f9fa 0%, transparent 50%);
 }
 
-
-#allmenu-center-header__global {}
-
-#departament-center-header__global {
+#wrap-all-menu {
   display: flex;
-  align-items: center; 
+  align-items: center;
+  cursor: pointer;  
+  margin-left: 20px;
+  margin-right: 220px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  padding: 3px;
+}
+
+#wrap-all-menu:hover {
+  border: 1px solid $accent-color;
+  border-radius: 2px;
+}
+
+.icon-all-menu {}
+
+.text-all-menu {
+  font-size: 17px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+#wrap-category-menu {
+  display: flex;
+  align-items: center;
   cursor: pointer;
-  width: auto;
-  margin-left: 10px;
-  font-weight: 500;   
+  font-weight: 500;
+  justify-content: space-between;
+}
+
+.category-menu {
+  display: flex;
+  padding: 0;
+  margin-left: 20px;  
+  height: auto;
+}
+
+.category-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+.start-item-menu,
+.item-develop-menu {
+  font-size: 14px;
+  padding: 0 15px;
+  border-bottom: 1px solid rgba(51, 153, 221, 0.5);
+  border-right: 1px solid rgba(51, 153, 221, 0.5);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  white-space: normal; 
+  box-sizing: border-box;
+  margin: 0;
+  border-image: linear-gradient(to top, rgba(51, 153, 221, 0.5), transparent) 1;
+}
+
+.start-item-menu {
+  border-left: 1px solid rgba(51, 153, 221, 0.5);
+}
+
+.item-develop-menu {  
+  cursor: not-allowed;
+  border-bottom: 1px solid $border-light-color;
+  border-right: 1px solid $border-light-color;
+  color:#dcdcdc;
+  font-weight: 400;
+  
+}
+
+.start-item-menu:hover {
+  color: $accent-color;
+  border-bottom: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.active-link {
+  background-color: $background-color;
+  color: $accent-color;
+  font-weight: 500;
+  text-decoration: underline;
+  border-bottom: none;
 }

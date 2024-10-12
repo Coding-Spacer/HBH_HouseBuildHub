@@ -3,15 +3,30 @@
 /* ..................... */
 
 .wrap-cart {
-  cursor: pointer;
-  display: flex;
-  max-width: 20px;
-  align-items: center;
+  width: 60px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
 }
 
 .wrap-cart:hover .icon-cart {
   color: $accent-color;
 }
+
+.wrap-cart:hover  {
+  border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+
+
+
+
 
 .wrap-cart:hover .reviews-cart {
   color: $accent-color;
@@ -23,8 +38,7 @@
   font-size: 18px;
 }
 
-.name-icon-cart a {
-  margin-left: 4px;
+.name-icon-cart a { 
   font-size: 13px;
   color: rgb(46, 45, 45)
 }
@@ -33,6 +47,6 @@
   font-size: 12px;
   color: white;
   position: relative;
-  bottom: 18px;
-  margin-left: 2px;
+  bottom: 10px;
+  margin-left: 2px; 
 }

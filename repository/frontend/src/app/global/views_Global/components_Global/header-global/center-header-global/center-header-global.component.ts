@@ -1,7 +1,6 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { BasketCenterHeaderGlobalComponent } from './basket-center-header-global/basket-center-header-global.component';
+import { RouterModule } from '@angular/router';
 import { LanguageselectionCenterHeaderGlobalComponent } from './languageselection-center-header-global/languageselection-center-header-global.component';
-import { SearchbarCenterHeaderGlobalComponent } from './searchbar-center-header-global/searchbar-center-header-global.component';
 
 
 
@@ -10,9 +9,8 @@ import { SearchbarCenterHeaderGlobalComponent } from './searchbar-center-header-
   selector: 'app-center-header-global',
   standalone: true,
   imports: [
-    BasketCenterHeaderGlobalComponent,
-    LanguageselectionCenterHeaderGlobalComponent,   
-    SearchbarCenterHeaderGlobalComponent,
+    RouterModule,    
+    LanguageselectionCenterHeaderGlobalComponent,    
    
 
   ],

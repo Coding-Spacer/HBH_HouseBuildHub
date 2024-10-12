@@ -3,14 +3,21 @@
 /* ..................... */
 
 .wrap-services {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  flex-shrink: 0;
+  width: auto;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;    
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 0 10px;
 }
 
 .wrap-services:hover {
   color: #ec7210;
+  border: 1px solid white;
+    border-radius: 2px;
 }
 
 .icon-view {

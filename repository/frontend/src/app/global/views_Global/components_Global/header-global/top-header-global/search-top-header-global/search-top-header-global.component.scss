@@ -2,36 +2,93 @@
 
 /* ..................... */
 
-.wrap-searchbar-center-header__global {}
+.wrap-searchbar-center-header__global {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
 
 #searchbar-center-header__global {
-  height: 36px;
-  border-radius: 0;
-  background-color: $background-color;
-  margin-left: 100px;
-  margin-right: 0px;
   display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 36px;
+  background-color: $background-color;
+  margin: 0 20px;  
   width: auto;
   justify-content: flex-start;
-  border: 2px solid;
-  border-color: #FF6A00;
+  border: 2px solid #232F3F;  
+  border-radius: 5px;  
+}
+
+#searchbar-center-header__global:hover {
+  border: 2px solid #FFA523;  
   border-radius: 5px;
 }
 
+.wrap-sorting {
+  margin-left: auto;
+  display: flex;
+  background: #D4D4D4;  
+}
+
+.sorting {
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #D4D4D4;
+  border-radius: 4px;
+  color: #221f1f;
+  cursor: pointer;
+  display: inline-flex;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 4px;
+  align-items: center;
+  text-align: left;
+  background: #D4D4D4;
+}
+
+.sorting:hover {
+  border: 2px solid;
+  border-color: #FFA523;
+  border-radius: 5px;
+}
+
+.dropdown-sorting {
+  border: none;
+  cursor: pointer;
+  background: #D4D4D4;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.dropdown-sorting:focus {
+  outline: none;
+}
+
+.item-sorting {
+  font-size: 14px;  
+  background: white;
+}
 
 #input_searchbar_main_header {
   display: flex;
-  min-width: 420px;
+  flex-grow: 1;  
+  max-width: 100%;
   align-items: center;
   margin-left: 10px;
+  min-width: 400px;
 }
 
 #input_searchbar_main_header input[type="search"] {
+  display: flex;
+  flex-grow: 1;
   border: none;
   background: none;
   outline: none;
-  flex: 1;
-  font-size: 14px !important;
+  font-size: 14px !important;  
 }
 
 .icon-voice-search-button {
@@ -54,7 +111,6 @@
   color: $accent-color;
 }
 
-
 .icon-foto-search-button {
   border: none;
   background: none;
@@ -73,7 +129,7 @@
 }
 
 #lens_searchbar_main_header {
-  background: #FF6601;
+  background: #F3A847;
   display: inline-block;
   display: flex;
   justify-content: center;
@@ -83,45 +139,25 @@
 }
 
 #lens_searchbar_main_header:hover {
-  background: $accent-color;
+  background: #ff9710;
 }
 
 .lens_search_button {
+  flex-shrink: 0;
   border: none;
   background: none;
-  padding: 0;
+  padding: 0px;
   outline: none;
   cursor: pointer;
 }
 
 .icon-lens-search-button {
-  color: white;
+  color: black;
   background: none;
   outline: none;
   border: none;
   font-size: 24px;
   text-align: center;
-  padding-left: 5px;
+  padding: 0 10px;
   cursor: pointer;
-}
-
-.icon-text-search-button {
-  color: white;
-  background: none;
-  outline: none;
-  border: none;
-  font-size: 16px;
-  padding-left: 5px;
-  padding-right: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
-  cursor: pointer;
-}
-
-.right-main-header {
-  width: auto;
-  position: static;
-  float: none;
-  padding-left: 20px;
 }

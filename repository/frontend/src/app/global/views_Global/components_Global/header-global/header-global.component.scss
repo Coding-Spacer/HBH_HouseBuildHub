@@ -6,20 +6,19 @@
 #wrapper-header__global {
   position: relative;
   text-align: left;
-  display: block;
-  width: 100%;
-  min-width: 720px;
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
   box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
   background-color: white;
 
 }
 
-#header__global {
-  display: block;
+#top-header__global {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  min-width: 720px;
-  max-width: none;
-
+  width: 100%;
 }
 
 

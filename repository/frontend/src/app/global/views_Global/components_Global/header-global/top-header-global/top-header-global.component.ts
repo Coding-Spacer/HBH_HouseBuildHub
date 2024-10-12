@@ -7,6 +7,8 @@ import { SettingsTopHeaderGlobalComponent } from './settings-top-header-global/s
 import { MessageTopHeaderGlobalComponent } from './message-top-header-global/message-top-header-global.component';
 import { HelpTopHeaderGlobalComponent } from './help-top-header-global/help-top-header-global.component';
 import { LogoTopHeaderGlobalComponent } from './logo-top-header-global/logo-top-header-global.component';
+import { AccountTopHeaderGlobalComponent } from './account-top-header-global/account-top-header-global.component';
+import { SearchTopHeaderGlobalComponent } from './search-top-header-global/search-top-header-global.component';
 
 
 
@@ -29,7 +31,9 @@ import { LogoTopHeaderGlobalComponent } from './logo-top-header-global/logo-top-
     SettingsTopHeaderGlobalComponent,
     MessageTopHeaderGlobalComponent,
     HelpTopHeaderGlobalComponent,
-    LogoTopHeaderGlobalComponent
+    LogoTopHeaderGlobalComponent,
+    AccountTopHeaderGlobalComponent,
+    SearchTopHeaderGlobalComponent
     
   ],
   templateUrl: './top-header-global.component.html',

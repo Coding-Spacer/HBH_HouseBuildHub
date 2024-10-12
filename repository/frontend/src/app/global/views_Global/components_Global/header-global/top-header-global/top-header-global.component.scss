@@ -2,34 +2,43 @@
 
 /* ..................... */
 .wrap-top-header__global {
-  clear: both;
-  position: relative;
   display: flex;
-  height: 40px;
+  flex-grow: 1;
+  clear: both;
+  position: relative;  
+  height: 60px;
   flex-flow: row nowrap;
   width: 100%;
   align-items: center;
   background: #232F3F;
-  color: white;
+  color: white;   
 }
 
 .vertical-divider {
   list-style: none;
-  color: #7d7d7d;
-  margin-left: 15px;
-  margin-right: 15px;
+  color: #444444;
+  margin-left: 2px;
+  margin-right: 2px;
   display: inline;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 #container-logo-top-header__global {
   margin-left: 20px;
-  padding: 0 12px;
 }
 
-#container-services-top-header__global {}
+#container-services-top-header__global {
+  margin-right: 60px;
+}
 
-#container-help-top-header__global {}
+#container-search-top-header__global {
+  display: flex;
+  flex-grow: 1;    
+}
+
+#container-help-top-header__global {
+  margin-left: auto;
+}
 
 #container-message-top-header__global {}
 
@@ -37,19 +46,17 @@
 
 #container-saved-top-header__global {}
 
-#container-card-top-header__global {}
-
 #container-account-top-header__global {}
 
-
-
-
+#container-cart-top-header__global {
+  margin-right: 10px;
+}
 
 
 #earn-top-header__global {
   color: yellow;
   text-decoration: none;
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 #earn-top-header__global a {
@@ -66,7 +73,6 @@
   color: rgb(255, 198, 198);
   font-size: 14px;
   margin-left: 20px;
-
 }
 
 
