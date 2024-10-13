@@ -1,7 +1,5 @@
 @import '../../../../../../styles/styles';
 
-/* ..................... */
-
 .wrap-center-header__global {
   display: flex;
   align-items: center;
@@ -15,26 +13,36 @@
 #wrap-all-menu {
   display: flex;
   align-items: center;
-  cursor: pointer;  
-  margin-left: 20px;
-  margin-right: 220px;
+  cursor: pointer;
+  margin: 0 80px 0 20px;
   font-weight: 500;
   border: 1px solid transparent;
-  padding: 3px;
+  padding: 0 5px; 
 }
 
 #wrap-all-menu:hover {
   border: 1px solid $accent-color;
   border-radius: 2px;
+  color: $accent-color;
 }
 
-.icon-all-menu {}
+.icon-all-menu {
+  margin-top: 10px;
+}
 
 .text-all-menu {
   font-size: 17px;
+  margin-top: 8px;
   margin-left: 2px;
-  margin-bottom: 2px;
 }
+
+#wrap-select-state {
+  display: flex;
+  margin-right: 10px; 
+  align-items: center; 
+}
+
+.select-state {}
 
 #wrap-category-menu {
   display: flex;
@@ -47,8 +55,7 @@
 .category-menu {
   display: flex;
   padding: 0;
-  margin-left: 20px;  
-  height: auto;
+  margin-left: 20px;
 }
 
 .category-menu ul {
@@ -63,37 +70,67 @@
 .start-item-menu,
 .item-develop-menu {
   font-size: 14px;
-  padding: 0 15px;
   border-bottom: 1px solid rgba(51, 153, 221, 0.5);
   border-right: 1px solid rgba(51, 153, 221, 0.5);
   height: 40px;
   display: flex;
   align-items: center;
   margin: 0;
-  white-space: normal; 
+  white-space: normal;
   box-sizing: border-box;
-  margin: 0;
-  border-image: linear-gradient(to top, rgba(51, 153, 221, 0.5), transparent) 1;
 }
 
 .start-item-menu {
   border-left: 1px solid rgba(51, 153, 221, 0.5);
 }
 
-.item-develop-menu {  
-  cursor: not-allowed;
-  border-bottom: 1px solid $border-light-color;
-  border-right: 1px solid $border-light-color;
-  color:#dcdcdc;
-  font-weight: 400;
-  
-}
-
 .start-item-menu:hover {
   color: $accent-color;
-  border-bottom: none;
   cursor: pointer;
   text-decoration: underline;
+}
+
+.start-item-menu a {
+  color: inherit;
+}
+
+.item-develop-menu {
+  cursor: not-allowed;
+  color: #dcdcdc;
+  font-weight: 400;
+}
+
+.item-develop-menu:hover {
+  border-bottom: none;
+}
+
+.item-develop-menu a {
+  cursor: not-allowed;
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+li a {
+  display: block;
+  width: calc(100% + 2px);
+  height: 100%;
+  padding: 15px 15px;
+  margin-bottom: -2px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+li:hover {
+  border-bottom: none;
 }
 
 .active-link {
@@ -102,4 +139,30 @@
   font-weight: 500;
   text-decoration: underline;
   border-bottom: none;
+}
+
+li.active {
+  border-bottom: none;
+}
+
+li a.active-link {
+  border-bottom: none;
+}
+
+a.active-link {
+  background-color: $background-color;
+  color: $accent-color;
+  font-weight: 500;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+.start-item-menu a.active-link,
+.item-develop-menu a.active-link {
+  background-color: $background-color;
+  color: $accent-color;
+  font-weight: 500;
+  text-decoration: underline;
+  border-bottom: none;
+  box-sizing: border-box;
 }

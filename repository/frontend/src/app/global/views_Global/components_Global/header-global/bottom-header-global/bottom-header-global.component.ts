@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { GeolocationBottomHeaderGlobalComponent } from './geolocation-bottom-header-global/geolocation-bottom-header-global.component';
+import { HouseplansSubmenuHeaderGlobalComponent } from '../../submenu-global/houseplans-submenu-header-global/houseplans-submenu-header-global.component';
 
 
 
@@ -9,9 +9,8 @@ import { GeolocationBottomHeaderGlobalComponent } from './geolocation-bottom-hea
 @Component({
   selector: 'app-bottom-header-global',
   standalone: true,
-  imports: [    
-    GeolocationBottomHeaderGlobalComponent,  
-   
+  imports: [ 
+    HouseplansSubmenuHeaderGlobalComponent    
   ],
   templateUrl: './bottom-header-global.component.html',
   styleUrl: './bottom-header-global.component.scss',

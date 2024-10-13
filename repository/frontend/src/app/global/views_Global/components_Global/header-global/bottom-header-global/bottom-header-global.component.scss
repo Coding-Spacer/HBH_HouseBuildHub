@@ -3,37 +3,5 @@
 
 /* ..................... */
 
-.wrap-bottom-header-global {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-height: 24px;
-  clear: both;
-  position: relative;
-  padding-top: 0;
-  box-sizing: border-box;
-  flex-flow: row nowrap;
-  width: 100%;
-  margin-top: 7px;
-}
-
-#menu-bottom-header__global {
-  display: flex;
-  align-items: center;
-  /* Добавлено для вертикального выравнивания */
-  cursor: pointer;
-  width: auto;
-  margin-left: 20px;
-}
-
-#geolocation-bottom-header-global {
-  margin-left: 80px;
-}
-
-#saved-bottom-header-global {
-  margin-right: end;
-}
-
-#department-bottom-header-global {}
-
+.wrap-bottom-header-global {}
 

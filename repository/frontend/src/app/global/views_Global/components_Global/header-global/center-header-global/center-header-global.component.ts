@@ -1,6 +1,7 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { LanguageselectionCenterHeaderGlobalComponent } from './languageselection-center-header-global/languageselection-center-header-global.component';
+import { RegionselectGlobalComponent } from '../../regionselect-global/regionselect-global.component';
+
 
 
 
@@ -10,9 +11,7 @@ import { LanguageselectionCenterHeaderGlobalComponent } from './languageselectio
   standalone: true,
   imports: [
     RouterModule,    
-    LanguageselectionCenterHeaderGlobalComponent,    
-   
-
+    RegionselectGlobalComponent
   ],
   templateUrl: './center-header-global.component.html',
   styleUrl: './center-header-global.component.scss',

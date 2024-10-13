@@ -1,12 +1,12 @@
 import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
 import { ModalManagerGlobalService } from '../../../../../../global/services_Global/modal-manager-global.service';
-import { GeolocationBottomHeaderGlobalComponent } from "../../../../../../global/views_Global/components_Global/header-global/bottom-header-global/geolocation-bottom-header-global/geolocation-bottom-header-global.component";
+
 
 @Component({
   selector: 'app-regionalexpert-productcard-page-catalog-houseplans',
   standalone: true,
-  imports: [GeolocationBottomHeaderGlobalComponent],
-  templateUrl:
+  imports: [],
+  templateUrl: 
     './regionalexpert-productcard-page-catalog-houseplans.component.html',
   styleUrl:
     './regionalexpert-productcard-page-catalog-houseplans.component.scss',

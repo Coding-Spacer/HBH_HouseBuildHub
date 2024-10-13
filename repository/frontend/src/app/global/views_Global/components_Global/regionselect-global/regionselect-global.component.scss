@@ -1,11 +1,11 @@
-@import '../../../../../../../styles/styles';
+@import '../../../../../styles/styles';
 
 /* ..................... */
 
 .wrap-geolocation-bottom-header__global {
   width: auto;
   position: static;
-  float: none; 
+  float: none;
   display: flex;
   justify-content: flex-end;
 }
@@ -61,22 +61,22 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin: -3px;  
+  margin: -3px;
   box-sizing: border-box;
   color: blue;
   cursor: pointer;
   display: inline-flex;
-  font-size: 14px;  
+  font-size: 14px;
   font-weight: 600;
   max-width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
   padding-right: 6px;
-  text-align: left;     
+  text-align: left;
 }
 
 .sorting:hover {
   color: rgb(0, 102, 204);
-    /* Более яркий синий при наведении */
+  /* Более яркий синий при наведении */
 }
 
 .dropdown-sorting {
@@ -91,8 +91,8 @@
 
 .dropdown-sorting:hover {
   color: rgb(0, 102, 204);
-    /* Цвет текста при наведении */
-  
+  /* Цвет текста при наведении */
+
 }
 
 .item-sorting {}
@@ -107,7 +107,3 @@
   cursor: pointer;
   font-style: italic;
 }
-
-
-
-
